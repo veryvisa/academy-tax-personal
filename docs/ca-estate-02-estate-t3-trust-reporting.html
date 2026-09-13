@@ -1,0 +1,803 @@
+<!doctype html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>人走了以后还有一个纳税人：遗产、信托与 T3 申报，以及 2026 年真正咬人的那条 bare trust 规则（Estates, Trusts and the T3 Return） · 微出国 · 学</title>
+<link rel="stylesheet" href="../assets/style.css?v=1789339438">
+<script>var PREV_URL="ca-estate-01-deceased-final-return.html";var NEXT_URL="ca-estate-03-bankruptcy-year.html";</script>
+<link rel="manifest" href="../manifest.webmanifest">
+</head>
+<body class="vv">
+<header class="vv-header">
+  <a class="vv-brand" href="../index.html"><svg viewBox="102.305 90.391 73.617 59.957" width="28" aria-hidden="true" class="mark">
+<path fill="#30D9C4" d="M 107.894531 95.808594 L 127.277344 95.808594 C 127.277344 95.808594 129.507812 95.628906 130.835938 97.679688 C 131.585938 98.910156 131.65625 100.316406 131.082031 101.546875 L 121.609375 117.953125 C 121.609375 117.953125 120.335938 120.65625 117.011719 120.824219 C 113.714844 120.910156 112.242188 118.40625 112.242188 118.40625 L 103.722656 103.652344 C 103.722656 103.652344 102.304688 101.792969 103.09375 99.332031 C 103.878906 96.878906 106.148438 95.773438 107.894531 95.808594 "/>
+<path fill="#0082CA" d="M 115.964844 124.792969 C 115.847656 124.59375 116.09375 124.378906 116.277344 124.519531 C 117.195312 125.21875 118.664062 125.902344 120.683594 125.515625 C 122.164062 125.210938 123.550781 124.296875 124.402344 122.757812 C 125.242188 121.300781 138.8125 97.8125 138.8125 97.8125 C 138.8125 97.8125 141.9375 90.917969 150.207031 90.550781 L 169.96875 90.550781 C 169.96875 90.550781 173 90.390625 174.503906 93.40625 C 175.921875 96.433594 173.941406 98.695312 173.667969 99.109375 C 173.394531 99.523438 142.203125 146.726562 142.203125 146.726562 C 142.203125 146.726562 140.003906 150.347656 135.40625 150.347656 C 130.808594 150.347656 128.707031 146.878906 128.417969 146.398438 C 128.175781 145.992188 118.835938 129.78125 115.964844 124.792969 "/></svg>微出国 · 学</a>
+  <nav><a href="../index.html">路线</a><a href="../slides.html">讲义</a><a href="../docs/" aria-current="page">讲解</a><a href="../drill.html">练习</a><a href="../exam.html">自测</a><a href="../progress.html">进度</a></nav>
+  <button class="theme" onclick="var r=document.documentElement,d=r.getAttribute('data-theme')==='dark';r.setAttribute('data-theme',d?'light':'dark');localStorage.setItem('vv-theme',d?'light':'dark')">◐</button>
+</header>
+<main><a href="ca-estate-01-deceased-final-return.html" class="vv-float-nav vv-float-nav--prev" title="上一篇: 人走了税怎么报：最终申报、三张可选申报、视同处置与滚转（Final Return of a Deceased Taxpayer）"><span class="vv-float-nav__icon">‹</span><span class="vv-float-nav__card"><small>← 上一篇</small><strong>人走了税怎么报：最终申报、三张可选申报、视同</strong></span></a><a href="ca-estate-03-bankruptcy-year.html" class="vv-float-nav vv-float-nav--next" title="下一篇: 破产那一年怎么报税：一天变两个纳税年度、受托人的第三张表，与 RRSP 保得住、TFSA 保不住的分界线（Bankruptcy Year）"><span class="vv-float-nav__card"><small>下一篇 →</small><strong>破产那一年怎么报税：一天变两个纳税年度、受托</strong></span><span class="vv-float-nav__icon">›</span></a><div class="vv-max-dock"><span class="vv-max-dock__hint">键盘 ← → 切页 | Esc 退出</span><button class="vv-reader-btn vv-reader-btn-max" onclick="toggleDocMaximize()">✕ 退出专注</button></div>
+<div class="doc-wrap">
+  <article class="doc">
+    <div class="doc-bar">
+      <p class="crumb"><a href="../index.html">路线</a> › 加拿大 · 逝者申报、遗嘱信托、生前信托 T3、破产</p>
+      <div class="doc-bar-actions">
+        <span class="vv-reader-hint">键盘 ← → 翻页</span>
+        <button class="vv-reader-btn vv-aside-btn" onclick="toggleSidebarCollapse()" title="折叠/展开右侧栏">◧ 折叠侧栏</button>
+        <button class="vv-reader-btn vv-reader-btn-max" onclick="toggleDocMaximize()" title="最大化专注阅读 (快捷键 F)">⛶ 专注阅读</button>
+      </div>
+    </div>
+    <h1>人走了以后还有一个纳税人：遗产、信托与 T3 申报，以及 2026 年真正咬人的那条 bare trust 规则（Estates, Trusts and the T3 Return）</h1>
+    <div class="doc-meta"><span class="vv-badge vv-badge--accent">加拿大 · 逝者申报、遗嘱信托、生前信托 T3、破产 · 练习配比 6%</span><span class="vv-badge">22,305 字</span><span class="vv-badge">约 44 分钟</span></div>
+    <blockquote>
+<p>核实日期：2026-09-05｜现行口径：2026 税年｜复核：2027-01-31（本页含 2026-12-31 起首次生效的申报义务）
+法条依据一律指向《所得税法》(Income Tax Act, ITA) 现行合订本（Act current to 2026-06-21, last amended 2026-06-18）；程序与表格依据指向加拿大税务局 (Canada Revenue Agency, CRA) 现行页面与 T3 指南。</p>
+</blockquote>
+<p>一个人去世，最终申报表 (final return) 交上去、税款结清，很多人以为这件事就完了。<strong>它没完。</strong> 从死亡的次日起，税法上冒出了一个<strong>新的纳税人</strong>：逝者的<strong>遗产 (estate)</strong>。房子还没卖、GIC 还在滚利息、公司股份还没过户，这些财产在遗产名下产生的每一分收入，都要由遗产自己报一张表——<strong>T3 信托所得税及资料申报表 (T3 Trust Income Tax and Information Return)</strong>。同一张表也管另一类东西：人活着的时候设立的<strong>生前信托 (inter vivos trust)</strong>，包括家族信托、为孩子设的信托、以及 2026 年最容易整片漏报的<strong>代持信托 (bare trust)</strong>。这一页写给三种人：正在当遗嘱执行人 (executor) 的家属、想把生前信托的申报义务判清楚的读者、以及准备做报税实务的学员。读完你应该能做到三件事：判断一个遗产或信托这一年到底要不要报 T3；替一个遗产选出最省税的年结日并算出报表与缴款的截止日；把「父母上了子女房产证」这类安排放进 2026 年的新规则里走一遍三层判断。</p>
+<p>配套练习：83</p>
+<hr />
+<h2 id="s1">一、制度设计与底层逻辑：为什么死亡会生出第二个纳税人</h2>
+<h3 id="s1-1">1.1 时间被切成了两段</h3>
+<p>死亡把一个人的税务生命切成两段，两段各有各的纳税人、各有各的表：</p>
+<p><strong>死亡日及以前</strong>属于逝者本人，报的是 T1 最终申报表。这一段里最重的一笔通常是<strong>死亡视同处置 (deemed disposition on death)</strong>——除了配偶或配偶信托的滚转 (rollover) 之外，逝者名下全部资本财产在死亡的那一刻视同按公允市价 (fair market value, FMV) 卖出。这笔账落在逝者的最终申报里。</p>
+<p><strong>死亡的次日起</strong>属于遗产。遗产在《所得税法》上是一个<strong>遗嘱信托 (testamentary trust)</strong>，是独立的纳税主体，报的是 T3。它的成本基础已经被死亡视同处置重置到了死亡日的市价，所以遗产随后卖房卖股，算的是<strong>从死亡日到卖出日</strong>这一段的涨跌，不是逝者当年买入那一段。</p>
+<p>这条切割线是理解全章的第一把钥匙：<strong>同一套房子的增值，可能一半在 T1 上、一半在 T3 上</strong>，用的还是两个不同的税率表。</p>
+<h3 id="s1-2">1.2 信托是通道，不是终点</h3>
+<p>信托课税的核心设计是<strong>导管原理 (conduit principle)</strong>：信托赚到的收入，如果在当年<strong>已付或应付 (paid or payable)</strong> 给受益人 (beneficiary)，就从信托的应税收入里扣掉，转而由受益人在自己的申报表上报——信托开一张 <strong>T3 slip</strong> 给他，就像雇主开 T4 一样。收入的<strong>性质</strong>也一并传下去：信托收到的合资格股息传到受益人手上仍是合资格股息，仍能用股息税收抵免；资本利得传下去仍是资本利得，仍只计一半。</p>
+<p>留在信托里没分出去的那部分，才由信托自己交税。<strong>分出去还是留下，几乎就是整个遗产与信托税务规划的全部内容</strong>——因为留下的代价极高，见 2.4。</p>
+<h3 id="s1-3">1.3 谁与谁在博弈</h3>
+<p><strong>纳税人想用信托做三件事</strong>：递延（把收入推到未来）、分流（把收入推给低税率的家人）、以及绕开遗产认证 (probate)。立法者对这三件事各设了一道闸：</p>
+<ul>
+<li>对<strong>递延</strong>，设了 <strong>21 年规则</strong>（ITA s.104(4)(b)）：信托每满 21 年，全部资本财产视同按市价卖出再买回，把递延强行结算一次。没有这条，一份信托可以让增值永远不实现。</li>
+<li>对<strong>分流</strong>，设了<strong>归属规则 (attribution rules)</strong>。其中最厉害的是 <strong>s.75(2)</strong>：只要财产<strong>可能回到出资人手里</strong>、或由出资人<strong>事后指定归谁</strong>、或<strong>未经出资人同意不得处分</strong>，那笔财产产生的收入、亏损与资本利得<strong>全部视同出资人自己的</strong>——不看亲属关系，也不看钱有没有分出去（<a class="src-ref" href="https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-75.html" title="Income Tax Act s.75(2)、(3) — 可撤销信托的归属规则与其例外">加拿大联邦法规库</a>）。</li>
+<li>对<strong>留在信托里的收入</strong>，设了 <strong>s.122(1)</strong>：除 GRE 与 QDT 两个例外，信托一律按<strong>最高个人税率</strong>课税，没有税阶。</li>
+</ul>
+<p><strong>遗产认证费这一闸由省来把守</strong>，不在《所得税法》里，见第四节。</p>
+<h3 id="s1-4">1.4 为什么遗产能有 36 个月的优惠期</h3>
+<p>2016 年之前，所有遗嘱信托都能用个人的累进税率，于是出现了一种做法：遗嘱里设几个信托，每个信托都从最低档开始爬税阶，等于凭空造出几个「人」的低税率额度。2016-01-01 起立法者把这个口子堵死了——<strong>保留GRE及符合条件的QDT两类累进税率例外；本节先讲GRE</strong>，也就是 <strong>graduated rate estate (GRE)</strong>。</p>
+<p>GRE 的存在理由不是给谁减税，而是承认一个事实：<strong>遗产不是税务筹划工具，是一段必须存在的过渡期</strong>。房子要卖、债要清、税要结、清税证明要等，这些事客观上要花时间。所以立法者给了 36 个月的窗口，在窗口里遗产按个人累进税率课税，还附带一批只有 GRE 才有的便利（2.4）。窗口一到期，遗产立刻掉进 s.122(1) 的顶格税率。</p>
+<h3 id="s1-5">1.5 错报的三层法律后果</h3>
+<p><strong>第一层，迟报罚 (late-filing penalty)。</strong> 有欠税的，按 ITA s.162(1)/(2) 走：欠税余额的 5%，再加每迟一整月 1%，最多 12 个月；被发过申报要求且前三年内被罚过的，升级为 10% 加每月 2%、最多 20 个月。</p>
+<p><strong>第二层，没欠税也要罚（这一条最容易被忽略）。</strong> 遗产或信托当年一分钱税都不欠，只要该报没报，按 <strong>s.162(7)</strong> 罚<strong>每天 25 元，下限 100 元、上限 2,500 元</strong>。更要命的是 CRA 的口径：<strong>Schedule 15 上少填了受益所有人的税务识别号一类的必填信息，就算「信息不全」，等同于没有履行申报义务</strong>，罚款算到评税通知书发出那一天为止（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/new-trust-reporting-requirements-t3-filed-tax-years-ending-december-2023.html" title="Enhanced reporting rules for trusts and bare trusts: Frequently asked questions">CRA</a>）。</p>
+<p><strong>第三层，重大过失罚 (gross negligence penalty)。</strong> 明知或在构成重大过失的情况下作出虚假陈述、遗漏，或者干脆不报，按 <strong>s.163(5)/(6)</strong> 罚：<strong>2,500 元与「年内任一时点信托全部财产最高公允市值的 5%」两者取大者</strong>。注意这一条<strong>没有上限</strong>——一份持有 200 万元房产的代持信托，理论上的罚款是 10 万元。listed trust（2.2）不适用这一条。</p>
+<div class="vv-callout vv-callout--danger">
+<p><span class="vv-callout__icon">✕</span></p>
+<div>
+<p><strong>「反正没有收入，不报也没事」在 2026 年起不成立</strong></p>
+<p>受益所有人申报制度的整个设计目的，就是让<strong>没有收入的信托也必须现身</strong>。第二层与第三层罚则都不以「有没有欠税」为前提。一个全年零收入的代持安排，漏报的代价可以是 2,500 元封顶的按日罚，也可以是按财产市值 5% 计的重大过失罚。</p>
+</div>
+</div>
+<hr />
+<h2 id="s2">二、2026 税年现行规则与数字</h2>
+<h3 id="s2-1">2.1 谁必须报 T3：两条互不隶属的通道</h3>
+<p>CRA 把判断拆成 A、B 两条，<strong>满足任意一条就要报</strong>（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4013/t3-trust-guide.html" title="T4013 T3 Trust Guide（2025 税年版）—— 谁要报、年结怎么定、90 天双截止、T3 slip 与账号罚则">CRA</a>）：</p>
+<p><strong>通道 A（身份触发）：</strong> 信托是<strong>加拿大居民的明示信托 (express trust)</strong>，且<strong>不是 listed trust</strong>。落进这一条就要<strong>每年报</strong>，哪怕全年零收入、零处置。魁北克民法下的对应表述是「非依法律或判决设立的信托」。视同居民信托（ITA s.94(3)）同样适用这条判断。</p>
+<p><strong>通道 B（情形触发）：</strong> 其余所有信托（含非居民信托，也含通道 A 里被 listed trust 豁免掉的那些），只要当年出现下列任一情形就要报——有应税税款；被 CRA 要求申报；是视同居民信托；是加拿大居民且处置或视同处置了资本财产、或有应税资本利得（例如卖掉主居所或公司股份）；全年非居民且有应税资本利得或处置了应税加拿大财产；<strong>持有落进 s.75(2) 的财产</strong>；为受益人的使用而维护财产并提供了超过 100 元的保养、维修或税费利益；或者向受益人分配了收入并且信托当年总收入超过 500 元、或分给单一受益人的收入超过 100 元、或<strong>做过任何资本分配</strong>、或有收入分给了非居民受益人。</p>
+<div class="vv-callout vv-callout--warn">
+<p><span class="vv-callout__icon">⚠️</span></p>
+<div>
+<p><strong>「资本分配」这一格没有金额门槛</strong></p>
+<p>通道 B 里绝大多数触发点都挂着一个金额门槛，唯独<strong>向受益人做资本分配</strong>这一条没有：CRA 的原话是，只要做过资本分配就必须报 T3，<strong>哪怕信托全年总收入不到 500 元</strong>（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4013/t3-trust-guide.html" title="T4013 T3 Trust Guide（2025 税年版）—— 谁要报、年结怎么定、90 天双截止、T3 slip 与账号罚则">CRA</a>）。遗产把房子过户给继承人，就是一次资本分配。</p>
+</div>
+</div>
+<p>反过来，CRA 也明说了两种最常用的<strong>免报</strong>情形：<strong>逝者一死遗产就立刻分配完毕</strong>，或者<strong>遗产在分配之前没有产生过收入</strong>。这两种情况下不必报 T3，但要给每位受益人一份说明其份额的书面清单。多数小额遗产走的正是这条路。</p>
+<h3 id="s2-2">2.2 listed trust：免报清单，以及它和「不是信托」的区别</h3>
+<p><strong>listed trust（清单信托）</strong>是 ITA s.150(1.2) 点名的一组信托，它们<strong>不必按通道 A 每年报</strong>，报的时候也<strong>不必附 Schedule 15</strong>。2026 税年的清单已经扩到 <strong>(a) 至 (r) 共二十项</strong>（2023 税年时只到 (o)，2024 税年到 (q)）。日常最用得上的几项是：</p>
+<ul>
+<li><strong>(a) 年末时存续不足三个月。</strong> CRA 的口径包括两种：在该税年结束前不足三个月才设立的，以及总共只存在了不足三个月的。<strong>遗产的头三个月落在这一格</strong>——这正是很多小额遗产可以直接免报的条文来源。</li>
+<li><strong>(b) 全年资产总公允市值不超过 50,000 元。</strong> 注意是「全年 (throughout the year)」，年中任何一天超过都不算。</li>
+<li><strong>(b.1) 亲属小额信托。</strong> 三个条件同时成立：受托人 (trustee) 全是个人；受益人全是个人（或该受益人去世当年的 GRE）<strong>且与每一位受托人有亲属关系</strong>；全年财产总公允市值不超过 <strong>250,000 元</strong>，且资产只限于现金与金融机构存款、加拿大银行/信托公司/信用社发行的 GIC、上市证券、共同基金份额、分红基金权益、自用财产、免税保单等一份封闭清单。<strong>金银币与金银条不算「现金」</strong>。</li>
+<li><strong>(j) GRE 与 (k) 合格残障信托 (QDT)</strong>；<strong>(n) 各类注册计划</strong>（RRSP、RRIF、TFSA、RESP、RDSP、FHSA、RPP、PRPP 等）；<strong>(r) 员工持股信托 (employee ownership trust)</strong>；以及注册慈善机构、共同基金信托、律师一般信托账户、合格殡葬安排等。</li>
+</ul>
+<div class="vv-callout vv-callout--info">
+<p><span class="vv-callout__icon">ℹ️</span></p>
+<div>
+<p><strong>「被摘出去」和「免报」不是一回事</strong></p>
+<p>靠 s.150(1.31) 被摘出去（2.3）＝<strong>不因 s.150(1.3) 为申报目的视同信托</strong>；民事关系、实际受益人的收入申报及其他义务仍须另判。靠 listed trust 免报＝<strong>它仍然是信托</strong>，只是这一年不必按通道 A 报；一旦当年落进通道 B 的任一情形——有应税税款、被要求申报、做过资本分配、触发 s.75(2)——申报义务立刻回来，只是仍不必附 Schedule 15。两者混为一谈，是这一章最常见的判断错误。</p>
+</div>
+</div>
+<h3 id="s2-3">2.3 bare trust：三年缓刑到期，2026-12-31 起真的要报</h3>
+<p><strong>代持信托 (bare trust)</strong> 指的是「法定所有人只是替真正的所有人拿着名字」的安排：父母为帮子女拿到贷款而上了房产证、子女为方便照顾而上了父母的银行账户、名义股东替实际出资人持股。《所得税法》没有给 bare trust 下定义，但 s.104(1) 的效果是：<strong>受托人可合理视为就全部信托财产的一切事务代理全体受益人</strong>的安排，就是它（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/new-trust-reporting-requirements-t3-filed-tax-years-ending-december-2023.html" title="Enhanced reporting rules for trusts and bare trusts: Frequently asked questions">CRA</a>）。</p>
+<p>这类安排本来在 2023 税年就该报，结果连着三年没有真正执行，但三年的性质不一样：2024-03-28（申报截止前一个工作日）CRA 宣布 2023 年一般不要求报（CRA 直接要求的除外），这是<strong>行政宽免</strong>；2024、2025 两个税年则是<strong>法律上不适用</strong>——C-15 废除旧 s.150(1.3)，适用于 2024-12-30 之后结束的税年（<a class="src-ref" href="https://fin.canada.ca/drleg-apl/2025/ita-lir-0825-n-1-eng.html" title="Explanatory Notes（2025-08 立法草案）：s.150(1.3)/(1.31)/(1.32) 信托申报">加拿大财政部</a>），CRA 在 C-15 御准前已宣布按草案执行，并确认 2025 年结的 bare trust 不必报（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2026/important-updates-trust-reporting-requirements.html" title="Tax tip 2026-03-05：Important updates to the trust reporting requirements for the 2025 taxation year">CRA</a>）。<strong>缓刑到 2026 年结束。</strong></p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>判据</th>
+<th>2024 税年（教材口径）</th>
+<th>2025 税年</th>
+<th>2026 税年（现行）</th>
+<th>状态</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>bare trust 是否须报 T3 + Schedule 15</td>
+<td>2024税年不须报；不能将普通休会等同法案失效</td>
+<td>2025税年不须报</td>
+<td><strong>年结在 2026-12-31 及以后的「reportable bare trust」必须报</strong></td>
+<td>已生效（CRA（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/new-trust-reporting-requirements-t3-filed-tax-years-ending-december-2023.html" title="Enhanced reporting rules for trusts and bare trusts: Frequently asked questions">1</a>、<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/enhanced-reporting-rules-trusts-bare-trusts-faq.html" title="Enhanced reporting rules for trusts and bare trusts: FAQ（2026-09-13 复抓：附表15每年交、代理判据、5万门槛不限资产、2026 说明待补）">2</a>））</td>
+</tr>
+<tr>
+<td>法律依据</td>
+<td>不适用该信托申报规则（CRA FAQ 3.2）</td>
+<td>同左</td>
+<td><strong>ITA s.150(1.3)（哪些视同信托）与 s.150(1.31)（八条例外）</strong></td>
+<td>已生效（C-15 御准 2026-03-26，见 <a class="src-ref" href="https://www.parl.ca/DocumentViewer/en/45-1/bill/C-15/royal-assent" title="Bill C-15, Budget 2025 Implementation Act, No. 1 (45-1) — SUMMARY">Parliament of Canada</a>；条文修订标记为 2026, c. 3, s. 71）</td>
+</tr>
+<tr>
+<td>listed trust 清单范围</td>
+<td>s.150(1.2)(a) 至 (q)</td>
+<td>s.150(1.2)(a) 至 (r)</td>
+<td>s.150(1.2)(a) 至 (r)</td>
+<td>已生效（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/new-trust-reporting-requirements-t3-filed-tax-years-ending-december-2023.html" title="Enhanced reporting rules for trusts and bare trusts: Frequently asked questions">CRA</a>）</td>
+</tr>
+<tr>
+<td>亲属的定义</td>
+<td>血亲、婚姻、同居、收养</td>
+<td><strong>加入姑姨舅侄甥；且本人与本人有亲属关系</strong></td>
+<td>同 2025，未变</td>
+<td>已生效（ITA s.150(1.32)）</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>免报期的准确边界是年结日，不是日历年</strong>：CRA 的原话是「年结在 2024-12-31 及以后、2026-12-31 之前」免报。也就是说，一个年结在 2026-06-30 的信托仍在免报期内，而年结在 2026-12-31 的必须报。绝大多数代持安排是日历年结，落在必报那一侧。</p>
+<p>判一个具体安排要不要报，走<strong>三层</strong>，顺序不能颠倒：</p>
+<p><strong>第一层，s.150(1.3) 视同。</strong> 有人持有法定所有权、财产实际是为别人使用或受益的，并且这位法定所有人可合理视为代理人——<strong>视同信托</strong>。</p>
+<p><strong>第二层，s.150(1.31) 摘出。</strong> 八条例外把某些安排整个从「视同」里摘走：<strong>(a)</strong> 全体受益人同时也是法定所有人、且没有不是受益人的法定所有人（配合 (1.32) 的「本人与本人有亲属关系」，单人自持的安排通常在这里出局）；<strong>(b)</strong> 法定所有人全是<strong>有亲属关系的个人</strong>、且该不动产<strong>若做指定即可成为其中一位或多位的主居所</strong>——父母为贷款上子女房产证走的正是这一条；<strong>(c)</strong> 法定所有人为<strong>配偶或同居伴侣</strong>持有的主居所；<strong>(d)</strong> 为合伙企业持有且各法定所有人都是合伙人、并有合伙资料申报义务；<strong>(e)</strong> 依法院命令持有；<strong>(f)</strong> 加拿大资源财产的特定上市公司持有安排；<strong>(g)</strong> 为免税实体持有且资金来自政府；<strong>(h)</strong> 持牌证券商或受监管信托公司作为投资实体的代客名义账户，且财产限于清单内金融资产、并已就全部收入与利得向全体受益人出具资料申报表。</p>
+<p><strong>第三层，s.150(1.2) listed trust。</strong> 通过前两层还站着的，再看它是不是 listed trust。<strong>子女上父母银行账户</strong>这类安排通常在这里出局——走的是 <strong>(b.1) 亲属小额信托</strong>，不是第二层的例外。listed trust 不因增强规则当然每年申报，但仍须检查一般 T3 触发条件。bare trust 账户的利息、利得与损失通常由实际受益人申报，不能把“账户有收入”直接当成“信托本身有应付税”（CRA FAQ 3.3）。</p>
+<div class="vv-callout vv-callout--warn">
+<p><span class="vv-callout__icon">⚠️</span></p>
+<div>
+<p><strong>最常被搞混的一处：房子走第二层，账户走第三层</strong></p>
+<p>「父母上子女房产证」与「子女上父母账户」经常被并列成「两种常见家庭安排都被排除了」。条文上它们走的是<strong>不同层</strong>，后果也不同：房子那种被 (1.31)(b) 摘出去，<strong>不进入这条视同申报规则</strong>；账户那种仍可能是申报目的的视同信托，只是当年符合 (1.2)(b.1) 而免报——<strong>账户余额一旦全年任何一天超过 250,000 元，或者里面放进了清单外的资产，免报立刻消失</strong>。</p>
+</div>
+</div>
+<p><strong>五种华人家庭常见安排，2026 税年逐一过三层。</strong> 下表的「须报」指 T3 连同附表 15。「官方明确到什么程度」一列要当真看：条文能直接对上、官方也举过例子的，可以放心用；只是条文文字看起来能套上的，事实边界仍要回到本人的产权文件、出资记录与账户协议。CRA 自己说不替当事人判断某个安排是不是信托（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/filing-trust-return/who-should-file.html" title="Who should file — Filing a trust&#x27;s T3 return">CRA</a>）。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>安排</th>
+<th>2026 税年初判</th>
+<th>依据</th>
+<th>官方明确到什么程度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>父母为帮子女通过贷款审批，与子女一起登记在子女自住房的产权上</td>
+<td>通常不须报：被 s.150(1.31)(b) 摘出</td>
+<td>法定所有人全是有亲属关系的个人，且该房若做指定可成为其中一位法定所有人（子女）的主居所</td>
+<td>财政部解释说明直接举了这个例子（<a class="src-ref" href="https://fin.canada.ca/drleg-apl/2025/ita-lir-0825-n-1-eng.html" title="Explanatory Notes（2025-08 立法草案）：s.150(1.3)/(1.31)/(1.32) 信托申报">加拿大财政部</a>）。若该房不能成为任何一位法定所有人的主居所（例如纯出租），(b) 不适用：官方未明确，需持牌专业人士判断</td>
+</tr>
+<tr>
+<td>子女加名到父母自住房上，钱与使用仍全归父母（常见动机是身后绕开遗产认证）</td>
+<td>通常不须报：同样走 s.150(1.31)(b)</td>
+<td>父母与子女都是法定所有人、彼此有亲属关系，该房可成为父母的主居所；条文写的是「其中一位或多位法定所有人」</td>
+<td>条文可以直接对上，但 CRA 与财政部都没有专门举这个例子。度假屋、出租房、空地能否指定为主居所要逐案看：官方未明确，需持牌专业人士判断</td>
+</tr>
+<tr>
+<td>联名银行或投资账户</td>
+<td>分两种：各自真有份的共同账户不须报；纯为方便加名、钱全属一方的，先视同信托，再看能否算 listed trust</td>
+<td>前者走 s.150(1.31)(a)（财政部举例：家庭成员共持联名银行账户，<a class="src-ref" href="https://fin.canada.ca/drleg-apl/2025/ita-lir-0825-n-1-eng.html" title="Explanatory Notes（2025-08 立法草案）：s.150(1.3)/(1.31)/(1.32) 信托申报">加拿大财政部</a>）；后者全年总值不超过 50,000 元走 s.150(1.2)(b)，或者受托人都是个人、受益人与每位受托人有亲属关系、全年不超过 250,000 元且只持清单内资产走 (b.1)；两条都过不了就须报</td>
+<td>「真共有」还是「便利加名」取决于出资、使用和账户协议，银行把账户叫作联名并不决定税法结果：官方未明确逐案标准，需持牌专业人士判断</td>
+</tr>
+<tr>
+<td>个人替他人代持公司股份（名义股东）</td>
+<td>通常须报</td>
+<td>名义股东只持法定所有权、听实际股东指令，落入 s.150(1.3)；私人公司股份不在 (b.1) 的资产清单里，(1.31) 八条也套不上；唯一的出口是全年全部财产总值不超过 50,000 元的 (1.2)(b)，这一格 2024 税年起不再限资产类型（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/enhanced-reporting-rules-trusts-bare-trusts-faq.html" title="Enhanced reporting rules for trusts and bare trusts: FAQ（2026-09-13 复抓：附表15每年交、代理判据、5万门槛不限资产、2026 说明待补）">CRA</a>）</td>
+<td>5 万元门槛不限资产类型有 CRA 示例确认；具体代持协议是否构成代理关系，官方未明确，需律师或持牌专业人士判断</td>
+</tr>
+<tr>
+<td>为未成年子女开的 in-trust 账户</td>
+<td>先判性质：可能是明示信托，也可能是 s.150(1.3) 的视同信托</td>
+<td>父母能自行决定投资与提款的，更像明示信托，那样它<strong>自 2023 税年起</strong>就已受增强申报规则约束，不是 2026 年才开始；两种性质都可以看 (1.2)(b) 的 50,000 元或 (b.1) 的 250,000 元亲属例外；父母自任受托人时，(1.31)(h) 的持牌券商或信托公司代管例外用不上</td>
+<td>账户名称里的 in trust for 不决定法律性质：官方未明确，需持牌专业人士判断</td>
+</tr>
+</tbody>
+</table></div>
+<p>表里任何一格判成「摘出」或「listed trust」，都只解决增强申报规则这一层；当年若出现处置、资本分配等一般触发情形，仍要回到 2.1 的通道 B 再查一遍（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/filing-trust-return/who-should-file.html" title="Who should file — Filing a trust&#x27;s T3 return">CRA</a>）。判下来须报的，日历年结的首个 T3 与附表 15 在 <strong>2027 年 3 月 31 日</strong>前递交（年结后 90 天）；附表 15 此后每个须报的税年都要随 T3 交，信息没变也要交（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/enhanced-reporting-rules-trusts-bare-trusts-faq.html" title="Enhanced reporting rules for trusts and bare trusts: FAQ（2026-09-13 复抓：附表15每年交、代理判据、5万门槛不限资产、2026 说明待补）">CRA</a>）。CRA 表示会在 2026-12-31 年结的申报季之前补充 reportable bare trust 的说明（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/enhanced-reporting-rules-trusts-bare-trusts-faq.html" title="Enhanced reporting rules for trusts and bare trusts: FAQ（2026-09-13 复抓：附表15每年交、代理判据、5万门槛不限资产、2026 说明待补）">CRA</a>），届时这张表要回头对一遍。</p>
+<div class="vv-callout vv-callout--info">
+<p><span class="vv-callout__icon">🔧</span></p>
+<div>
+<p><strong>拿不准就报，程序上走得通</strong></p>
+<p>CRA 明确表示：即使在豁免期内，<strong>它也会受理并处理自愿提交的 bare trust T3 申报（含 Schedule 15）</strong>。判断成本高而漏报罚则重的时候，报一张空表是成本最低的解法。</p>
+</div>
+</div>
+<h3 id="s2-4">2.4 税率与免税额：留在信托里的钱有多贵</h3>
+<p><strong>信托的联邦税率不是税阶，是一个数。</strong> ITA s.122(1)：除 <strong>GRE</strong> 与 <strong>QDT</strong> 之外，任何信托的联邦税＝<strong>最高个人税率 × 全部应税额</strong>。2026 税年最高个人税率是 33%，叠加 BC 顶档 20.5% 之后，<strong>留在信托里的每一元收入的边际税负约 53.5%</strong>——从第一元起就是这个价。</p>
+<p>s.122(1.1) 再补一刀：<strong>信托不得使用本节下的非退还抵免</strong>，只保留三样——捐赠抵免 (s.118.1)、最低税结转 (s.120.2)、股息税收抵免 (s.121)。<strong>基本个人免税额 (basic personal amount) 对信托不存在。</strong></p>
+<p>GRE 在 36 个月里享有的一整套便利，正是相对于上面这个默认状态而言的：可以用<strong>个人累进税率</strong>；可以选<strong>非日历年结</strong>；<strong>不必预缴 (instalments)</strong>；可以按 s.164(6) 把亏损<strong>回抵逝者最终申报</strong>；遗嘱指定的捐赠有专门的归属选择；捐赠上市证券可按零纳入率报；投资税收抵免可分配给受益人。</p>
+<p><strong>但这份清单里有一项被教材写错了方向：AMT。</strong> 教材把它写成「GRE 可以用 40,000 元的最低税免税额」，现行法的答案是另一件更好的事——GRE 那几年根本不适用最低税。下表把这一格与另外几个逐年会变的数放在一起看。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>判据</th>
+<th>2024 税年（教材口径）</th>
+<th>2025 税年</th>
+<th>2026 税年（现行）</th>
+<th>状态</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>替代性最低税 (AMT) 税率</td>
+<td>20.5%（2024 税年；已生效；官方公布值）</td>
+<td>20.5%（2025 税年；已生效；官方公布值）</td>
+<td>20.5%（2026 税年；已生效；官方公布值）</td>
+<td>已生效（ITA s.127.51 的 A 项）</td>
+</tr>
+<tr>
+<td>全年始终是 GRE 的那个税年适不适用 AMT</td>
+<td>整年不适用</td>
+<td><strong>整年不适用</strong></td>
+<td><strong>整年不适用</strong></td>
+<td>已生效（s.127.55(f)(i) 点名 s.150(1.2)(j)；见 <a class="src-ref" href="https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-127.51.html" title="Income Tax Act s.127.51 — Alternative minimum tax: minimum amount">加拿大联邦法规库</a>）</td>
+</tr>
+<tr>
+<td>非 GRE且非QDT信托（如普通家族信托）的 AMT 免税额</td>
+<td>零</td>
+<td><strong>零</strong></td>
+<td><strong>零</strong></td>
+<td>已生效（s.127.51 的 C 项：只给「非信托的个人」与 QDT，其余 nil）</td>
+</tr>
+<tr>
+<td>个人（非信托）的 AMT 免税额</td>
+<td>173,205 元</td>
+<td>177,882 元</td>
+<td><strong>181,440 元</strong></td>
+<td>已生效，随第四档税阶起点逐年指数化</td>
+</tr>
+<tr>
+<td>GRE 亏损回抵逝者最终申报的窗口</td>
+<td>死亡日2024-08-12前仅首年；当日起前三税年</td>
+<td><strong>前三个税年</strong>（死亡日在 2024-08-12 及以后）</td>
+<td>前三个税年</td>
+<td>已生效（ITA s.164(6)、(6.1)；见 <a class="src-ref" href="https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-164.html" title="Income Tax Act s.164(6) — 毕业费率遗产的资本亏损与终止亏损回抵最终申报（现行为『前三个税年』）">加拿大联邦法规库</a>）</td>
+</tr>
+</tbody>
+</table></div>
+<p>2024 年的 AMT 改革重写了 s.127.51 的两个参数：税率从 15% 提到 <strong>20.5%</strong>，免税额从写死的 40,000 元改成<strong>指向第四档税阶起点的引用</strong>（2026 税年 181,440 元）——但只对<strong>「非信托的个人」与 QDT</strong> 给，<strong>其余一律为零</strong>。信托在这条里没有免税额可用。</p>
+<p><strong>但要在这里停一下，别把结论套到 GRE 头上。</strong> 免税额是一个问题，「适不适用」是另一个问题，答案在另一条：<strong>s.127.55 的不适用清单</strong>。它的 (f)(i) 项点名了 <strong>s.150(1.2)(f)、(g)、(i)、(j)、(l)、(n)</strong> 这几类信托，而 <strong>(j) 就是 graduated rate estate</strong>。也就是说，<strong>一个全年始终是 GRE 的税年，整年不适用 AMT</strong>——教材那句「GRE 可以用 40,000 元的 AMT 免税额」在现行法下既不对也用不上，因为 GRE 根本不进这套账。同一条清单里还有：<strong>逝者去世当年的 T1 不适用 AMT</strong>（(c)）；<strong>alter ego 信托或配偶信托因受益人去世而触发 s.104(4)(a) 视同处置的那个税年不适用 AMT</strong>（(e)）；注册计划信托、共同基金信托、主信托、员工人寿健康信托、员工持股信托、以及为原住民群体设立的特定信托也不适用。</p>
+<p><strong>两条合起来读，AMT 的真正落点是「GRE 之外的信托」</strong>：36 个月到期后继续存在的遗产、家族信托、以及出资人在世期间的 alter ego 信托——这些既适用 AMT，免税额又是零，税率 20.5%，而 AMT 口径下资本利得是 100% 计入。</p>
+<div class="vv-callout vv-callout--danger">
+<p><span class="vv-callout__icon">✕</span></p>
+<div>
+<p><strong>卖房拖过 36 个月，最低税会凭空冒出来</strong></p>
+<p>典型形态：母亲去世，温哥华那套出租房因为继承人之间谈不拢，拖到 36 个月之后才卖掉。<strong>在 GRE 那三年里卖，整年不适用 AMT；掉出 GRE 之后再卖，AMT 立刻适用而且免税额为零</strong>、税率 20.5%、资本利得 100% 计入。同一笔利得，只因为多拖了几个月，就可能多出一笔最低税——而且常规税那一侧同时从累进税率跳到顶格税率。<strong>36 个月这条线在税上是双重的，不只是「优惠期结束」那么轻。</strong></p>
+</div>
+</div>
+<h3 id="s2-5">2.5 已宣布，但还不是规则</h3>
+<p>Budget 2025 提出把 <strong>21 年规则的反避税条款扩围</strong>：现行 s.104(5.8) 只堵「信托对信托的直接转移」，提案要把<strong>间接转移</strong>一并纳入，自预算日起适用。这条装在 <strong>C-31（Budget 2025 Implementation Act, No. 2）一读文本第 14 条</strong>里：经 s.107(2) 把财产转给受益人、而该受益人的权益由另一个信托直接或间接持有时，那个信托要继承转出信托的 21 年日，拟适用于 2025-11-04 及以后的转移（<a class="src-ref" href="https://www.parl.ca/DocumentViewer/en/45-1/bill/C-31/first-reading" title="Bill C-31 一读文本 第14条：s.104(5.8) 信托转移 21 年日继承扩至间接转移">Parliament of Canada</a>）。<strong>2026-09-13 复核 LEGISinfo，C-31 仍停在众议院委员会审议，未御准</strong>（<a class="src-ref" href="https://www.parl.ca/legisinfo/en/bill/45-1/c-31" title="Bill C-31, Budget 2025 Implementation Act, No. 2 — 立法进度（2026-09-13 复核）">Parliament of Canada (LEGISi…</a>、<a class="src-ref" href="https://www.parl.ca/DocumentViewer/en/45-1/bill/C-31/first-reading" title="Bill C-31, Budget 2025 Implementation Act, No. 2 (45-1) — SUMMARY">Parliament of Canada</a>、<a class="src-ref" href="https://www.parl.ca/legisinfo/en/bill/45-1/c-31/json" title="Bill C-31, Budget 2025 Implementation Act, No. 2 (45-1) — 立法进度复核（2026-09-05）">Parliament of Canada (LEGISi…</a>）；Justice Laws 现行合订本（current to 2026-07-21）里的 s.104(5.8) 也仍是只管「信托对信托」的旧文本（<a class="src-ref" href="https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-104.html" title="ITA s.104 现行合订本（current to 2026-07-21）：(5.8) Trust transfers">加拿大联邦法规库</a>）。坊间有说法称这一条已随 C-15 御准生效，与法案文本和合订本都对不上。</p>
+<p><strong>所以到 2026 税年为止，它只能写成「已宣布」，不得当作规则使用。</strong> 同一份法案里还挂着 CRA 代为报税、合格投资规则简化等措施，一并只能写成已宣布。</p>
+<hr />
+<h2 id="s3">三、实务流程：三个 90 天与一次年结选择</h2>
+<h3 id="s3-1">3.1 三个 90 天是同一天</h3>
+<p>T1 那一套「6 月 15 日报、4 月 30 日缴」的错位，在 T3 上不存在。ITA s.150(1)(c) 与 CRA 的 T3 指南口径一致（<a class="src-ref" href="https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-150.html" title="Income Tax Act s.150(1) — Filing returns of income">加拿大联邦法规库</a>、<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4013/t3-trust-guide.html" title="T4013 T3 Trust Guide（2025 税年版）—— 谁要报、年结怎么定、90 天双截止、T3 slip 与账号罚则">CRA</a>）：</p>
+<ul>
+<li><strong>报表</strong>：年结后 <strong>90 天</strong>内递交 T3 及全部附表；</li>
+<li><strong>缴款</strong>：欠税余额同样在年结后 <strong>90 天</strong>内付清；</li>
+<li><strong>发单据</strong>：T3 slip 与 T3 汇总表（涉及非居民受益人的还有 NR4）同样在年结后 <strong>90 天</strong>内寄到受益人最后已知地址。</li>
+</ul>
+<p>日历年结的信托，除闰年外这一天是 <strong>3 月 31 日</strong>。截止日遇周末或 CRA 认可的公众假期，顺延至下一个工作日。</p>
+<p>首次申报的信托必须先有<strong>信托账号 (trust account number)</strong>——「T」加八位数字，可以通过 CRA 在线信托账户登记服务当场拿到，也可以递 T3APP 表申请。<strong>每一次在申报表或资料单据上漏填这个号码罚 100 元</strong>。</p>
+<h3 id="s3-2">3.2 GRE 的年结怎么选：一次只能做一回的选择</h3>
+<p>遗产的第一个税年从<strong>死亡日的次日</strong>开始。如果它是 GRE，年结日可以是此后 <strong>12 个月内的任何一天</strong>；不是 GRE 的信托一律 12 月 31 日。</p>
+<p>这个选择同时决定三件事，所以值得算一遍再定：</p>
+<p><strong>第一，遗产自己的缴税时点。</strong> 年结晚一天，报表与缴款就晚一天。选满 12 个月，等于把税推到接近死亡两周年。</p>
+<p><strong>第二，受益人在哪个日历年报这笔收入。</strong> 规则是：<strong>分配给受益人的收入，报在「信托税年结束的那个日历年」对应的个人申报表上</strong>。同一笔分配，年结定在 12 月 31 日就进受益人的当年申报，定在次年 6 月 30 日就进受益人的下一年申报。<strong>受益人明年是不是要退休、明年有没有大额医疗费</strong>，都可能改变答案。</p>
+<p><strong>第三，亏损能不能回抵。</strong> GRE <strong>前三个税年</strong>的资本亏损与终止亏损可以按 s.164(6) 选择视为逝者最终申报的亏损（死亡日在 2024-08-12 及以后；此前死亡的仍只有第一个税年）。这个选择必须在<strong>该亏损所在遗产税年的申报期限</strong>（即年结后 90 天）之前以规定表格作出，并同时递 T1ADJ 请求修改逝者的最终申报。</p>
+<div class="vv-callout vv-callout--info">
+<p><span class="vv-callout__icon">🔧</span></p>
+<div>
+<p><strong>年结一旦定下来，36 个月内不能改</strong></p>
+<p>GRE 的年结确定后，未经 CRA 事先批准不得变更，而<strong>以递延或节税为主要目的的变更申请不会获批</strong>。另外，非日历年结会带来一个纯操作上的麻烦：年结日在年中时，当年的 T3 表格与附表往往还没发布，只能用上一年的表格填、按已知的拟议变化申报，评税会慢。收到的各类税务单据是按日历年出的，年结不在 12 月 31 日就得自己按账户结单算出归属期间的金额并附上计算说明。</p>
+</div>
+</div>
+<h3 id="s3-3">3.3 从 GRE 掉出来那一年，要报两次甚至三次</h3>
+<p>36 个月一到，遗产不再是 GRE，必须换成 12 月 31 日年结，并从此按顶格税率课税。换轨那一年会出现多份申报：</p>
+<p><strong>情形一（原本就是非日历年结）：</strong> 假设某人 2023 年 9 月 15 日去世，执行人把首个年结定在 2024 年 9 月 15 日。前三个税年分别结在 2024、2025、2026 年的 9 月 15 日。36 个月届满后 GRE 身份终止，新的税年从 2026 年 9 月 16 日开始、到 2026 年 12 月 31 日结束——<strong>这一年要报两份 T3</strong>，后一份的那个短期间按最高联邦与省税率课税，截止日分别是 2026 年 12 月 14 日与 2027 年 3 月 31 日。</p>
+<p><strong>情形二（年结日早于 36 个月届满日）：</strong> 某人 2021 年 5 月 20 日去世，执行人选了 2 月 28 日作年结。到 2024 年 5 月 20 日满 36 个月时遗产尚未清算完，<strong>2024 年要报三份</strong>：2023-03-01 至 2024-02-29 一份；2024-03-01 至视同年结日 2024-05-20 一份；2024-05-21 至新年结日 2024-12-31 一份。前两份用累进税率，第三份用顶格税率。三份的截止日分别是 2024-05-29、2024-08-18、2025-03-31——<strong>都是各自年结后的 90 天</strong>。</p>
+<p><strong>最终一份 T3</strong> 的年结日就是<strong>资产最终分配那一天</strong>，报表与缴款同样是此后 90 天内。分配之前应当先取得<strong>清税证明 (clearance certificate)</strong>，否则执行人对遗产未缴的税款负个人责任。</p>
+<h3 id="s3-4">3.4 收入分配与资本分配：走的是两条路</h3>
+<p><strong>收入分配</strong>要靠 Schedule 9 与 T3 slip：能分给受益人的前提是当年<strong>已付或应付</strong>。信托契据是唯一的判断依据。非自由裁量条款（「应当把全部净收入付给受益人」）下，受益人有权强制付款，即使没实际拿钱也算「应付」。自由裁量条款下，要满足四件事才算应付：受托人在税年结束前行使了裁量权；该行使不可撤销且无附加条件；分配额是确定金额或确定比例；并且在税年内已通知受益人。<strong>因此自由裁量信托的受托人必须留下会议记录或签署并注明日期的决议</strong>，必要时开一张本票作为凭证。</p>
+<p><strong>资本分配</strong>是另一件事。个人信托把非现金财产分给受益人以清偿其<strong>资本权益 (capital interest)</strong> 时，通常适用 s.107(2) 的成本滚转——不产生利得，受益人接手的是信托的成本金额。此时要向 CRA 附一份说明，列明受益人的姓名、地址与税务识别号、财产描述、分配日期、分配当日的公允市价与成本金额。</p>
+<div class="vv-callout vv-callout--warn">
+<p><span class="vv-callout__icon">⚠️</span></p>
+<div>
+<p><strong>受益人是非居民时，滚转不成立</strong></p>
+<p>信托把财产分给<strong>非居民受益人</strong>以清偿其资本权益的，<strong>视同按公允市价处置</strong>——利得当场实现在信托里，按顶格税率课税。少数几类财产（加拿大不动产、加拿大资源财产、通过加拿大常设机构经营的业务用资本财产等）不在此列。有海外子女的家庭在做遗产分配前必须先查这一格。</p>
+</div>
+</div>
+<h3 id="s3-5">3.5 Schedule 15：受益所有人信息表</h3>
+<p>需要报 Schedule 15 的信托，要填三个部分：</p>
+<p><strong>Part A</strong> 有两个必答问题，第一个问这是不是本信托第一次向 CRA 提供受益所有人信息。要注意的是：<strong>需要附表 15 的信托，每个须报的税年都要随 T3 交一次，信息没有变化也要交</strong>；只是以前报过、没有变化的信息可以结转，不必再逐项重填，在 Part A 第二个问题选「否」即可。信息有变的，在 Part B 做新增、修改或删除（CRA（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/enhanced-reporting-rules-trusts-bare-trusts-faq.html" title="Enhanced reporting rules for trusts and bare trusts: FAQ（2026-09-13 复抓：附表15每年交、代理判据、5万门槛不限资产、2026 说明待补）">1</a>、<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4013/t3-trust-guide.html" title="T4013 T3 Trust Guide（2025 税年版）—— 谁要报、年结怎么定、90 天双截止、T3 slip 与账号罚则">2</a>））。</p>
+<p><strong>Part B</strong> 是主体：对<strong>每一位</strong>可申报实体——settlor（出资人）、trustee（受托人）、beneficiary（受益人）、controlling person（控制人）——各填一份。同一个人身兼两职（既是受托人又是受益人）要填两次。<strong>控制人</strong>指的是有能力影响受托人对信托收入或资本作出决定的人，但<strong>必须是信托条款明确允许他这么做</strong>才算——受托人的配偶事实上能影响他，不构成控制人；信托条款要求受托人须征询某位律师或金融机构意见的，那位才是。年内去世或不再具备身份的人仍要填，并在相应问题上答「是」。</p>
+<p><strong>Part C</strong> 填无法逐一列名的受益人，典型是「尚未出生的子女」，或受益人是宪法第 35 条承认的某个原住民群体全体成员的情形。</p>
+<p><strong>受律师—当事人特权保护的信息不必披露</strong>（ITA s.150(1.4)）。Schedule 15 <strong>不能脱离申报表单独提交</strong>——需要它的信托，即使没有任何收入、没有任何处置，也必须为此报一张 T3。发现填错或漏填的，递交更正后的 T3 或 T3-ADJ。</p>
+<h3 id="s3-6">3.6 CRA 怎么核</h3>
+<p>三条主要路径：<strong>交叉比对</strong>——Schedule 15 上的每一个税务识别号都可以与该人自己的申报表对上，受益所有人是否申报了从信托取得的收入一目了然；<strong>T3 slip 与个人申报表的比对</strong>——与 T4/T5 的比对是同一套机制；<strong>产权登记与资金流</strong>——房产证上的名字与实际出资、贷款还款人不一致时，代持关系在文件层面是可见的。</p>
+<hr />
+<h2 id="s4">四、联邦之外：BC 这一段怎么走</h2>
+<p><strong>BC 没有遗产税，也没有继承税。</strong> 但有两样东西必须一起看。</p>
+<p><strong>第一，遗产认证费 (probate fee)。</strong> 依据是《遗产认证费法》(Probate Fee Act, RSBC 1999, c. 4) s.2（<a class="src-ref" href="https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/99004_01" title="Probate Fee Act [SBC 1999] c.4, s.2 — 卑诗省遗产认证费的三段费率">King&#x27;s Printer, British Colu…</a>）：遗产价值不超过 <strong>25,000 元</strong>不收费；超过部分中，<strong>25,000 元至 50,000 元那一段每 1,000 元（不足 1,000 元按 1,000 元算）收 6 元</strong>；<strong>超过 50,000 元的部分每 1,000 元收 14 元</strong>——边际费率约 <strong>1.4%</strong>。计费基数是该法 s.1 定义的「遗产价值」：位于 BC 的不动产与有形动产，加上（若逝者死亡前通常居于 BC）全球范围的无形动产。<strong>它是毛值 (gross value)，按揭余额不能扣</strong>——这一点常被忽略：一套市值 200 万元、尚欠贷款 120 万元的房子，进认证费基数的是 200 万元。</p>
+<p>这正是 <strong>alter ego 信托与 joint spousal or common-law partner 信托</strong>在 BC 的主要动机：财产已经不属于本人，死亡时不进遗产，因此<strong>不进认证费基数</strong>。两类信托的门槛都是<strong>设立时出资人年满 65 岁</strong>：alter ego 信托里，出资人在世期间是唯一有权取得全部收入与资本的人；joint spousal 信托里，出资人与其配偶或同居伴侣在两人中后死的那一位去世之前共同享有这个地位。<strong>转入这两类信托适用成本基础滚转，转入当时不实现利得。</strong></p>
+<div class="vv-callout vv-callout--info">
+<p><span class="vv-callout__icon">ℹ️</span></p>
+<div>
+<p><strong>绕开认证费不等于绕开所得税</strong></p>
+<p>认证费与所得税是两套完全独立的制度。财产放进 alter ego 信托只是让它不进「遗产」这个法律容器，<strong>s.104(4)(a) 的视同处置照样在出资人去世当天发生</strong>，而且这两类信托在世期间的收入按 s.122(1) 的顶格税率课税（除非按导管原理分给作为受益人的出资人本人——事实上通常正是如此）。省下的是约 1.4% 的认证费与公开的遗产认证程序，不是所得税。</p>
+</div>
+</div>
+<p><strong>第二，省税与省附加率。</strong> 信托的省税用 T3BC 表算。BC 顶档个人税率 20.5%，与 33% 的联邦顶格叠加后约 53.5%。<strong>BC 对最低税及最低税结转另有一个省级附加率，2025 税年从 33.7% 调到了 34.9%</strong>（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4013/t3-trust-guide.html" title="T4013 T3 Trust Guide（2025 税年版）—— 谁要报、年结怎么定、90 天双截止、T3 slip 与账号罚则">CRA</a>）——2026 税年值待 CRA 发布新版 T3 指南后复核，本页不写死。省一级值得单独一提的还有一条：<strong>阿尔伯塔省 2025 起新设的 8% 低税阶只对 GRE 与 QDT 开放</strong>，这是「GRE 身份值钱」在省一级的又一个例子。</p>
+<hr />
+<h2 id="s5">五、历史变革：为什么这一章的老材料特别不能信</h2>
+<p><strong>1972 年</strong>，加拿大开始对资本利得课税，同时装上 <strong>21 年规则</strong>——没有它，信托可以让增值永远不实现。</p>
+<p><strong>2016-01-01</strong>，遗嘱信托的累进税率待遇整体终结，只保留 <strong>36 个月的 GRE</strong> 与 <strong>QDT</strong> 两个例外；1972 年前设立的所谓「祖父级」生前信托的累进税率待遇同时取消。同一天起，不是 GRE 的遗嘱信托在三年常规复评期届满后，不能再补报或申请调整以取得退税或减税——<strong>而 GRE 只能存在 36 个月，所以 GRE 的补报窗口天然被压在 36 个月之内</strong>。</p>
+<p><strong>2023-12-31 年结起</strong>，受益所有人申报制度上线：绝大多数加拿大居民明示信托无论有无收入都要每年报 T3，并附 <strong>Schedule 15</strong>。</p>
+<p><strong>2024-03-28</strong>，在申报截止前一个工作日，CRA 宣布 bare trust 2023 年一般不要求申报（行政宽免）；其后 2024、2025 两个税年由 C-15 规定为不适用该申报规则——废除旧 s.150(1.3) 适用于 2024-12-30 之后结束的税年（<a class="src-ref" href="https://fin.canada.ca/drleg-apl/2025/ita-lir-0825-n-1-eng.html" title="Explanatory Notes（2025-08 立法草案）：s.150(1.3)/(1.31)/(1.32) 信托申报">加拿大财政部</a>），CRA 在御准前已按草案执行（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2026/important-updates-trust-reporting-requirements.html" title="Tax tip 2026-03-05：Important updates to the trust reporting requirements for the 2025 taxation year">CRA</a>）。原因是执行中发现制度网住了大量本不该网住的家庭安排——最典型的就是父母为帮子女拿贷款而上房产证。</p>
+<p><strong>2024 年</strong>，AMT 改革落地：税率 15% → 20.5%，免税额改为随税阶走，<strong>并且不再给信托（QDT 除外）</strong>。</p>
+<p><strong>2024-08-12 及以后死亡</strong>的逝者，其 GRE 的亏损回抵窗口从第一个税年扩到<strong>前三个税年</strong>（s.164(6)、(6.1)）。CRA 的 T3 指南 2025 税年版仍把这条标为「拟议中」，而现行合订本里它已经是白纸黑字的条文——<strong>指南比法慢一步，以条文为准</strong>。</p>
+<p><strong>2026-03-26</strong>，C-15 御准（S.C. 2026, c. 3），把收窄后的信托申报规则写进 <strong>s.150(1.3)/(1.31)/(1.32)</strong>；s.150 的修订标记正是 2026, c. 3, s. 71。<strong>2026-12-31 及以后年结的 reportable bare trust 从此必须报。</strong></p>
+<div class="vv-callout vv-callout--warn">
+<p><span class="vv-callout__icon">⚠️</span></p>
+<div>
+<p><strong>2025 年前写成的中文材料，这一章基本全过期</strong></p>
+<p>这一章在两年里换了三层：制度上线、2023 年行政宽免（保留 CRA 直接要求申报）、2024–2025 年不适用该申报规则、然后立法收窄后重新生效。任何写于 2025 年及以前的说明，大概率停在「已经豁免了、不用管」那一版；教材那一版更早，停在「立法未通过、需下届国会重提」。<strong>判断一份材料还能不能用，最快的办法是看它有没有提到 s.150(1.3) 与 s.150(1.31) 这两个条号</strong>——它们是 2026 年才成为现行法的。</p>
+</div>
+</div>
+<hr />
+<h2 id="s6">六、案例：三个本地场景（人名与数字均为示例）</h2>
+<h3 id="s6-1">6.1 温哥华：母亲 3 月去世，年结日怎么选</h3>
+<p><strong>情景。</strong> 陈女士 2026 年 3 月 20 日在温哥华去世，遗产包括一套自住公寓、一笔 GIC 与一个非注册投资账户。独生女是唯一受益人，2026 年薪资收入约 4 万元，但已确定 2027 年 6 月离职回校读书，2027 年预计只有半年收入。执行人在首份 T3 上完成了 GRE 自我指定并填了母亲的 SIN。</p>
+<p><strong>适用规则。</strong> 遗产的第一个税年从 2026 年 3 月 21 日起算，年结可选到 2027 年 3 月 20 日之间的任意一天。分配给受益人的收入，报在信托税年结束所在的那个日历年的个人申报表上。</p>
+<p><strong>算出的数。</strong> 若年结定在 2026 年 12 月 31 日：申报与缴款截止日为 2027 年 3 月 31 日，分配给女儿的收入进她的 2026 年申报表——那一年她有整年薪资，边际税率较高。若年结定在 2027 年 2 月 28 日：申报与缴款截止日为 2027 年 5 月 29 日（年结后 90 天），分配的收入进女儿的 <strong>2027 年</strong>申报表——那一年她只有半年收入，边际税率低了一档，同时遗产自己的缴款也晚了两个月。<strong>在这个家庭里，非日历年结明显更好。</strong></p>
+<p><strong>常见错报。</strong> 执行人往往默认「遗产也是 12 月 31 日年结」，白白放弃了这次选择；或者选了非日历年结却忘了它带来的操作成本——2027 年 2 月的年结要用 2026 年的表格填报，且收到的单据是按日历年出的，需要自己按账户结单拆分归属期间并附计算说明。</p>
+<h3 id="s6-2">6.2 列治文：父母上了子女房产证，2026 年要不要报</h3>
+<p><strong>情景。</strong> 2019 年，李先生夫妇为帮女儿通过贷款审批，与女儿三人共同登记在一套列治文公寓的产权上。房子由女儿自住，首付与月供全部由女儿承担，父母从未出资、也不打算取得任何权益。此外，女儿 2023 年为方便照顾，把自己加到了父亲名下一个约 18 万元的储蓄账户上。</p>
+<p><strong>适用规则与判断。</strong> 两件事要分开走三层判断。</p>
+<p><strong>房子。</strong> 第一层：父母持有法定所有权而实际受益人是女儿，可合理视为代理人——落进 s.150(1.3)，视同信托。第二层：全体法定所有人（父母与女儿）是<strong>有亲属关系的个人</strong>，且该不动产<strong>若做指定即可成为其中一位法定所有人（女儿）的主居所</strong>——<strong>符合 s.150(1.31)(b)，安排不因 s.150(1.3) 为申报目的视同信托</strong>。结论：<strong>不需要报</strong>，2026 年也不需要。</p>
+<p><strong>账户。</strong> 第一层：女儿是法定所有人之一而资金实际属于父亲，视同信托。第二层：不涉及不动产，(1.31) 的八条例外都套不上，<strong>没有被摘出去</strong>。第三层：受托人（女儿）是个人，受益人（父亲）与她有亲属关系，全年余额约 18 万元、低于 250,000 元且只有现金存款——<strong>符合 s.150(1.2)(b.1) 的亲属小额信托，属于 listed trust，本年免报</strong>。结论：<strong>这一年不需要报，但它仍然是信托。</strong></p>
+<p><strong>常见错报。</strong> 三处：把两件事一起判成「都被排除了」，从而在账户余额涨过 250,000 元之后仍然不报（那时免报资格已经消失）；把房子这一格判成 listed trust 免报，从而每年都要重新判一遍余额与资产类型（它不靠余额例外，但每年仍应确认亲属关系、法定所有权及主居所用途条件）；以及在父亲去世后仍照旧不报——<strong>账户里的钱一旦落进遗产的分配链条，通道 B 的「资本分配」触发点就可能被点亮</strong>。</p>
+<h3 id="s6-3">6.3 素里：67 岁设立 alter ego 信托</h3>
+<p><strong>情景。</strong> 王先生 67 岁，素里居民，把一套市值约 190 万元、尚欠贷款 80 万元的自住房与一个投资账户转入一份 alter ego 信托，自己是唯一受托人兼在世期间唯一受益人。目的是身故时避开遗产认证程序与认证费。</p>
+<p><strong>适用规则。</strong> 设立时年满 65 岁、在世期间自己是唯一有权取得收入与资本的人，符合 alter ego 信托的定义；转入适用成本滚转，<strong>设立当时不实现利得</strong>。这类信托的视同处置日不是 21 年，而是 <strong>s.104(4)(a) 的出资人去世当日</strong>。</p>
+<p><strong>算出的数。</strong> 认证费一侧：房子按毛值 190 万元计入基数（贷款不能扣），若不做安排，仅这一项在 BC 的认证费约为 $6×25 + $14×1,850 ≈ 26,050 元；放进信托后这部分不进遗产，认证费省下。所得税一侧：<strong>一分钱没省</strong>——身故当日全部资本财产仍视同按市价处置，只是这笔账落在信托的 T3 上而不是他本人的 T1 上。</p>
+<p><strong>两个反噬。</strong> 第一，<strong>s.75(2)</strong>：他是唯一受托人，CRA 的立场是财产未经他同意不得处分，因此这份「不可撤销」的信托在税法上是可撤销的，在世期间信托财产的收入与资本利得<strong>视同他本人的</strong>——实务上应当至少再设一位共同受托人。第二，<strong>AMT</strong>：好消息是 s.127.55(e) 明确规定，因 s.104(4)(a) 触发视同处置的那个税年<strong>不适用 AMT</strong>；坏消息是<strong>在此之前的每一个年份</strong>里，这份信托作为普通生前信托既按顶格税率课税，又落在 AMT 适用范围内且免税额为零——它不是 GRE，享受不到 s.127.55(f)(i) 那条整年豁免。</p>
+<p><strong>常见错报。</strong> 把「避开认证费」说成「避税」；忘了自任唯一受托人会触发归属规则；以及以为主居所免税会跟着房子一起进信托——<strong>信托要主张主居所免税另有一套条件</strong>（受益人须在该年 ordinarily inhabited 该住宅、且信托须在申报表上作出指定），不是自动的。</p>
+<hr />
+<h2 id="s7">七、常见错报与自查清单</h2>
+<ol>
+<li>
+<p><strong>忘了在第一份 T3 上做 GRE 自我指定，或漏填逝者 SIN。</strong> 怎么识别：翻出遗产的第一份 T3，看信托类型是否勾了 GRE、逝者 SIN 是否填了。这五个条件（36 个月内、是遗嘱信托、每份 T3 都填 SIN、首个税年自我指定、同一逝者只有一个）少一条，整个 36 个月的累进税率与配套便利全部作废。</p>
+</li>
+<li>
+<p><strong>把「没有收入」当成「不用报」。</strong> 怎么识别：先走通道 A——是不是加拿大居民明示信托、是不是 listed trust。落进通道 A 的信托<strong>零收入也要每年报</strong>，罚则按 s.162(7) 每天 25 元起算，与有没有欠税无关。</p>
+</li>
+<li>
+<p><strong>把 (1.31) 的「被摘出」与 (1.2) 的「免报」混为一谈。</strong> 怎么识别：问一句「这个安排明年余额涨到 30 万元，结论会不会变」。会变的，说明靠的是 listed trust 免报，<strong>每年都要重判</strong>；不受余额门槛影响的，也仍须每年核对相应排除条件是否持续满足。</p>
+</li>
+<li>
+<p><strong>把 AMT 的免税额问题与「适不适用」问题混成一个。</strong> 怎么识别：先问这个税年<strong>是不是整年都是 GRE</strong>。是——s.127.55(f)(i) 整年不适用 AMT，教材那 40,000 元既不对也用不上；不是——AMT 适用，且 s.127.51 对信托（QDT 除外）的免税额是<strong>零</strong>、税率 20.5%、资本利得 100% 计入。大额资本利得应当尽量安排在仍是 GRE 的年份实现。</p>
+</li>
+<li>
+<p><strong>以为 GRE 的亏损只有第一年能回抵。</strong> 怎么识别：先看<strong>死亡日</strong>。2024-08-12 及以后死亡的，前三个税年的资本亏损与终止亏损都可以按 s.164(6) 回抵最终申报；此前死亡的仍只有第一年。选择必须在该亏损所在遗产税年的申报期限前作出，并同时递 T1ADJ。</p>
+</li>
+<li>
+<p><strong>自由裁量信托没有留下分配决议，却在 T3 上把收入分给了受益人。</strong> 怎么识别：翻信托契据看是不是自由裁量条款；是的话，再翻当年有没有在税年结束前作出的、不可撤销、无条件、金额或比例确定并已通知受益人的书面决议。缺了这份文件，那笔分配站不住，收入会被推回信托按顶格税率课税。</p>
+</li>
+<li>
+<p><strong>把财产分给非居民受益人时套用成本滚转。</strong> 怎么识别：受益人清单里有没有人是非居民。清偿资本权益的分配对非居民<strong>视同按公允市价处置</strong>，利得当场实现在信托里；少数几类加拿大境内财产除外。</p>
+</li>
+<li>
+<p><strong>把 C-31 里的 21 年规则反避税扩围当成现行规则。</strong> 怎么识别：查该法案有没有御准。<strong>2026-09-13 复核结果是仍未御准</strong>（<a class="src-ref" href="https://www.parl.ca/legisinfo/en/bill/45-1/c-31" title="Bill C-31, Budget 2025 Implementation Act, No. 2 — 立法进度（2026-09-13 复核）">Parliament of Canada (LEGISi…</a>），只能写成「已宣布」；也可以直接看 Justice Laws 合订本里的 s.104(5.8) 有没有出现「directly or indirectly」受益人路径（<a class="src-ref" href="https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-104.html" title="ITA s.104 现行合订本（current to 2026-07-21）：(5.8) Trust transfers">加拿大联邦法规库</a>）。同一份法案里的其他措施同理。</p>
+</li>
+<li>
+<p><strong>自任唯一受托人，然后以为归属规则与自己无关。</strong> 怎么识别：看受托人名单是不是只有出资人一个人。CRA 的立场是此时财产未经出资人同意不得处分，s.75(2) 因此适用——收入、亏损与资本利得全部视同出资人本人的，与亲属关系、与钱有没有分出去都无关。</p>
+</li>
+</ol>
+<hr />
+<h2 id="术语双语对照">术语双语对照</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>en</th>
+<th>zh</th>
+<th>一句机制</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>estate</td>
+<td>遗产</td>
+<td>死亡次日起产生的独立纳税人，法律形态是遗嘱信托，报 T3</td>
+</tr>
+<tr>
+<td>testamentary trust</td>
+<td>遗嘱信托</td>
+<td>因某人死亡并作为其后果而产生的信托；2016 起除 GRE 与 QDT 外一律顶格税率</td>
+</tr>
+<tr>
+<td>inter vivos trust</td>
+<td>生前信托</td>
+<td>在世期间设立的信托；年结强制为 12 月 31 日，按顶格税率课税</td>
+</tr>
+<tr>
+<td>graduated rate estate (GRE)</td>
+<td>合格累进税率遗产</td>
+<td>死亡后 36 个月内、满足五个条件的遗产；可用个人累进税率与非日历年结（ITA s.248(1)）</td>
+</tr>
+<tr>
+<td>qualified disability trust (QDT)</td>
+<td>合格残障信托</td>
+<td>受益人合资格取得残障额的遗嘱信托；用累进税率但年结须为 12 月 31 日（s.122(3)）</td>
+</tr>
+<tr>
+<td>bare trust</td>
+<td>代持信托</td>
+<td>受托人只持有法定所有权、可视为全体受益人代理人的安排（s.104(1)）</td>
+</tr>
+<tr>
+<td>reportable bare trust</td>
+<td>应报代持信托</td>
+<td>落进 s.150(1.3) 且未被 s.150(1.31) 摘出的代持安排；2026-12-31 起年结须报</td>
+</tr>
+<tr>
+<td>express trust</td>
+<td>明示信托</td>
+<td>依出资人明示意思设立的信托（相对于法律推定或法院强加的信托）</td>
+</tr>
+<tr>
+<td>listed trust</td>
+<td>清单信托</td>
+<td>s.150(1.2)(a)–(r) 点名的二十类；不必按通道 A 年年报，也不必附 Schedule 15</td>
+</tr>
+<tr>
+<td>settlor</td>
+<td>出资人</td>
+<td>设立信托并向其转入财产的人；Schedule 15 的可申报实体之一</td>
+</tr>
+<tr>
+<td>trustee</td>
+<td>受托人</td>
+<td>持有并管理信托财产的人；bare trust 里即法定所有人</td>
+</tr>
+<tr>
+<td>beneficiary</td>
+<td>受益人</td>
+<td>有权取得信托收入或资本的人</td>
+</tr>
+<tr>
+<td>controlling person</td>
+<td>控制人</td>
+<td>依信托条款有权影响受托人对收入或资本作出决定的人；Schedule 15 要单独填</td>
+</tr>
+<tr>
+<td>legal representative</td>
+<td>法定代表人</td>
+<td>执行人、遗产管理人；负责报最终申报与 T3，分配前应取得清税证明</td>
+</tr>
+<tr>
+<td>paid or payable</td>
+<td>已付或应付</td>
+<td>收入能否分配给受益人的判据；自由裁量信托须有当年不可撤销的书面决议</td>
+</tr>
+<tr>
+<td>conduit principle</td>
+<td>导管原理</td>
+<td>分给受益人的收入从信托应税收入中扣除，性质与税收抵免一并下传</td>
+</tr>
+<tr>
+<td>capital interest</td>
+<td>资本权益</td>
+<td>受益人对信托本金的权益；清偿它的财产分配通常适用 s.107(2) 成本滚转</td>
+</tr>
+<tr>
+<td>deemed disposition</td>
+<td>视同处置</td>
+<td>死亡、21 年届满、出资人身故、信托移居时法律拟制的按市价处置</td>
+</tr>
+<tr>
+<td>21-year rule</td>
+<td>21 年规则</td>
+<td>信托设立起满 21 年、此后每 21 年，全部资本财产视同按市价处置（s.104(4)(b)）</td>
+</tr>
+<tr>
+<td>alter ego trust</td>
+<td>自益信托</td>
+<td>设立时出资人年满 65 岁、在世期间自己是唯一受益人；视同处置日是出资人身故日</td>
+</tr>
+<tr>
+<td>joint spousal or common-law partner trust</td>
+<td>夫妻共同信托</td>
+<td>同上，但配偶或同居伴侣一并为受益人；视同处置日是两人中后死者的身故日</td>
+</tr>
+<tr>
+<td>attribution rules</td>
+<td>归属规则</td>
+<td>把转出财产的收入推回给转出人的一组反分流规则</td>
+</tr>
+<tr>
+<td>subsection 75(2)</td>
+<td>归属规则第 75(2) 条</td>
+<td>财产可能回流、由出资人事后指定归属、或未经其同意不得处分时，收入与利得视同出资人的</td>
+</tr>
+<tr>
+<td>alternative minimum tax (AMT)</td>
+<td>替代性最低税</td>
+<td>另起一套账：资本利得 100% 计入、税率 20.5%；全年为 GRE 的税年整年不适用，非 GRE 信托适用但免税额为零</td>
+</tr>
+<tr>
+<td>clearance certificate</td>
+<td>清税证明</td>
+<td>分配遗产财产前应取得；未取得而分配的，法定代表人对未缴税款负个人责任</td>
+</tr>
+<tr>
+<td>probate fee</td>
+<td>遗产认证费</td>
+<td>BC 按遗产毛值计收的省级费用，非所得税；免征线 25,000 元，边际约 1.4%</td>
+</tr>
+<tr>
+<td>T3 return</td>
+<td>T3 信托申报表</td>
+<td>遗产与信托的年度申报表；年结后 90 天内报、缴、发单据</td>
+</tr>
+<tr>
+<td>Schedule 15</td>
+<td>受益所有人信息表</td>
+<td>列明全体出资人、受托人、受益人与控制人；不能脱离 T3 单独提交</td>
+</tr>
+<tr>
+<td>Schedule 9</td>
+<td>附表九</td>
+<td>收入分配与指定；配套开具 T3 slip 与 T3 汇总表</td>
+</tr>
+<tr>
+<td>T3 slip</td>
+<td>T3 单据</td>
+<td>信托开给受益人的收入单据；年结后 90 天内寄出</td>
+</tr>
+<tr>
+<td>NR4</td>
+<td>非居民收入单据</td>
+<td>分给非居民受益人的款项用它，另有 Part XII.2 税可能适用</td>
+</tr>
+<tr>
+<td>Form T1055</td>
+<td>视同处置汇总表</td>
+<td>申报 21 年规则或身故触发的视同处置</td>
+</tr>
+<tr>
+<td>Form T3APP</td>
+<td>信托账号申请表</td>
+<td>首次申报前须取得信托账号；每次漏填账号罚 100 元</td>
+</tr>
+<tr>
+<td>Form T1ADJ</td>
+<td>T1 调整请求表</td>
+<td>作 s.164(6) 亏损回抵选择时，同步用它修改逝者最终申报</td>
+</tr>
+<tr>
+<td>trust account number</td>
+<td>信托账号</td>
+<td>「T」加八位数字，电子申报的前提</td>
+</tr>
+<tr>
+<td>royal assent</td>
+<td>御准</td>
+<td>法案成为法律的那一刻；未御准的措施只能写「已宣布」</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="来源">来源</h2>
+<p>法条（现行合订本，Act current to 2026-06-21，last amended 2026-06-18）：s.150(1) 申报期限（<a class="src-ref" href="https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-150.html" title="Income Tax Act s.150(1) — Filing returns of income">加拿大联邦法规库</a>）· s.150(1.2)/(1.3)/(1.31)/(1.32) 清单信托、代持视同与例外（<a class="src-ref" href="https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-150.html" title="Income Tax Act s.150(1) — Filing returns of income">加拿大联邦法规库</a>）· s.104(4)–(5) 视同处置日与 21 年规则（<a class="src-ref" href="https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-104.html" title="Income Tax Act s.104(4)–(5) — 信托的视同处置日（21 年规则与配偶／alter ego 信托的死亡触发）">加拿大联邦法规库</a>）· s.122(1)/(1.1)/(3) 信托税率与 QDT 定义（<a class="src-ref" href="https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-122.html" title="Income Tax Act s.122(1)、(1.1)、(3) — 信托按最高个人税率课税；GRE 与 QDT 是仅有的两个例外">加拿大联邦法规库</a>）· s.248(1) GRE 定义（<a class="src-ref" href="https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-248.html" title="Income Tax Act s.248(1) 定义 — appropriate percentage / highest individual percentage">加拿大联邦法规库</a>）· s.127.51 与 s.127.55 最低税参数与不适用清单（<a class="src-ref" href="https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-127.51.html" title="Income Tax Act s.127.51 — Alternative minimum tax: minimum amount">加拿大联邦法规库</a>）· s.164(6)/(6.1) 亏损回抵（<a class="src-ref" href="https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-164.html" title="Income Tax Act s.164(6) — 毕业费率遗产的资本亏损与终止亏损回抵最终申报（现行为『前三个税年』）">加拿大联邦法规库</a>）· s.75(2)/(3) 归属规则（<a class="src-ref" href="https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-75.html" title="Income Tax Act s.75(2)、(3) — 可撤销信托的归属规则与其例外">加拿大联邦法规库</a>）。</p>
+<p>CRA 现行页面与指南：信托与代持信托申报规则常见问题（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/new-trust-reporting-requirements-t3-filed-tax-years-ending-december-2023.html" title="Enhanced reporting rules for trusts and bare trusts: Frequently asked questions">CRA</a>）· T3 信托指南（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4013/t3-trust-guide.html" title="T4013 T3 Trust Guide（2025 税年版）—— 谁要报、年结怎么定、90 天双截止、T3 slip 与账号罚则">CRA</a>）。</p>
+<p>BC：《遗产认证费法》s.1–s.2（<a class="src-ref" href="https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/99004_01" title="Probate Fee Act [SBC 1999] c.4, s.2 — 卑诗省遗产认证费的三段费率">King&#x27;s Printer, British Colu…</a>）。</p>
+<p>立法进度：C-15，御准 2026-03-26（<a class="src-ref" href="https://www.parl.ca/DocumentViewer/en/45-1/bill/C-15/royal-assent" title="Bill C-15, Budget 2025 Implementation Act, No. 1 (45-1) — SUMMARY">Parliament of Canada</a>）· C-31，2026-09-13 复核仍未御准（<a class="src-ref" href="https://www.parl.ca/legisinfo/en/bill/45-1/c-31" title="Bill C-31, Budget 2025 Implementation Act, No. 2 — 立法进度（2026-09-13 复核）">Parliament of Canada (LEGISi…</a>、<a class="src-ref" href="https://www.parl.ca/DocumentViewer/en/45-1/bill/C-31/first-reading" title="Bill C-31, Budget 2025 Implementation Act, No. 2 (45-1) — SUMMARY">Parliament of Canada</a>、<a class="src-ref" href="https://www.parl.ca/legisinfo/en/bill/45-1/c-31/json" title="Bill C-31, Budget 2025 Implementation Act, No. 2 (45-1) — 立法进度复核（2026-09-05）">Parliament of Canada (LEGISi…</a>）· C-31 一读第 14 条拟改 s.104(5.8)（<a class="src-ref" href="https://www.parl.ca/DocumentViewer/en/45-1/bill/C-31/first-reading" title="Bill C-31 一读文本 第14条：s.104(5.8) 信托转移 21 年日继承扩至间接转移">Parliament of Canada</a>）· s.104(5.8) 现行合订本文本（<a class="src-ref" href="https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-104.html" title="ITA s.104 现行合订本（current to 2026-07-21）：(5.8) Trust transfers">加拿大联邦法规库</a>）。</p>
+<p>2026-09-13 对账补充：CRA 信托申报常见问题复抓（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/enhanced-reporting-rules-trusts-bare-trusts-faq.html" title="Enhanced reporting rules for trusts and bare trusts: FAQ（2026-09-13 复抓：附表15每年交、代理判据、5万门槛不限资产、2026 说明待补）">CRA</a>）· 财政部 2025-08 解释说明中 (1.31)(a)(b)(c) 的官方举例（<a class="src-ref" href="https://fin.canada.ca/drleg-apl/2025/ita-lir-0825-n-1-eng.html" title="Explanatory Notes（2025-08 立法草案）：s.150(1.3)/(1.31)/(1.32) 信托申报">加拿大财政部</a>，只取举例，其生效年度已被 C-15 御准文本取代）· CRA T3「谁须申报」页（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/filing-trust-return/who-should-file.html" title="Who should file — Filing a trust&#x27;s T3 return">CRA</a>）· CRA 2026-03-05 信托申报提示（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2026/important-updates-trust-reporting-requirements.html" title="Tax tip 2026-03-05：Important updates to the trust reporting requirements for the 2025 taxation year">CRA</a>）。</p>
+
+    <div class="doc-nav"><a href="ca-estate-01-deceased-final-return.html">← 人走了税怎么报：最终申报、三张可选申报、视同处置与滚</a><a href="ca-estate-03-bankruptcy-year.html" class="r">破产那一年怎么报税：一天变两个纳税年度、受托人的第三 →</a></div>
+    <div class="doc-src">本站依据官方原文自撰 · 出处见正文链接</div>
+  </article>
+  <aside class="doc-aside">
+    <details class="doc-toc-details" open>
+      <summary class="doc-toc-summary"><span>本页目录</span><span class="doc-toc-icon">▾</span></summary>
+      <div class="toc"><div class="toc">
+<ul>
+<li><a href="#s1">一、制度设计与底层逻辑：为什么死亡会生出第二个纳税人</a><ul>
+<li><a href="#s1-1">1.1 时间被切成了两段</a></li>
+<li><a href="#s1-2">1.2 信托是通道，不是终点</a></li>
+<li><a href="#s1-3">1.3 谁与谁在博弈</a></li>
+<li><a href="#s1-4">1.4 为什么遗产能有 36 个月的优惠期</a></li>
+<li><a href="#s1-5">1.5 错报的三层法律后果</a></li>
+</ul>
+</li>
+<li><a href="#s2">二、2026 税年现行规则与数字</a><ul>
+<li><a href="#s2-1">2.1 谁必须报 T3：两条互不隶属的通道</a></li>
+<li><a href="#s2-2">2.2 listed trust：免报清单，以及它和「不是信托」的区别</a></li>
+<li><a href="#s2-3">2.3 bare trust：三年缓刑到期，2026-12-31 起真的要报</a></li>
+<li><a href="#s2-4">2.4 税率与免税额：留在信托里的钱有多贵</a></li>
+<li><a href="#s2-5">2.5 已宣布，但还不是规则</a></li>
+</ul>
+</li>
+<li><a href="#s3">三、实务流程：三个 90 天与一次年结选择</a><ul>
+<li><a href="#s3-1">3.1 三个 90 天是同一天</a></li>
+<li><a href="#s3-2">3.2 GRE 的年结怎么选：一次只能做一回的选择</a></li>
+<li><a href="#s3-3">3.3 从 GRE 掉出来那一年，要报两次甚至三次</a></li>
+<li><a href="#s3-4">3.4 收入分配与资本分配：走的是两条路</a></li>
+<li><a href="#s3-5">3.5 Schedule 15：受益所有人信息表</a></li>
+<li><a href="#s3-6">3.6 CRA 怎么核</a></li>
+</ul>
+</li>
+<li><a href="#s4">四、联邦之外：BC 这一段怎么走</a></li>
+<li><a href="#s5">五、历史变革：为什么这一章的老材料特别不能信</a></li>
+<li><a href="#s6">六、案例：三个本地场景（人名与数字均为示例）</a><ul>
+<li><a href="#s6-1">6.1 温哥华：母亲 3 月去世，年结日怎么选</a></li>
+<li><a href="#s6-2">6.2 列治文：父母上了子女房产证，2026 年要不要报</a></li>
+<li><a href="#s6-3">6.3 素里：67 岁设立 alter ego 信托</a></li>
+</ul>
+</li>
+<li><a href="#s7">七、常见错报与自查清单</a></li>
+<li><a href="#术语双语对照">术语双语对照</a></li>
+<li><a href="#来源">来源</a></li>
+</ul>
+</div>
+</div>
+    </details>
+    
+    <h3>同板块</h3><ul class="rel"><li><a href="ca-estate-01-deceased-final-return.html">人走了税怎么报：最终申报、三张可选申报、视同处置与滚转（Final Return</a></li><li><a href="ca-estate-03-bankruptcy-year.html">破产那一年怎么报税：一天变两个纳税年度、受托人的第三张表，与 RRSP 保得住、</a></li><li><a href="ca-estate-04-cpp-qpp-death-benefits-bc-probate-and-property-deemed-disposition-2026.html">身后财产清算、CPP/QPP死亡福利、BC省遗产认证费阶梯与视同处置合规（Est</a></li></ul>
+    
+    <a class="vv-btn vv-btn--primary" style="width:100%;margin-top:16px"
+       href="../drill.html?bp=ca-estate">练这个板块的题 →</a>
+  </aside>
+</div></main>
+<footer class="foot">
+  <p><b>微出国 · 学</b> — 加拿大 T1 · 美国与跨境 · 14 模块复习自测。内容是学习者视角的整理，不是任何机构的培训教材，也不构成税务意见。<br>
+  现行数字一律以 CRA / IRS / 财政部现行文件为准；个案请咨询持牌专业人士。发现错的地方，回论坛帖里说一声。</p>
+</footer>
+<script>var UP_PATH="../";var BUILD_TIME="1789339438";</script>
+<script>
+if((localStorage.getItem('vv-theme')||'')==='dark')
+  document.documentElement.setAttribute('data-theme','dark');
+
+// 自动版本更新检测：对比 DOM 的 BUILD_TIME 与服务器最新 manifest.json，出现新版本时带时间戳无缝重载绕过 HTTP 磁盘缓存
+(function(){
+  function checkVersion(){
+    var up = typeof UP_PATH !== 'undefined' ? UP_PATH : '';
+    fetch(up + 'assets/manifest.json?t=' + Date.now(), { cache: 'no-store' }).then(function(r){
+      return r.ok ? r.json() : null;
+    }).then(function(m){
+      if(!m || !m.build_time) return;
+      var serverBuild = String(m.build_time);
+      var clientBuild = typeof BUILD_TIME !== 'undefined' ? String(BUILD_TIME) : '';
+      if(clientBuild && serverBuild && clientBuild !== serverBuild){
+        var reloaded = sessionStorage.getItem('vv_reloaded_build');
+        if(reloaded !== serverBuild){
+          sessionStorage.setItem('vv_reloaded_build', serverBuild);
+          var u = new URL(location.href);
+          u.searchParams.set('_v', serverBuild);
+          location.replace(u.href);
+        } else if(!document.getElementById('vv-update-banner')) {
+          var bar = document.createElement('div');
+          bar.id = 'vv-update-banner';
+          bar.className = 'vv-update-banner';
+          bar.innerHTML = '🎉 网站已更新到最新版本，建议按 <b>Ctrl+F5</b> (或 <b>Cmd+Shift+R</b>) 强制刷新页面。<button onclick="location.reload(true)">立即刷新</button>';
+          document.body.prepend(bar);
+        }
+      }
+    }).catch(function(){});
+  }
+
+  checkVersion();
+  document.addEventListener('visibilitychange', function(){
+    if(document.visibilityState === 'visible') checkVersion();
+  });
+  window.addEventListener('focus', checkVersion);
+  setInterval(checkVersion, 5 * 60 * 1000);
+})();
+
+// 页眉登录态。身份服务不在（纯静态托管、或还没起 dev-server）时静默跳过——
+// 内容页是公开的，永远不该因为身份服务缺席而坏掉。
+fetch('/api/me').then(function(r){return r.ok?r.json():null;}).then(function(m){
+  if(!m||document.getElementById('vv-auth'))return;
+  var n=document.querySelector('.vv-header nav');if(!n)return;
+  var e=document.createElement('span');e.id='vv-auth';e.className='auth';
+  e.innerHTML=m.loggedIn
+    ?'<span title="学习记录已跨设备同步">'+m.username+'</span> <a href="/auth/logout">退出</a>'
+    :'<a href="/auth/login?next='+encodeURIComponent(location.pathname)+'">登录</a>';
+  n.after(e);
+}).catch(function(){});
+
+// ── 阅读器增强：专注/最大化模式 & 键盘/手势切页 ──
+(function(){
+  var prevUrl = typeof PREV_URL !== 'undefined' ? PREV_URL : '';
+  var nextUrl = typeof NEXT_URL !== 'undefined' ? NEXT_URL : '';
+
+  function updateMaxBtns(isMax) {
+    var btns = document.querySelectorAll('.vv-reader-btn-max');
+    for(var i=0; i<btns.length; i++) {
+      btns[i].innerHTML = isMax ? '✕ 退出专注' : '⛶ 专注阅读';
+    }
+  }
+
+  window.toggleDocMaximize = function() {
+    var root = document.documentElement;
+    var isMax = root.classList.toggle('is-doc-maximized');
+    try { localStorage.setItem('vv_doc_maximized', isMax ? 'true' : 'false'); } catch(e){}
+    updateMaxBtns(isMax);
+  };
+
+  function updateAsideBtns(isCol) {
+    var btns = document.querySelectorAll('.vv-aside-btn');
+    for(var i=0; i<btns.length; i++) {
+      btns[i].innerHTML = isCol ? '◨ 展开侧栏' : '◧ 折叠侧栏';
+    }
+  }
+
+  window.toggleSidebarCollapse = function() {
+    var root = document.documentElement;
+    var isCol = root.classList.toggle('is-aside-collapsed');
+    try { localStorage.setItem('vv_aside_collapsed', isCol ? 'true' : 'false'); } catch(e){}
+    updateAsideBtns(isCol);
+  };
+
+  try {
+    if(localStorage.getItem('vv_aside_collapsed') === 'true') {
+      document.documentElement.classList.add('is-aside-collapsed');
+      setTimeout(function(){ updateAsideBtns(true); }, 0);
+    }
+  } catch(e){}
+
+  // 本页目录 <details> 状态记忆
+  var tocDet = document.querySelector('.doc-toc-details');
+  if(tocDet) {
+    try {
+      if(localStorage.getItem('vv_toc_open') === 'false') {
+        tocDet.removeAttribute('open');
+      }
+    } catch(e){}
+    tocDet.addEventListener('toggle', function() {
+      try { localStorage.setItem('vv_toc_open', tocDet.open ? 'true' : 'false'); } catch(e){}
+    });
+  }
+
+  document.addEventListener('keydown', function(e) {
+    var tag = (e.target && e.target.tagName) || '';
+    if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || e.target.isContentEditable) return;
+    if (e.key === 'ArrowLeft' && prevUrl) {
+      location.href = prevUrl;
+    } else if (e.key === 'ArrowRight' && nextUrl) {
+      location.href = nextUrl;
+    } else if (e.key === 'f' || e.key === 'F' || e.key === 'm' || e.key === 'M') {
+      toggleDocMaximize();
+    } else if (e.key === 'Escape' && document.documentElement.classList.contains('is-doc-maximized')) {
+      toggleDocMaximize();
+    }
+  });
+
+  var touchStartX = 0, touchStartY = 0;
+  document.addEventListener('touchstart', function(e) {
+    if (e.touches && e.touches.length === 1) {
+      touchStartX = e.touches[0].clientX;
+      touchStartY = e.touches[0].clientY;
+    }
+  }, { passive: true });
+
+  document.addEventListener('touchend', function(e) {
+    if (!e.changedTouches || e.changedTouches.length !== 1) return;
+    var dx = e.changedTouches[0].clientX - touchStartX;
+    var dy = e.changedTouches[0].clientY - touchStartY;
+    if (Math.abs(dx) > 90 && Math.abs(dy) < 60) {
+      if (dx > 0 && prevUrl) {
+        location.href = prevUrl;
+      } else if (dx < 0 && nextUrl) {
+        location.href = nextUrl;
+      }
+    }
+  }, { passive: true });
+})();
+</script>
+<script>if('serviceWorker' in navigator){addEventListener('load',()=>navigator.serviceWorker.register('../sw.js').catch(()=>{}))}</script>
+</body></html>

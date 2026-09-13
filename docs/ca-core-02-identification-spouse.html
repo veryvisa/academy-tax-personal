@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>身份信息不是走过场：婚姻状况、居住省与几个勾选框怎么定住整份申报表的算法（Identification） · 微出国 · 学</title>
+<link rel="stylesheet" href="../assets/style.css?v=1789339438">
+<script>var PREV_URL="ca-core-01-t1-overview.html";var NEXT_URL="ca-core-05-pension-investment-income.html";</script>
+<link rel="manifest" href="../manifest.webmanifest">
+</head>
+<body class="vv">
+<header class="vv-header">
+  <a class="vv-brand" href="../index.html"><svg viewBox="102.305 90.391 73.617 59.957" width="28" aria-hidden="true" class="mark">
+<path fill="#30D9C4" d="M 107.894531 95.808594 L 127.277344 95.808594 C 127.277344 95.808594 129.507812 95.628906 130.835938 97.679688 C 131.585938 98.910156 131.65625 100.316406 131.082031 101.546875 L 121.609375 117.953125 C 121.609375 117.953125 120.335938 120.65625 117.011719 120.824219 C 113.714844 120.910156 112.242188 118.40625 112.242188 118.40625 L 103.722656 103.652344 C 103.722656 103.652344 102.304688 101.792969 103.09375 99.332031 C 103.878906 96.878906 106.148438 95.773438 107.894531 95.808594 "/>
+<path fill="#0082CA" d="M 115.964844 124.792969 C 115.847656 124.59375 116.09375 124.378906 116.277344 124.519531 C 117.195312 125.21875 118.664062 125.902344 120.683594 125.515625 C 122.164062 125.210938 123.550781 124.296875 124.402344 122.757812 C 125.242188 121.300781 138.8125 97.8125 138.8125 97.8125 C 138.8125 97.8125 141.9375 90.917969 150.207031 90.550781 L 169.96875 90.550781 C 169.96875 90.550781 173 90.390625 174.503906 93.40625 C 175.921875 96.433594 173.941406 98.695312 173.667969 99.109375 C 173.394531 99.523438 142.203125 146.726562 142.203125 146.726562 C 142.203125 146.726562 140.003906 150.347656 135.40625 150.347656 C 130.808594 150.347656 128.707031 146.878906 128.417969 146.398438 C 128.175781 145.992188 118.835938 129.78125 115.964844 124.792969 "/></svg>微出国 · 学</a>
+  <nav><a href="../index.html">路线</a><a href="../slides.html">讲义</a><a href="../docs/" aria-current="page">讲解</a><a href="../drill.html">练习</a><a href="../exam.html">自测</a><a href="../progress.html">进度</a></nav>
+  <button class="theme" onclick="var r=document.documentElement,d=r.getAttribute('data-theme')==='dark';r.setAttribute('data-theme',d?'light':'dark');localStorage.setItem('vv-theme',d?'light':'dark')">◐</button>
+</header>
+<main><a href="ca-core-01-t1-overview.html" class="vv-float-nav vv-float-nav--prev" title="上一篇: T1 申报全景：谁必须报、六步怎么算出应缴税、CRA 收到后会怎么回（2026 税年）"><span class="vv-float-nav__icon">‹</span><span class="vv-float-nav__card"><small>← 上一篇</small><strong>T1 申报全景：谁必须报、六步怎么算出应缴税</strong></span></a><a href="ca-core-05-pension-investment-income.html" class="vv-float-nav vv-float-nav--next" title="下一篇: 养老金与投资收入怎么进 T1：每张 slip、每个框，对应哪一行（Pension &amp; Investment Income）"><span class="vv-float-nav__card"><small>下一篇 →</small><strong>养老金与投资收入怎么进 T1：每张 slip</strong></span><span class="vv-float-nav__icon">›</span></a><div class="vv-max-dock"><span class="vv-max-dock__hint">键盘 ← → 切页 | Esc 退出</span><button class="vv-reader-btn vv-reader-btn-max" onclick="toggleDocMaximize()">✕ 退出专注</button></div>
+<div class="doc-wrap">
+  <article class="doc">
+    <div class="doc-bar">
+      <p class="crumb"><a href="../index.html">路线</a> › 加拿大 · T1 个人所得税基础（申报流程、收入、扣除、抵免、家庭、学生、老人）</p>
+      <div class="doc-bar-actions">
+        <span class="vv-reader-hint">键盘 ← → 翻页</span>
+        <button class="vv-reader-btn vv-aside-btn" onclick="toggleSidebarCollapse()" title="折叠/展开右侧栏">◧ 折叠侧栏</button>
+        <button class="vv-reader-btn vv-reader-btn-max" onclick="toggleDocMaximize()" title="最大化专注阅读 (快捷键 F)">⛶ 专注阅读</button>
+      </div>
+    </div>
+    <h1>身份信息不是走过场：婚姻状况、居住省与几个勾选框怎么定住整份申报表的算法（Identification）</h1>
+    <div class="doc-meta"><span class="vv-badge vv-badge--accent">加拿大 · T1 个人所得税基础（申报流程、收入、扣除、抵免、家庭、学生、老人） · 练习配比 24%</span><span class="vv-badge">10,378 字</span><span class="vv-badge">约 20 分钟</span></div>
+    <blockquote>
+<p>核实日期：2026-09-05｜本页口径：<strong>2026 税年（2027 年 2–4 月申报）</strong>。姓名、生日、婚姻状况这几栏看起来只是「填资料」，但六步申报表里至少四步的计算路径由它们分岔；本页只讲这一步，六步全景见 <a href="ca-core-01-t1-overview.html">ca-core-01-t1-overview</a>。</p>
+</blockquote>
+<p>很多人报税时会把《所得税与福利申报表》第一步——CRA 官方称之为「Identification and other information」（识别信息及其他信息）——当成走个过场，填完姓名、地址、SIN 就翻页算收入。这一页要讲清楚为什么这个假设是错的：<strong>这一步的每一栏答案，都会在后面几步的计算里被引用</strong>。婚姻状况决定配偶额与几十项按「家庭净收入」核发的福利怎么算；居住省决定用哪张省表；海外财产那个框有没有勾对，决定 CRA 事后能追多少年；身故日期决定申报表要不要提前收尾。读完你应该能做到：判断自己 12 月 31 日的法定婚姻状况、知道配偶信息栏为什么「零收入也要填」、看懂海外财产 100,000 元 门槛背后的后果，以及理解居住省为什么按「12 月 31 日」而不是「住得最久的省」判定。</p>
+<hr />
+<h2 id="s1">一、制度设计与底层逻辑：为什么身份信息要单独占一步</h2>
+<p>自评税制（self-assessment system，见 <a href="ca-core-01-t1-overview.html">ca-core-01-t1-overview</a>）要求纳税人自己算清收入、扣除、抵免，但这套计算从一开始就不是「个人对个人」的孤立运算——加拿大很多减税与福利制度，法律上锚定的单位是<strong>家庭</strong>而不是<strong>个人</strong>：配偶或普通法伴侣的净收入会影响你能不能拿到配偶额抵免、能拿多少按「调整后家庭净收入」核发的福利。CRA 要先确定「这份申报表所在的家庭怎么构成」，才谈得上后面任何一项以家庭为单位的计算——这正是识别信息要单独占第一步的原因：<strong>它是所有下游计算共用的输入参数表</strong>，不是纯行政记录。</p>
+<p>法律上，「婚姻状况」不是自由裁量的自我描述，而是《所得税法》给出的一组互斥定义，三条满足其一即成立普通法关系（详见第二节）。这组定义写得细，是因为它同时是<strong>授权的钥匙</strong>（配偶额、家庭福利、配偶间资产转移的税务递延）和<strong>限制的闸门</strong>（同一个家庭不能被两份申报表各自当作单身来重复申领本该按家庭合并计算的福利）。错报婚姻状况的法律后果不是小事：CRA 有权按新的婚姻状况重新核算已发放的福利并追回多发部分，情节严重时按未如实申报处理。</p>
+<p>居住省信息背后是另一层制度设计：除魁北克外联邦统一征税，但省级税率、抵免、福利仍是各省立法权限，二者靠「12 月 31 日住在哪个省」这一个法律拟制的时间点对接，不按全年住得最久的省判断，把一个本可能很复杂的「按天数分摊」问题简化成单一事实判断。</p>
+<p>海外财产申报（T1135）背后是国际税收信息不对称的老问题：CRA 无法像监控境内收入那样自动拿到境外账户信息，所以立法把举证责任放在纳税人身上——<strong>先自己申报持有了什么，CRA 再决定要不要核查</strong>，这也是为什么漏报的后果不是罚一次款那么简单，而是直接延长整份申报表的可复评窗口（见第二节）。</p>
+<hr />
+<h2 id="s2">二、2026 税年现行规则与数字</h2>
+<h3 id="s2-1">2.1 婚姻状况：六种法定分类，判定时点是 12 月 31 日</h3>
+<p>CRA 官方列出的婚姻状况共<strong>六种</strong>：<strong>已婚（Married）、普通法同居（Living common-law）、丧偶（Widowed）、离婚（Divorced）、分居（Separated）、单身（Single）</strong>。</p>
+<ul>
+<li><strong>已婚</strong>：仅指与你有合法婚姻关系的人，不适用于同居但未登记的伴侣。</li>
+<li><strong>普通法同居</strong>：与非法定配偶的人处于有性伴侣关系的同居状态，且满足以下任一条件——① 已连续同居满 12 个月（<strong>这 12 个月里如果因关系破裂分开且分开不满 90 天，仍算连续</strong>，不会把计时器归零）；② 对方是你子女的生父/生母（含收养）；③ 对方对你的子女拥有监护权（或该子女满 19 岁前一直由对方监护），且该子女完全依赖对方扶养。三条满足其一即成立普通法关系，不要求同时满足。</li>
+<li><strong>分居</strong>：因关系破裂而分开居住<strong>满 90 天</strong>才成立。<strong>关键的时点规则</strong>：一旦分开满 90 天，分居生效日<strong>不是第 90 天那一天，而是你们开始分开住的那一天</strong>——这条经常被算错方向。如果申报当时 90 天还没满且这段期间跨过 12 月 31 日，那一年的申报表上仍然要填已婚或普通法，不能提前填分居。<strong>非自愿分居</strong>（如一方因工作、就学、健康原因或服刑而分开居住，并非感情破裂）不算这里说的分居，双方仍按已婚或普通法申报。</li>
+<li><strong>丧偶／离婚／单身</strong>：分别指配偶或普通法伴侣已故、依法离婚、以及前五种都不适用的情形。</li>
+</ul>
+<p>婚姻状况一旦在年内发生变化，法律要求在变化发生后的次月月底前通知 CRA；如果是变成分居，<strong>必须先等满 90 天才能通知</strong>，通知时用的生效日仍然是开始分开住的那一天，不是满 90 天那一天。CRA 会据此对已发放的家庭福利重新核算，多退少补。</p>
+<div class="vv-callout vv-callout--warn">
+<p><span class="vv-callout__icon">⚠️</span></p>
+<div>
+<p><strong>「同居快到 12 个月就分手又复合」不会归零</strong></p>
+<p>普通法关系认定的 12 个月只要求「连续」，而这条规则里的「连续」明确允许一次<strong>不满 90 天</strong>的分居间断——很多人以为分开哪怕一天就要从零重新计时，其实只要复合发生在分开 90 天以内，中间这段间断期照样计入 12 个月的连续同居时间。</p>
+</div>
+</div>
+<h3 id="s2-2">2.2 配偶或普通法伴侣的信息：为什么零收入也要填</h3>
+<p>只要你在 12 月 31 日有配偶或普通法伴侣，申报表第一页就要求填写对方的名字、SIN（或临时税号/个人税号），以及<strong>对方 2026 年度的净收入（第 23600 行，即使对方没报税、即使是零，也要填「如果他们报了会是多少」）</strong>。这条规则常被误解成「反正对方没收入就不用填」，但这个数字不是用来判断谁欠税，而是计算你自己配偶额抵免与各类家庭福利的输入变量——没有它，你的很多计算都算不出来。还要填对方的全民托儿津贴（UCCB）计入金额与偿还金额（对方申报表第 11700、21300 行），因为 CRA 计算部分抵免与福利时会分别加回或扣除，不能只填一个净收入数字了事。此外要勾选对方是否自雇：<strong>配偶或普通法伴侣当年自雇，你自己的申报期限也顺延到次年 6 月 15 日</strong>——期限跟着对方身份走，不是只看自己。年内因分居或配偶身故而失去配偶的，仍要填对方<strong>分居前或身故前</strong>的姓名、SIN 与净收入，用于计算可能仍适用的相关抵免。</p>
+<h3 id="s2-3">2.3 居住省与居住信息：按 12 月 31 日这一天，不按住得最久的省</h3>
+<p>「居住信息」一栏要填四件事：① 12 月 31 日当天居住或被视为事实居民（factual resident）的省或属地——<strong>唯一决定你用哪张省表（Form 428）的字段</strong>；② 目前实际居住地若与通讯地址所在省不同，另填目前居住省，供核算省级福利；③ 若 2026 年自雇，填生意在哪些省有固定营业场所；④ 若 2026 年内成为或不再是加拿大税务居民，填入境或离境日期。<strong>判定基准是「那一天」，不是全年累计天数</strong>——3 月还在阿尔伯塔、12 月 20 日刚搬到 BC 的人，居住省填 BC，省税与省级抵免全按 BC 规则算，即使全年住阿尔伯塔的时间更长。</p>
+<h3 id="s2-4">2.4 海外财产（T1135）：100,000 元 是成本额门槛，不是市值门槛</h3>
+<p>如果你在 2026 年度<strong>任何时刻</strong>持有的「特定海外财产」总<strong>成本额</strong>（cost amount，通常即税法上的调整后成本基础，不是公允市场价值）超过 <strong>100,000 元</strong>，申报表要勾选「是」并另填 <strong>Form T1135</strong>。门槛按「多项财产成本额合计」计算，不是逐项各自判断——海外银行存款 $35,000 加境外公司股份 $75,000，合计 $110,000 就要报，即使单项都不到 100,000 元。个人首次成为加拿大税务居民的税年免交 T1135，但仍须按居民期间的收入申报规则报境外收入；再次回流不自动重获首次居民豁免。特定海外财产不含个人自用财产（度假屋、艺术品等）、加拿大注册账户内的海外资产（TFSA/RRSP/RRIF/RPP/PRPP 一律免报）与经营性主动业务财产。申报截止日与本人申报表相同（4 月 30 日，配偶/普通法伴侣任一方当年自雇则延至 6 月 15 日）。</p>
+<div class="vv-callout vv-callout--danger">
+<p><span class="vv-callout__icon">✕</span></p>
+<div>
+<p><strong>漏报或错报海外财产，追溯期直接多 3 年</strong></p>
+<p>当年未申报指定海外财产收入，且 T1135 未按时提交或含虚假陈述/遗漏时，CRA 对该税年的正常复评期限通常再延长 3 年。普通迟报罚为每日 $25，最低 $100、最高 $2,500；故意或重大疏忽不报，月罚最高 12,000 元；收到 CRA 提交要求后仍故意或重大疏忽不履行，月罚最高 24,000 元。升级月罚以及超过 24 个月触发的成本额 5% 罚款，都要按相应规则减去已课罚款；不是无条件层层相加。5% 针对某税年的持续漏报只征一次，不是每过一年再征一次（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/information-been-moved/foreign-reporting/questions-answers-about-penalties.html" title="CRA foreign-reporting penalties questions and answers">Government of Canada</a>、<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/information-been-moved/foreign-reporting/table-penalties.html" title="Table of penalties (foreign reporting)">CRA</a>）。</p>
+</div>
+</div>
+<h3 id="s2-5">2.5 Elections Canada 与「居住在原住民政府土地上」两个易混的勾选框</h3>
+<p>申报表上还有两处经常被混为一谈、实际互不相关的勾选：</p>
+<p><strong>Elections Canada 同意</strong>：勾选「是」即同意 CRA 把姓名、地址、出生日期提供给 Elections Canada 更新联邦选民名册；14–17 岁公民还可加入「未来选民名册」，满 18 岁自动转正式名册。这两问都是<strong>可选项</strong>，只有年满 18 岁且是公民才具备投票资格，勾选与否不影响已有投票权，也不影响报税任何计算。</p>
+<p><strong>「居住在原住民政府土地上」</strong>：只适用<strong>纽芬兰与拉布拉多、西北地区、育空</strong>三地居民，确认是否居住在与联邦签有「原住民政府个人所得税协议」的结算土地内（判定依据是特定邮政编码或育空的地图边界），作用是把对应省/属地税收入分配给正确的原住民政府——<strong>与下面的《印第安人法》免税勾选是完全不同的两件事</strong>，很容易混淆。</p>
+<h3 id="s2-6">2.6 《印第安人法》免税收入勾选（T90）</h3>
+<p>如果你是根据《印第安人法》（Indian Act）已登记或有资格登记的身份人士，且当年有依第 87 条免税的收入（该条豁免<strong>坐落在保留地上的个人财产</strong>，收入是否免税还要看登记身份、居住地、雇主所在地与实际工作地点几个因素的组合），申报表上要勾选相应的框，并另填 <strong>Form T90, Income Exempt From Tax Under the Indian Act</strong> 计算免税净收入。EI、CPP/QPP 给付、注册养老金给付、离职金、工资损失替代计划给付等就业相关收入在满足条件时可以免税；OAS、GIS、美国社会保障金及美国养老金则<strong>不属于</strong>这项豁免。<strong>即使全部收入免税，仍建议每年申报</strong>——CCB、CGEB、残障税收抵免等几乎所有现金福利的前提都是「已提交申报表」，免税不等于不用报。</p>
+<h3 id="s2-7">2.7 婚姻状况怎么联到「按家庭净收入」核发的福利：三列表</h3>
+<p>婚姻状况一旦确定，配偶净收入就会并入「调整后家庭净收入」，直接决定几十项福利的核发金额与递减节奏。以 Canada Child Benefit（CCB，6 岁以下基础额与第一递减门槛）与已更名的 Canada Groceries and Essentials Benefit（CGEB，前称 GST/HST credit，成人上限）为例：</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>项目</th>
+<th>2024-07 至 2025-06 福利期</th>
+<th>2025-07 至 2026-06 福利期</th>
+<th>2026-07 至 2027-06 福利期</th>
+<th>状态</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CCB 基础额（6 岁以下）</td>
+<td>7,787 元</td>
+<td>7,997 元</td>
+<td><strong>8,157 元</strong></td>
+<td>已生效</td>
+</tr>
+<tr>
+<td>CCB 第一递减门槛（调整后家庭净收入）</td>
+<td>36,502 元</td>
+<td>37,487 元</td>
+<td><strong>38,237 元</strong></td>
+<td>已生效</td>
+</tr>
+<tr>
+<td>CGEB（原 GST/HST credit）成人上限</td>
+<td>$340</td>
+<td>$349</td>
+<td><strong>$445</strong>（2026-07 起，含 25% 增额）</td>
+<td>已生效</td>
+</tr>
+</tbody>
+</table></div>
+<p>三行均按福利期取值，通常以福利期开始前一年的申报收入计算；例如 2026-07 至 2027-06 通常用 2025 税年收入。2026 税年收入通常影响 2027-07 起的福利期，不能把本表金额当成该未来福利期的已公布值。各项计算公式不同，CGEB 还叠加了 2026-07 的立法增额；具体是哪部法案、哪一天生效，见 <a href="kb-02-numbers-2026.html">kb-02-numbers-2026</a>。<strong>这张表要传达的核心是</strong>：婚姻状况填错一天、配偶净收入填错一个数字，这几十项福利的核发金额会跟着连锁错算，而这些计算全部发生在识别信息之后的步骤里，起点就是第一步。</p>
+<hr />
+<h2 id="s3">三、实务流程：这一步怎么填、CRA 收到后怎么用</h2>
+<p>首次申报的人，识别信息必须与 SIN 记录完全一致；还没有 SIN 的新移民或临时居民先向 Service Canada 申请 SIN，暂时没资格获得 SIN 的申请个人税号（ITN）用于报税——多数电子申报系统要求填入有效 SIN 才能提交。首次报税还牵动另一件事（见 <a href="ca-core-01-t1-overview.html">ca-core-01-t1-overview</a> 案例三）：CRA user ID 或银行登录通常需要最近两年内已评税申报的数据；但 BC/Alberta 居民可通过省级合作登录，在首次报税前注册（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/register-cra-sign-in-services.html" title="CRA 账户注册：BC/AB 省级账户的首次申报例外">CRA</a>）。</p>
+<p>如果本次申报的对象是已故人士，识别信息一律填逝者本人的资料，不是遗产执行人或家属的资料；逝者的最终申报期限见 <a href="ca-core-01-t1-overview.html">ca-core-01-t1-overview</a> 第三节——对某一待报年度，死亡发生于该年10月之后至原申报截止日之间，取原期限与死亡后6个月较晚者；次年申报期内死亡也可能影响上一年度期限。</p>
+<p>电子邮件地址是可选栏位，勾选同意后 CRA 会推送账户变更与新邮件到达通知，但通知本身不含内容，且一旦选用电子通知，符合条件的纸质信件将不再邮寄，邮件本身不加密、可能被截获或篡改。语言偏好（英文/法文）决定 CRA 后续信函与电话服务用语，可随时变更，不影响任何计算。</p>
+<hr />
+<h2 id="s4">四、联邦之外：BC 这条怎么走</h2>
+<p>BC 与魁北克以外的所有省属地一样不单独收个人所得税，居住省信息填好后，联邦与省两级税就在同一份申报表里通过 Form 428 一并算出。<strong>BC 居民只要如实填好 12 月 31 日的居住省，后面步骤会自动套用 BC 税率与省级非退还抵免</strong>。真正容易出错的是跨省搬迁：年底前后从阿尔伯塔搬来 BC 的人若按「住得更久的省」而非 12 月 31 日当天填，会直接用错省表——两省税阶结构、抵免额都不同，用错不是格式问题，是实打实算错税额。西北地区、育空、纽芬兰与拉布拉多居民另需留意第 2.5 节「原住民政府结算土地」，BC 居民不适用这一项。</p>
+<hr />
+<h2 id="s5">五、历史变革：从纸质核对到按家庭计算的现代福利体系</h2>
+<p>婚姻状况栏本身的六分类结构近年没有变化，变化更大的是「以家庭净收入核发福利」这套机制的扩张：CCB 在 2016 年取代加拿大儿童税收福利（CCTB）与全民托儿津贴（UCCB）；GST/HST credit 在 2026 年 7 月改名为 CGEB 并临时增额 25%（详见 <a href="kb-02-numbers-2026.html">kb-02-numbers-2026</a>），计算方法与所需的家庭净收入输入完全沿用旧制。<strong>福利的名字、金额几乎每年都在变，但共用的输入端——婚姻状况与配偶净收入——多年未变</strong>，这正是本页重点在「怎么正确填」而不是「今年金额是多少」的原因。</p>
+<p>海外财产申报制度自 2013 税年起新增「未申报即延长复评期」的规则；2015 年起新增两档报送方式（有申报义务且全年成本额始终低于 250,000 元 时，可选择简化的 Part A；任何时点达到或超过 250,000 元 就须用 Part B 详细申报），降低了合规成本，但门槛与法律后果没有放松。</p>
+<hr />
+<h2 id="s6">六、案例</h2>
+<h3 id="case1">案例一：素里的一对情侣——12 个月怎么数（示例）</h3>
+<p>素里一对情侣 2025 年 3 月起同居，2025 年 11 月因争执分开住了 50 天后又复合。到 2026 年 3 月，同居满 12 个月了吗？中间那 50 天<strong>因为不满 90 天</strong>，仍算作连续同居的一部分，不会把计时器归零——他们在 2026 年 3 月即满足普通法伴侣的 12 个月条件，申报时应勾选「普通法同居」而不是继续填「单身」。误以为分开就要重新数 12 个月，会多报近一年「单身」状态，影响的正是配偶净收入相关的抵免计算。</p>
+<h3 id="case2">案例二：列治文一个家庭的海外账户——$75,000 加 $35,000 为什么要报（示例）</h3>
+<p>列治文一个家庭，太太名下在香港有一个成本额 $75,000 的股票账户，先生名下在英国有一个 $35,000 的银行存款，两人各自单独看都没到 100,000 元，觉得都不用报。但 T1135 的判断单位是<strong>个人</strong>总持有的特定海外财产成本额，不是单一账户——如果先生名下同时还持有一笔 $70,000 的海外基金，$35,000 加 $70,000 已超过 100,000 元，先生本人就要报，太太的账户则单独判断她自己是否达标。最容易搞混的地方是<strong>把「按家庭合并」和「按个人合并」弄反</strong>：门槛是每个申报人自己名下财产成本额相加，不是夫妻合并，也不是逐个账户单独判断。</p>
+<h3 id="case3">案例三：温哥华一位有身份的原住民纳税人——免税不等于不用报（示例）</h3>
+<p>温哥华一位已登记的原住民纳税人，在保留地上的雇主处工作，收入依《印第安人法》第 87 条免税，多年觉得「反正不交税，报不报无所谓」而没有报税。结果是：他因此错过了这几年的 CCB 与现行 CGEB 核发资格——<strong>这些福利的前提是「已提交申报表」，不是「有应纳税收入」</strong>，免税收入同样要通过 T90 计算净额并随申报表提交，才能进入核算福利的输入池。等他补报，能追溯申领的部分福利也因追溯期限打了折扣。</p>
+<hr />
+<h2 id="s7">七、常见错报与自查清单</h2>
+<ol>
+<li><strong>把「分开一天就重新计时」当作普通法 12 个月的规则</strong>——识别：只有分居<strong>满 90 天</strong>才会真正中断连续同居的计时，不满 90 天的间断仍计入 12 个月。</li>
+<li><strong>配偶零收入就不填对方净收入栏</strong>——识别：只要 12 月 31 日有配偶或普通法伴侣，对方净收入（哪怕是零）都必须填写，这是计算你自己抵免与家庭福利的必要输入。</li>
+<li><strong>居住省按「全年住得最久」而不是按 12 月 31 日填</strong>——识别：只看 12 月 31 日当天你实际居住或被视为事实居民的省份，年内搬迁不影响这条判断规则。</li>
+<li><strong>把 T1135 的 100,000 元 门槛当作按家庭合并计算</strong>——识别：门槛是每个申报人自己名下特定海外财产成本额相加，不是夫妻合计，也不是逐项单独判断。</li>
+<li><strong>把 T1135 的成本额门槛误当市值门槛</strong>——识别：判断标准是成本额（通常即调整后成本基础），不是财产当前的公允市场价值，二者在增值资产上差异可能很大。</li>
+<li><strong>误以为免税收入不用报税</strong>——识别：《印第安人法》免税收入需要通过 T90 计算净额并随申报表一并提交，不报会直接影响 CCB、CGEB 等福利资格的核算。</li>
+<li><strong>把「原住民政府结算土地」勾选与《印第安人法》免税勾选混为一谈</strong>——识别：前者只适用纽芬兰与拉布拉多、西北地区、育空三地居民，决定省/属地税收入怎么在联邦与原住民政府之间分配；后者决定收入本身是否免税，两者互不影响。</li>
+</ol>
+<hr />
+<h2 id="术语双语表">术语双语表</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>en</th>
+<th>zh</th>
+<th>一句机制</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Identification and other information</td>
+<td>识别信息及其他信息</td>
+<td>T1 六步结构的第一步，后续计算的共用输入</td>
+</tr>
+<tr>
+<td>marital status</td>
+<td>婚姻状况</td>
+<td>六种法定分类，判定基准是 12 月 31 日当天</td>
+</tr>
+<tr>
+<td>living common-law</td>
+<td>普通法同居</td>
+<td>满 12 个月同居，或育有/收养共同子女，或监护对方子女三条满足其一</td>
+</tr>
+<tr>
+<td>separated</td>
+<td>分居</td>
+<td>因关系破裂分开满 90 天成立，生效日是开始分开住那天</td>
+</tr>
+<tr>
+<td>involuntary separation</td>
+<td>非自愿分居</td>
+<td>因工作/就学/健康/服刑分开，不视为关系破裂的分居</td>
+</tr>
+<tr>
+<td>net income (line 23600)</td>
+<td>净收入（第 23600 行）</td>
+<td>配偶或普通法伴侣此项数字驱动多项家庭福利计算</td>
+</tr>
+<tr>
+<td>province or territory of residence</td>
+<td>居住省/属地</td>
+<td>以 12 月 31 日当天居住地为准，决定套用哪张省表</td>
+</tr>
+<tr>
+<td>Form T1135</td>
+<td>海外财产申报表</td>
+<td>特定海外财产成本额超 100,000 元 即须申报</td>
+</tr>
+<tr>
+<td>specified foreign property</td>
+<td>特定海外财产</td>
+<td>境外资金、股权、债权等，不含自用财产与经营性财产</td>
+</tr>
+<tr>
+<td>cost amount</td>
+<td>成本额</td>
+<td>T1135 门槛判断基准，通常即调整后成本基础，非市值</td>
+</tr>
+<tr>
+<td>extended reassessment period</td>
+<td>延长复评期</td>
+<td>海外收入未报且 T1135 违规，正常复评期再加 3 年</td>
+</tr>
+<tr>
+<td>Elections Canada consent</td>
+<td>选举法同意</td>
+<td>可选项，同意向 Elections Canada 提供信息更新选民名册</td>
+</tr>
+<tr>
+<td>First Nations Personal Income Tax agreement</td>
+<td>原住民政府个人所得税协议</td>
+<td>仅限纽芬兰与拉布拉多/西北地区/育空特定结算土地居民</td>
+</tr>
+<tr>
+<td>Indian Act exemption (section 87)</td>
+<td>印第安人法免税（第 87 条）</td>
+<td>坐落保留地上的个人财产（含收入）依法免税</td>
+</tr>
+<tr>
+<td>Form T90</td>
+<td>免税收入计算表</td>
+<td>计算依印第安人法免税的净收入，随申报表提交</td>
+</tr>
+<tr>
+<td>Canada Child Benefit (CCB)</td>
+<td>加拿大儿童福利</td>
+<td>按调整后家庭净收入递减核发，基础额逐年指数化</td>
+</tr>
+<tr>
+<td>Canada Groceries and Essentials Benefit (CGEB)</td>
+<td>加拿大民生补贴</td>
+<td>原 GST/HST credit 改名，2026-07 起增额 25%</td>
+</tr>
+<tr>
+<td>Social Insurance Number (SIN)</td>
+<td>社会保险号</td>
+<td>报税与身份核验的主键，新移民需先向 Service Canada 申请</td>
+</tr>
+<tr>
+<td>Individual Tax Number (ITN)</td>
+<td>个人税号</td>
+<td>无资格获得 SIN 者用于报税的替代识别号</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="来源">来源</h2>
+<ul>
+<li>教材结构参照：ca-fund-2025 第 2 章 Step 1 Identification（2024 税年口径），仅供结构核对，本页不逐字引用。</li>
+<li>Canada Revenue Agency, "Marital status"（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-address-information/marital-status.html" title="Marital status">CRA</a>）</li>
+<li>Canada Revenue Agency, "Questions and answers about Form T1135"（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/information-been-moved/foreign-reporting/questions-answers-about-form-t1135.html" title="Questions and answers about Form T1135">CRA</a>）</li>
+<li>Canada Revenue Agency, "Table of penalties"（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/information-been-moved/foreign-reporting/table-penalties.html" title="Table of penalties (foreign reporting)">CRA</a>）</li>
+<li>Canada Revenue Agency, "Federal income tax and benefit information for 2025"（5000-G，Step 1 明细）（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/forms-publications/tax-packages-years/general-income-tax-benefit-package/5000-g.html" title="Federal income tax and benefit information for 2025 (5000-G guide, table of contents)">CRA</a>）</li>
+<li>Canada Revenue Agency, "Elections Canada"（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-address-information/elections-canada.html" title="Elections Canada">CRA</a>）</li>
+<li>Canada Revenue Agency, "Determine whether you live on Indigenous government lands"（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-address-information/indigenous-government-lands.html" title="Determine whether you live on Indigenous government lands">CRA</a>）</li>
+<li>Canada Revenue Agency, "Taxes and benefits for Indigenous Peoples"（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/indigenous-peoples.html" title="Taxes and benefits for Indigenous Peoples">CRA</a>）</li>
+<li>Canada Revenue Agency, "Your province or territory of residence"（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-address-information/your-province-territory-residence.html" title="Your province or territory of residence">CRA</a>）</li>
+<li>Canada Revenue Agency, "Indexation adjustment for personal income tax and benefit amounts"（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html" title="Indexation adjustment for personal income tax and benefit amounts">CRA</a>）</li>
+<li>Canada Revenue Agency, "GST/HST credit"（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/goods-services-tax-harmonized-sales-tax-gst-hst-credit.html" title="GST/HST credit - No longer available">CRA</a>）</li>
+<li>
+<p>Canada Revenue Agency, "Canada Groceries and Essentials Benefit"（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit.html" title="Canada Groceries and Essentials Benefit (CGEB)">CRA</a>）</p>
+</li>
+<li>
+<p>CRA 账户注册及省级登录例外：<a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/register-cra-sign-in-services.html">Register for a CRA account</a>，核于2026-09-08。</p>
+</li>
+</ul>
+    <div class="doc-nav"><a href="ca-core-01-t1-overview.html">← T1 申报全景：谁必须报、六步怎么算出应缴税、CRA</a><a href="ca-core-05-pension-investment-income.html" class="r">养老金与投资收入怎么进 T1：每张 slip、每个框 →</a></div>
+    <div class="doc-src">本站依据官方原文自撰 · 出处见正文链接</div>
+  </article>
+  <aside class="doc-aside">
+    <details class="doc-toc-details" open>
+      <summary class="doc-toc-summary"><span>本页目录</span><span class="doc-toc-icon">▾</span></summary>
+      <div class="toc"><div class="toc">
+<ul>
+<li><a href="#s1">一、制度设计与底层逻辑：为什么身份信息要单独占一步</a></li>
+<li><a href="#s2">二、2026 税年现行规则与数字</a><ul>
+<li><a href="#s2-1">2.1 婚姻状况：六种法定分类，判定时点是 12 月 31 日</a></li>
+<li><a href="#s2-2">2.2 配偶或普通法伴侣的信息：为什么零收入也要填</a></li>
+<li><a href="#s2-3">2.3 居住省与居住信息：按 12 月 31 日这一天，不按住得最久的省</a></li>
+<li><a href="#s2-4">2.4 海外财产（T1135）：100,000 元 是成本额门槛，不是市值门槛</a></li>
+<li><a href="#s2-5">2.5 Elections Canada 与「居住在原住民政府土地上」两个易混的勾选框</a></li>
+<li><a href="#s2-6">2.6 《印第安人法》免税收入勾选（T90）</a></li>
+<li><a href="#s2-7">2.7 婚姻状况怎么联到「按家庭净收入」核发的福利：三列表</a></li>
+</ul>
+</li>
+<li><a href="#s3">三、实务流程：这一步怎么填、CRA 收到后怎么用</a></li>
+<li><a href="#s4">四、联邦之外：BC 这条怎么走</a></li>
+<li><a href="#s5">五、历史变革：从纸质核对到按家庭计算的现代福利体系</a></li>
+<li><a href="#s6">六、案例</a><ul>
+<li><a href="#case1">案例一：素里的一对情侣——12 个月怎么数（示例）</a></li>
+<li><a href="#case2">案例二：列治文一个家庭的海外账户——$75,000 加 $35,000 为什么要报（示例）</a></li>
+<li><a href="#case3">案例三：温哥华一位有身份的原住民纳税人——免税不等于不用报（示例）</a></li>
+</ul>
+</li>
+<li><a href="#s7">七、常见错报与自查清单</a></li>
+<li><a href="#术语双语表">术语双语表</a></li>
+<li><a href="#来源">来源</a></li>
+</ul>
+</div>
+</div>
+    </details>
+    
+    <h3>同板块</h3><ul class="rel"><li><a href="ca-core-01-t1-overview.html">T1 申报全景：谁必须报、六步怎么算出应缴税、CRA 收到后会怎么回（2026 </a></li><li><a href="ca-core-05-pension-investment-income.html">养老金与投资收入怎么进 T1：每张 slip、每个框，对应哪一行（Pension</a></li><li><a href="ca-core-06-other-income-social-benefits.html">「其他收入」与社会福利：哪些要报、哪些报了再扣、哪些根本不报（Other Inc</a></li><li><a href="ca-core-07-deductions-rrsp-childcare-moving-support.html">扣除项：净收入与应税收入之间的那道分水岭——RRSP、托儿费、搬家费与赡养费（D</a></li><li><a href="ca-core-08-nonrefundable-credits.html">非退还抵免总表：抵免率从 15% 掉到 14% 之后，每一格该怎么算（2026 </a></li><li><a href="ca-core-09-medical-donations.html">医疗费用与慈善捐赠：两笔最容易算少的抵免——任意 12 个月怎么选、门槛为什么是</a></li></ul>
+    
+    <a class="vv-btn vv-btn--primary" style="width:100%;margin-top:16px"
+       href="../drill.html?bp=ca-core">练这个板块的题 →</a>
+  </aside>
+</div></main>
+<footer class="foot">
+  <p><b>微出国 · 学</b> — 加拿大 T1 · 美国与跨境 · 14 模块复习自测。内容是学习者视角的整理，不是任何机构的培训教材，也不构成税务意见。<br>
+  现行数字一律以 CRA / IRS / 财政部现行文件为准；个案请咨询持牌专业人士。发现错的地方，回论坛帖里说一声。</p>
+</footer>
+<script>var UP_PATH="../";var BUILD_TIME="1789339438";</script>
+<script>
+if((localStorage.getItem('vv-theme')||'')==='dark')
+  document.documentElement.setAttribute('data-theme','dark');
+
+// 自动版本更新检测：对比 DOM 的 BUILD_TIME 与服务器最新 manifest.json，出现新版本时带时间戳无缝重载绕过 HTTP 磁盘缓存
+(function(){
+  function checkVersion(){
+    var up = typeof UP_PATH !== 'undefined' ? UP_PATH : '';
+    fetch(up + 'assets/manifest.json?t=' + Date.now(), { cache: 'no-store' }).then(function(r){
+      return r.ok ? r.json() : null;
+    }).then(function(m){
+      if(!m || !m.build_time) return;
+      var serverBuild = String(m.build_time);
+      var clientBuild = typeof BUILD_TIME !== 'undefined' ? String(BUILD_TIME) : '';
+      if(clientBuild && serverBuild && clientBuild !== serverBuild){
+        var reloaded = sessionStorage.getItem('vv_reloaded_build');
+        if(reloaded !== serverBuild){
+          sessionStorage.setItem('vv_reloaded_build', serverBuild);
+          var u = new URL(location.href);
+          u.searchParams.set('_v', serverBuild);
+          location.replace(u.href);
+        } else if(!document.getElementById('vv-update-banner')) {
+          var bar = document.createElement('div');
+          bar.id = 'vv-update-banner';
+          bar.className = 'vv-update-banner';
+          bar.innerHTML = '🎉 网站已更新到最新版本，建议按 <b>Ctrl+F5</b> (或 <b>Cmd+Shift+R</b>) 强制刷新页面。<button onclick="location.reload(true)">立即刷新</button>';
+          document.body.prepend(bar);
+        }
+      }
+    }).catch(function(){});
+  }
+
+  checkVersion();
+  document.addEventListener('visibilitychange', function(){
+    if(document.visibilityState === 'visible') checkVersion();
+  });
+  window.addEventListener('focus', checkVersion);
+  setInterval(checkVersion, 5 * 60 * 1000);
+})();
+
+// 页眉登录态。身份服务不在（纯静态托管、或还没起 dev-server）时静默跳过——
+// 内容页是公开的，永远不该因为身份服务缺席而坏掉。
+fetch('/api/me').then(function(r){return r.ok?r.json():null;}).then(function(m){
+  if(!m||document.getElementById('vv-auth'))return;
+  var n=document.querySelector('.vv-header nav');if(!n)return;
+  var e=document.createElement('span');e.id='vv-auth';e.className='auth';
+  e.innerHTML=m.loggedIn
+    ?'<span title="学习记录已跨设备同步">'+m.username+'</span> <a href="/auth/logout">退出</a>'
+    :'<a href="/auth/login?next='+encodeURIComponent(location.pathname)+'">登录</a>';
+  n.after(e);
+}).catch(function(){});
+
+// ── 阅读器增强：专注/最大化模式 & 键盘/手势切页 ──
+(function(){
+  var prevUrl = typeof PREV_URL !== 'undefined' ? PREV_URL : '';
+  var nextUrl = typeof NEXT_URL !== 'undefined' ? NEXT_URL : '';
+
+  function updateMaxBtns(isMax) {
+    var btns = document.querySelectorAll('.vv-reader-btn-max');
+    for(var i=0; i<btns.length; i++) {
+      btns[i].innerHTML = isMax ? '✕ 退出专注' : '⛶ 专注阅读';
+    }
+  }
+
+  window.toggleDocMaximize = function() {
+    var root = document.documentElement;
+    var isMax = root.classList.toggle('is-doc-maximized');
+    try { localStorage.setItem('vv_doc_maximized', isMax ? 'true' : 'false'); } catch(e){}
+    updateMaxBtns(isMax);
+  };
+
+  function updateAsideBtns(isCol) {
+    var btns = document.querySelectorAll('.vv-aside-btn');
+    for(var i=0; i<btns.length; i++) {
+      btns[i].innerHTML = isCol ? '◨ 展开侧栏' : '◧ 折叠侧栏';
+    }
+  }
+
+  window.toggleSidebarCollapse = function() {
+    var root = document.documentElement;
+    var isCol = root.classList.toggle('is-aside-collapsed');
+    try { localStorage.setItem('vv_aside_collapsed', isCol ? 'true' : 'false'); } catch(e){}
+    updateAsideBtns(isCol);
+  };
+
+  try {
+    if(localStorage.getItem('vv_aside_collapsed') === 'true') {
+      document.documentElement.classList.add('is-aside-collapsed');
+      setTimeout(function(){ updateAsideBtns(true); }, 0);
+    }
+  } catch(e){}
+
+  // 本页目录 <details> 状态记忆
+  var tocDet = document.querySelector('.doc-toc-details');
+  if(tocDet) {
+    try {
+      if(localStorage.getItem('vv_toc_open') === 'false') {
+        tocDet.removeAttribute('open');
+      }
+    } catch(e){}
+    tocDet.addEventListener('toggle', function() {
+      try { localStorage.setItem('vv_toc_open', tocDet.open ? 'true' : 'false'); } catch(e){}
+    });
+  }
+
+  document.addEventListener('keydown', function(e) {
+    var tag = (e.target && e.target.tagName) || '';
+    if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || e.target.isContentEditable) return;
+    if (e.key === 'ArrowLeft' && prevUrl) {
+      location.href = prevUrl;
+    } else if (e.key === 'ArrowRight' && nextUrl) {
+      location.href = nextUrl;
+    } else if (e.key === 'f' || e.key === 'F' || e.key === 'm' || e.key === 'M') {
+      toggleDocMaximize();
+    } else if (e.key === 'Escape' && document.documentElement.classList.contains('is-doc-maximized')) {
+      toggleDocMaximize();
+    }
+  });
+
+  var touchStartX = 0, touchStartY = 0;
+  document.addEventListener('touchstart', function(e) {
+    if (e.touches && e.touches.length === 1) {
+      touchStartX = e.touches[0].clientX;
+      touchStartY = e.touches[0].clientY;
+    }
+  }, { passive: true });
+
+  document.addEventListener('touchend', function(e) {
+    if (!e.changedTouches || e.changedTouches.length !== 1) return;
+    var dx = e.changedTouches[0].clientX - touchStartX;
+    var dy = e.changedTouches[0].clientY - touchStartY;
+    if (Math.abs(dx) > 90 && Math.abs(dy) < 60) {
+      if (dx > 0 && prevUrl) {
+        location.href = prevUrl;
+      } else if (dx < 0 && nextUrl) {
+        location.href = nextUrl;
+      }
+    }
+  }, { passive: true });
+})();
+</script>
+<script>if('serviceWorker' in navigator){addEventListener('load',()=>navigator.serviceWorker.register('../sw.js').catch(()=>{}))}</script>
+</body></html>

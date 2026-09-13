@@ -1,0 +1,753 @@
+<!doctype html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>CPP、EI 与雇佣支出：Schedule 8 的五段算法、超缴怎么要回来、T777 上哪些钱才扣得掉（CPP/EI Contributions &amp; Employment Expenses） · 微出国 · 学</title>
+<link rel="stylesheet" href="../assets/style.css?v=1789339438">
+<script>var PREV_URL="ca-core-03-employment-income-t4.html";var NEXT_URL="ca-employment-01-vehicle-allowances-2026.html";</script>
+<link rel="manifest" href="../manifest.webmanifest">
+</head>
+<body class="vv">
+<header class="vv-header">
+  <a class="vv-brand" href="../index.html"><svg viewBox="102.305 90.391 73.617 59.957" width="28" aria-hidden="true" class="mark">
+<path fill="#30D9C4" d="M 107.894531 95.808594 L 127.277344 95.808594 C 127.277344 95.808594 129.507812 95.628906 130.835938 97.679688 C 131.585938 98.910156 131.65625 100.316406 131.082031 101.546875 L 121.609375 117.953125 C 121.609375 117.953125 120.335938 120.65625 117.011719 120.824219 C 113.714844 120.910156 112.242188 118.40625 112.242188 118.40625 L 103.722656 103.652344 C 103.722656 103.652344 102.304688 101.792969 103.09375 99.332031 C 103.878906 96.878906 106.148438 95.773438 107.894531 95.808594 "/>
+<path fill="#0082CA" d="M 115.964844 124.792969 C 115.847656 124.59375 116.09375 124.378906 116.277344 124.519531 C 117.195312 125.21875 118.664062 125.902344 120.683594 125.515625 C 122.164062 125.210938 123.550781 124.296875 124.402344 122.757812 C 125.242188 121.300781 138.8125 97.8125 138.8125 97.8125 C 138.8125 97.8125 141.9375 90.917969 150.207031 90.550781 L 169.96875 90.550781 C 169.96875 90.550781 173 90.390625 174.503906 93.40625 C 175.921875 96.433594 173.941406 98.695312 173.667969 99.109375 C 173.394531 99.523438 142.203125 146.726562 142.203125 146.726562 C 142.203125 146.726562 140.003906 150.347656 135.40625 150.347656 C 130.808594 150.347656 128.707031 146.878906 128.417969 146.398438 C 128.175781 145.992188 118.835938 129.78125 115.964844 124.792969 "/></svg>微出国 · 学</a>
+  <nav><a href="../index.html">路线</a><a href="../slides.html">讲义</a><a href="../docs/" aria-current="page">讲解</a><a href="../drill.html">练习</a><a href="../exam.html">自测</a><a href="../progress.html">进度</a></nav>
+  <button class="theme" onclick="var r=document.documentElement,d=r.getAttribute('data-theme')==='dark';r.setAttribute('data-theme',d?'light':'dark');localStorage.setItem('vv-theme',d?'light':'dark')">◐</button>
+</header>
+<main><a href="ca-core-03-employment-income-t4.html" class="vv-float-nav vv-float-nav--prev" title="上一篇: 拆开一张 T4：14 个框怎么变成申报表上的收入、扣除与抵免（Employment Income &amp; the T4 Slip）"><span class="vv-float-nav__icon">‹</span><span class="vv-float-nav__card"><small>← 上一篇</small><strong>拆开一张 T4：14 个框怎么变成申报表上的</strong></span></a><a href="ca-employment-01-vehicle-allowances-2026.html" class="vv-float-nav vv-float-nav--next" title="下一篇: 雇员车辆 2026：合理津贴、私用福利、CCA 与租赁利息四套上限为什么不能串用（Automobile Allowances, Benefits and Caps）"><span class="vv-float-nav__card"><small>下一篇 →</small><strong>雇员车辆 2026：合理津贴、私用福利、CC</strong></span><span class="vv-float-nav__icon">›</span></a><div class="vv-max-dock"><span class="vv-max-dock__hint">键盘 ← → 切页 | Esc 退出</span><button class="vv-reader-btn vv-reader-btn-max" onclick="toggleDocMaximize()">✕ 退出专注</button></div>
+<div class="doc-wrap">
+  <article class="doc">
+    <div class="doc-bar">
+      <p class="crumb"><a href="../index.html">路线</a> › 加拿大 · 雇佣收入与雇佣支出（T4/T2200/T777、CPP/EI）</p>
+      <div class="doc-bar-actions">
+        <span class="vv-reader-hint">键盘 ← → 翻页</span>
+        <button class="vv-reader-btn vv-aside-btn" onclick="toggleSidebarCollapse()" title="折叠/展开右侧栏">◧ 折叠侧栏</button>
+        <button class="vv-reader-btn vv-reader-btn-max" onclick="toggleDocMaximize()" title="最大化专注阅读 (快捷键 F)">⛶ 专注阅读</button>
+      </div>
+    </div>
+    <h1>CPP、EI 与雇佣支出：Schedule 8 的五段算法、超缴怎么要回来、T777 上哪些钱才扣得掉（CPP/EI Contributions &amp; Employment Expenses）</h1>
+    <div class="doc-meta"><span class="vv-badge vv-badge--accent">加拿大 · 雇佣收入与雇佣支出（T4/T2200/T777、CPP/EI） · 练习配比 6%</span><span class="vv-badge">21,115 字</span><span class="vv-badge">约 42 分钟</span></div>
+    <blockquote>
+<p>核实日期：2026-09-05｜本页口径：<strong>2026 税年（2027 年春申报）</strong>。CPP 与 EI 的上限逐年指数化，雇佣支出里的车辆天花板逐年公布，下次复核 2027-01-31。年度数字总表见 kb-02-numbers-2026；T4 每一个框去哪一行见 ca-core-03-employment-income-t4，本页不重复框号地图，只讲那些数字在报表上被怎么算、怎么退、怎么扣。</p>
+</blockquote>
+<p>上一页把 T4 拆成了十几个框。这一页处理其中最容易被当成「照抄就行」的那两格——Box 16／16A 的 CPP 与 Box 18 的 EI——以及一整类大多数人根本不知道自己够不够格的扣除：Line 22900 的其他雇佣支出。这三件事共用同一个特点：<strong>T4 上那个数不是最终答案，只是计算的输入。</strong> 雇主扣了多少是一回事，你今年究竟该缴多少、该抵多少、该退回多少，要在 Schedule 8 与 T777 上重新算一遍。读完你应该能做到三件事：拿一张或多张 T4 算出 Line 30800、Line 22215 与 Line 44800 各填多少；判断一个人的供款期是不是不足一年、该按几个月比例；判断自己有没有资格在 Line 22900 上扣一分钱，以及能扣哪些。</p>
+<p>66</p>
+<hr />
+<h2 id="s1">一、制度设计与底层逻辑：为什么这两笔钱既不是税，也不完全是保险费</h2>
+<h3 id="s1-1">1.1 供款换的是权利，所以它必须有上限、有下限、有年龄门</h3>
+<p>所得税的逻辑是「按能力课征」，赚得越多缴得越多，没有封顶。CPP（Canada Pension Plan，加拿大退休金计划）与 EI（Employment Insurance，就业保险）的逻辑正好相反：<strong>它们是用今天的供款去买未来的一份权利</strong>，而那份权利本身是有上限的——CPP 退休金按你一生的「可供款收入」计算，EI 福利按你失业前的「可保收入」计算，两者都封顶。既然给付封顶，供款就必须同步封顶，否则高收入者会缴了一辈子却拿不到对应给付。<strong>年度最高可供款收入（YMPE）与最高可保收入（MIE）这两个上限，不是政府为了照顾富人设的优惠，而是「缴费—给付」对价关系的必然结果。</strong></p>
+<p>同样的对价逻辑解释了另外三件容易被当成怪规矩的事。<strong>CPP 有一笔 3,500 元 的基本免税额</strong>，因为一份微薄的兼职收入本来就不会显著提高你的退休金，对它征供款只是净损失。<strong>CPP 有年龄门（未满 18 岁不供、满 70 岁停供）</strong>，因为退休金的积累期在法律上就定在这一段。<strong>EI 反过来，既没有年龄门也没有免税额</strong>——失业风险不分年龄，任何一元受雇收入都可能对应一次未来的失业给付。但 EI 另设了一道低收入闸门：可保收入不超过 $2,000 的人几乎不可能满足领取 EI 的工时条件，所以法律干脆把他们全年缴的保费<strong>全额退回</strong>（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31200-employment-insurance-premiums-through-employment.html" title="Line 31200 – EI premiums through employment（$2,000 可保收入门槛与全额退回）">CRA</a>）。<strong>这三条差异是本页最高频的串台源</strong>：读者会把 CPP 的免税额、比例、年龄规则套到 EI 上，而 EI 一条都不适用。</p>
+<h3 id="s1-2">1.2 一笔 CPP 为什么要劈成两条路走：2019 年那场交易留下的疤</h3>
+<p>2019 年开始的 CPP 增强改革（CPP enhancement）要把退休金的替代率从收入的四分之一提到三分之一，代价是供款率上升。<strong>问题在于：这笔多出来的钱在税务上算什么？</strong> 原有的基础供款（base contribution）一直被当作<strong>非退还抵免（non-refundable tax credit）</strong>，按最低税阶率折算——人人一样，对低收入者相对更友好。如果增强段照此办理，等于用一个平均化的抵免去补贴一项将来按收入比例给付的福利。立法者选择了另一条路：<strong>增强段走扣除（deduction）</strong>，按各人的边际税率折算（CRA（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22215-deduction-for-cpp-or-qpp-enhanced-contributions-on-employment-income.html" title="Line 22215 – Deduction for CPP or QPP enhanced contributions on employment income（增强供款扣除）">1</a>、<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30800-cpp-qpp-contributions-through-employment.html" title="Line 30800 – 基础 CPP/QPP 供款（抵免）与 Line 22215 增强供款（扣除）的分流">2</a>））。</p>
+<p>后果是同一张 T4 上的同一笔钱被劈成不对等的两半：<strong>基础段 4.95% 报 Line 30800 走抵免，第一层增强 1% 与 CPP2 的 4% 合并报 Line 22215 走扣除。</strong> 边际税率越高的人，从增强段拿到的税收好处越大；基础段则对所有人一样。<strong>这不是记账口味问题，是一次有分配后果的立法选择</strong>，而且它决定了你在 Schedule 8 上必须把一笔钱算成三段，而不是一段。</p>
+<h3 id="s1-3">1.3 超缴为什么会发生：多个雇主如何造成超缴</h3>
+<p>雇主每次发薪就代扣 CPP 与 EI，但<strong>没有任何一个雇主知道别的雇主已经扣过多少</strong>。一个人年中换工作，或同时打两份工，每一家都会从零开始扣到自己那一份上限为止，加起来就超过了全年该缴的总额。这不是谁的错误，是分散代扣制度的固有盲区。</p>
+<p>制度对「多扣」和「少扣」的态度完全不对称，这一点必须记牢：<strong>少扣了，雇员不用补</strong>——按实际扣缴额申报即可，责任在雇主一侧；<strong>多扣了，钱不会自动回来</strong>，必须由纳税人自己在申报表上主张，CPP 走 Line 44800、EI 走 Line 45000（CRA（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-44800-cpp-overpayment.html" title="Line 44800 – CPP or QPP overpayment（CPP 超缴的可退还抵免入口）">1</a>、<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45000-employment-insurance-overpayment.html" title="Line 45000 – Employment insurance overpayment（EI 超缴退回）">2</a>））。<strong>这条不对称直接翻译成一句实务建议：一年里换过工作、或者同时有两份 T4 的人，都要专门检查一次超缴。</strong> 没人会替你检查。</p>
+<h3 id="s1-4">1.4 雇佣支出的默认答案是「不能扣」</h3>
+<p>《所得税法》对雇员支出采取的是<strong>封闭清单</strong>：不在清单上的一律不能扣。CRA 在 Line 22900 的官方页首就把话说死了——大多数雇员什么都扣不了，通勤费、工作服、工具，全部是个人支出（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22900-other-employment-expenses.html" title="Line 22900 – Other employment expenses（T2200/T777 总入口、按雇员类型的可扣项、2025 车辆上限、技工工具公式）">CRA</a>）。<strong>为什么这么严？</strong> 因为雇员与雇主之间不是独立交易关系，如果放开，任何一笔私人开支都可以被包装成「工作需要」。<strong>加拿大就业额（Canada Employment Amount，Line 31260）就是对这一整类零散支出的一次性打包补偿</strong>：2026 税年上限 1,501 元，不要凭证、不问你实际花了多少（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html" title="Indexation adjustment for personal income tax and benefit amounts">CRA</a>）。它的存在本身就是「个案不许再扣」的理由。</p>
+<p>车辆、差旅等须雇主确认的类别，通常要核对：合同要求你自付、你没拿到（或拿到但已计入收入的）津贴、以及<strong>雇主签字的 T2200《雇佣条件声明》</strong>。这里有一个被普遍误解的点：<strong>T2200 是雇主对事实的证明，不是 CRA 对扣除的批准。</strong> 雇主签了字不等于你就够格——扣除资格由法律条件决定，T2200 只是证明其中「雇主要求」这一半（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22900-other-employment-expenses.html" title="Line 22900 – Other employment expenses（T2200/T777 总入口、按雇员类型的可扣项、2025 车辆上限、技工工具公式）">CRA</a>）。凭证要求须按费用类别检查：追索工资等合格法律费、合格技工劳动力流动扣除不以T2200为条件（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22900-other-employment-expenses.html" title="Line 22900 – Other employment expenses（T2200/T777 总入口、按雇员类型的可扣项、2025 车辆上限、技工工具公式）">CRA</a>、<a class="src-ref" href="https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-8.html" title="ITA s.8 雇佣支出与技工劳动力流动扣除">加拿大联邦法规库</a>）。</p>
+<h3 id="s1-5">1.5 错报的法律后果</h3>
+<p>CPP／EI 这两格错了，后果通常是钱：该退的没退（超缴白送），或者多抵了税被 CRA 的自动比对系统改回来并计利息。雇佣支出错了，后果重得多。Line 22900可能接受CRA复核（review），被抽到时会要求你在限期内提交 T2200、T777 与全部凭证；对依法须T2200的费用，缺少证明可能导致扣除被拒；追索工资法律费等例外另判。车辆支出还有一条更硬的：应保留行车日志与收据来支持业务用途分摊；记录不足会使申报金额难以举证。漏报收入罚与重大过失罚有不同法定构成，不能凭“被纠正过一次”直接认定重大过失。须按ITA s.163分别核对漏报事实、金额及主观条件。</p>
+<hr />
+<h2 id="s2">二、2026 税年现行规则与数字</h2>
+<h3 id="s2-1">2.1 三列表：教材那一年、去年、和今年</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>项目</th>
+<th>2024 税年（教材口径）</th>
+<th>2025 税年</th>
+<th>2026 税年（现行）</th>
+<th>状态</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CPP：YMPE ／ 基本免税额 ／ 费率</td>
+<td>68,500 元 ／ 3,500 元 ／ 5.95%</td>
+<td>71,300 元 ／ 3,500 元 ／ 5.95%</td>
+<td>74,600 元 ／ 3,500 元 ／ 5.95%</td>
+<td>已生效（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html" title="CPP contribution rates, maximums and exemptions">CRA</a>）</td>
+</tr>
+<tr>
+<td>CPP 雇员最高供款（Box 16）</td>
+<td>3,867.50 元</td>
+<td>4,034.10 元</td>
+<td>4,230.45 元</td>
+<td>已生效（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html" title="CPP contribution rates, maximums and exemptions">CRA</a>）</td>
+</tr>
+<tr>
+<td>CPP2：YAMPE ／ 费率 ／ 雇员上限（Box 16A）</td>
+<td>73,200 元 ／ 4% ／ 188 元</td>
+<td>81,200 元 ／ 4% ／ 396 元</td>
+<td>85,000 元 ／ 4% ／ 416 元</td>
+<td>已生效（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/calculating-deductions/making-deductions/second-additional-cpp-contribution-rates-maximums.html" title="Second additional CPP contribution (CPP2) rates and maximums">CRA</a>）</td>
+</tr>
+<tr>
+<td>Line 22215 增强供款扣除上限</td>
+<td>$838.00</td>
+<td>$1,074.00</td>
+<td><strong>1,127 元</strong></td>
+<td>已生效（CRA（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22215-deduction-for-cpp-or-qpp-enhanced-contributions-on-employment-income.html" title="Line 22215 – Deduction for CPP or QPP enhanced contributions on employment income（增强供款扣除）">1</a>、<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html" title="CPP contribution rates, maximums and exemptions">2</a>、<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/calculating-deductions/making-deductions/second-additional-cpp-contribution-rates-maximums.html" title="Second additional CPP contribution (CPP2) rates and maximums">3</a>））</td>
+</tr>
+<tr>
+<td>EI：MIE ／ 费率 ／ 雇员上限（Box 18）</td>
+<td>63,200 元 ／ 1.66% ／ 1,049.12 元</td>
+<td>65,700 元 ／ 1.64% ／ 1,077.48 元</td>
+<td>68,900 元 ／ 1.63% ／ 1,123.07 元</td>
+<td>已生效（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/employment-insurance-ei/ei-premium-rates-maximums.html" title="EI premium rates and maximums">CRA</a>）</td>
+</tr>
+<tr>
+<td>EI 魁省费率 ／ 雇员上限</td>
+<td>1.32% ／ 834.24 元</td>
+<td>1.31% ／ 860.67 元</td>
+<td>1.3% ／ 895.7 元</td>
+<td>已生效（三年均回核<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/employment-insurance-ei/ei-premium-rates-maximums.html" title="EI premium rates and maximums">CRA</a>魁省表）</td>
+</tr>
+<tr>
+<td>加拿大就业额（Line 31260 上限）</td>
+<td>1,433 元</td>
+<td>1,471 元</td>
+<td>1,501 元</td>
+<td>已生效（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html" title="Indexation adjustment for personal income tax and benefit amounts">CRA</a>）</td>
+</tr>
+<tr>
+<td>技工工具扣除上限</td>
+<td>$1,000</td>
+<td>$1,000</td>
+<td><strong>$1,000</strong>（减项换成 1,501 元）</td>
+<td>已生效（CRA（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22900-other-employment-expenses.html" title="Line 22900 – Other employment expenses（T2200/T777 总入口、按雇员类型的可扣项、2025 车辆上限、技工工具公式）">1</a>、<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html" title="Indexation adjustment for personal income tax and benefit amounts">2</a>））</td>
+</tr>
+<tr>
+<td>劳动力流动扣除上限 ／ 距离门槛</td>
+<td>$4,000 ／ 150 公里</td>
+<td>$4,000 ／ 150 公里</td>
+<td><strong>10,000 元 ／ 120 公里</strong></td>
+<td>已生效（<a class="src-ref" href="https://budget.canada.ca/update-miseajour/2026/report-rapport/tm-mf-en.html" title="Tax measures: Supplementary information | Spring Economic Update 2026">加拿大财政部</a>）</td>
+</tr>
+<tr>
+<td>家庭办公室可用方法</td>
+<td>只剩详细法</td>
+<td>只剩详细法</td>
+<td><strong>只剩详细法</strong></td>
+<td>已生效（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22900-other-employment-expenses/work-space-home-expenses/what-changes.html" title="Home office expenses – What the changes are（临时统一费率法 2023 起废止）">CRA</a>）</td>
+</tr>
+</tbody>
+</table></div>
+<p>三处最容易照抄出错的地方。<strong>第一，Line 22215 的 $1,074.00。</strong> CRA 该页在抓取日（2026-09-05）仍是 2025 税年版，$1,074.00 ＝ $678.00 ＋ $396.00 是<strong>去年的</strong>上限；2026 税年要按当年参数重算成 711 元 ＋ 416 元 ＝ <strong>1,127 元</strong>（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22215-deduction-for-cpp-or-qpp-enhanced-contributions-on-employment-income.html" title="Line 22215 – Deduction for CPP or QPP enhanced contributions on employment income（增强供款扣除）">CRA</a>）。照抄一年前的官方页，2026 报税会少扣 $53。<strong>第二，EI 的费率在降而保费在涨。</strong> 1.66% → 1.64% → 1.63% 三年连降，但 MIE 涨得更快，所以雇员最高保费仍逐年上升。教材那一代写的是「费率从 1.63% 涨到 1.66%」，<strong>方向和现在正好相反</strong>。<strong>第三，CPP2 的 2024 值只是爬坡第一年。</strong> YAMPE 在 2024 是 YMPE 的 107%、2025 是 114%，<strong>2025 起已采用约114%的第二上限</strong>，雇员上限从 $188 一路到 416 元；拿教材的 $188 去推 2026，会低估一倍以上。</p>
+<div class="vv-callout vv-callout--warn">
+<p><span class="vv-callout__icon">⚠️</span></p>
+<div>
+<p><strong>3,500 元 这个数从 1997 年起就没动过</strong></p>
+<p>CPP 基本免税额<strong>不指数化</strong>。YMPE 每年按平均工资涨，而免税额定死在 3,500 元，于是它在可供款收入中的占比逐年缩小——2026 税年它只相当于 YMPE 的 4.7% 不到（3,500 元 ÷ 74,600 元，两个数均见 <a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html" title="CPP contribution rates, maximums and exemptions">CRA</a>）。<strong>没有任何一次「加税」发生，但实际供款基数在悄悄扩大。</strong> 这是「冻结值本身就是政策」的教科书例子，也是本页少数几个「今年和明年一样」的数字，出题时它常被当成干扰项。</p>
+</div>
+</div>
+<h3 id="s2-2">2.2 Schedule 8 第三部分：五段算法</h3>
+<p>Schedule 8《加拿大退休金计划供款与超缴》是把 T4 上的数字翻译成报表三行（Line 30800、Line 22215、Line 44800）的那张表。第三部分处理雇佣收入，逻辑固定为五段：</p>
+<p><strong>第一段，确定可供款收入。</strong> 取全部 T4 的 Box 26（CPP 可供款收入；Box 26 空白时用 Box 14），与当年 YMPE 取小者，再减基本免税额。2026 税年：min(收入, 74,600 元) − 3,500 元。</p>
+<p><strong>第二段，算基础供款。</strong> 第一段结果 × 4.95%，这是 Line 30800 的<strong>应缴</strong>基础供款。2026 税年满额者＝(74,600 元 − 3,500 元) × 4.95% ＝ <strong>3,519.45 元</strong>。</p>
+<p><strong>第三段，算第一层增强供款。</strong> 同一个第一段结果 × 1%。2026 税年满额者＝71,100 元 × 1% ＝ <strong>711 元</strong>。</p>
+<p><strong>第四段，算 CPP2。</strong> 收入超过 YMPE 的部分，到 YAMPE 为止，× 4%。2026 税年满额者＝(85,000 元 − 74,600 元) × 4% ＝ <strong>416 元</strong>。第三段与第四段相加进 Line 22215。</p>
+<p><strong>第五段，与实扣比较。</strong> 把 Box 16 与 Box 16A 的合计（实际被扣的）减去第二、三、四段之和（应该缴的）。<strong>差额为正就是超缴</strong>，填 Line 44800 取回；<strong>为负是欠缴，不用补</strong>（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-44800-cpp-overpayment.html" title="Line 44800 – CPP or QPP overpayment（CPP 超缴的可退还抵免入口）">CRA</a>）。关键在于：<strong>一旦有超缴，Line 30800 与 Line 22215 填的都是「应缴」而不是「实扣」</strong>，否则同一笔钱会被同时抵免一次又退还一次。</p>
+<div class="vv-callout vv-callout--info">
+<p><span class="vv-callout__icon">ℹ️</span></p>
+<div>
+<p><strong>三层是一个整体，会互相抵销</strong></p>
+<p>超缴与欠缴不是分层结算的。一个人完全可能在基础段被扣多了、同时 CPP2 一分没被扣（因为每个雇主单看都没超过 YMPE），Schedule 8 把三段<strong>合并</strong>成一个净额去比较。所以会出现这种局面：<strong>账面上你欠着 CPP2，但整体仍是超缴，最后还是拿到退款，而那笔 CPP2 也不用你另外补缴</strong>——它已经在净额里被扣掉了。第六节案例一就是这个形态。</p>
+</div>
+</div>
+<h3 id="s2-3">2.3 按月比例：什么时候供款期不满一年</h3>
+<p>供款期（contributory period）短于全年时，<strong>YMPE、YAMPE 与基本免税额三个数都要按月打折</strong>（各除以 12 再乘以合格月数），费率不变。五种触发情形与月份口径，权威出处是 CRA 的雇主扣缴页（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/starting-stopping-cpp-deductions.html" title="Starting and stopping CPP deductions（按月比例的五种触发情形与月份算法）">CRA</a>）：</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>情形</th>
+<th>合格月数怎么数</th>
+<th>例子（事件发生在 5 月）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>当年满 18 岁</td>
+<td>生日当月<strong>之后</strong>的月数</td>
+<td>7 个月（6–12 月）</td>
+</tr>
+<tr>
+<td>当年满 70 岁</td>
+<td>到生日当月<strong>为止</strong></td>
+<td>5 个月（1–5 月）</td>
+</tr>
+<tr>
+<td>提交 CPT30 停缴（须已满 65 未满 70 且在领 CPP／QPP）</td>
+<td>到交表当月为止；选择次月 1 日生效</td>
+<td>5 个月</td>
+</tr>
+<tr>
+<td>当年被认定为 CPP 伤残</td>
+<td>到被认定当月为止</td>
+<td>5 个月</td>
+</tr>
+<tr>
+<td>当年身故</td>
+<td>到身故当月为止</td>
+<td>5 个月</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>EI 一条都不适用。</strong> EI 没有年龄下限或上限、没有基本免税额，<strong>任何情形都不按月比例</strong>——一个 5 月满 18 岁、暑期打工的学生，CPP 按 7 个月折算，EI 却按全年规则、按实际可保收入全额计算。<strong>这是本页最值得单独记一次的对照。</strong></p>
+<h3 id="s2-4">2.4 EI 那一侧：$2,000 是开关，不是免税额</h3>
+<p>EI 保费的算法简单到几乎没有空间出错：可保收入（Box 24；Box 24 空白才用 Box 14）× 当年费率，2026 税年 1.63%，封顶 1,123.07 元。真正的考点全在两端。</p>
+<p><strong>低端是 $2,000 这道开关。</strong> 可保收入<strong>不超过 $2,000</strong> 的人，不在 Line 31200 报抵免，而是把全年已扣保费<strong>全额</strong>填进 Line 45000 退回（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31200-employment-insurance-premiums-through-employment.html" title="Line 31200 – EI premiums through employment（$2,000 可保收入门槛与全额退回）">CRA</a>）。注意它不是免税额——不是「前 $2,000 免缴」，而是「低于这条线的人整笔退回」。刚过 $2,000 的还有一段渐退：T2204 用「已扣保费减去超出 $2,000 的部分」算出部分退还额，所以收入在 $2,000 出头的人拿回的是一部分而不是零。<strong>（这段渐退的具体算式在 T2204 表本身，本页未逐行复核该表的 2026 版。）</strong></p>
+<p><strong>高端是多雇主超缴。</strong> 每家都扣到自己那一份上限，合计超过 1,123.07 元 的部分用 T2204 算出、填 Line 45000（魁省居民与非居民改用 Schedule 10）。差额在 <strong>$1 及以下不退</strong>。</p>
+<div class="vv-callout vv-callout--danger">
+<p><span class="vv-callout__icon">✕</span></p>
+<div>
+<p><strong>「退保费」和「退福利」是两条完全不同的路</strong></p>
+<p>领过 EI 福利之后因为收入过高要退还一部分（social benefits repayment），<strong>不能填 Line 45000</strong>——那走 Line 23200 的扣除，或者按 Line 23500 的回收规则处理（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45000-employment-insurance-overpayment.html" title="Line 45000 – Employment insurance overpayment（EI 超缴退回）">CRA</a>）。中文语境里两件事都叫「退 EI」，但一个是把多缴的保费要回来（可退还抵免，增加你的退税），另一个是把多领的福利还回去（扣除，减少你的应税收入）。<strong>填反了，CRA 的比对系统一定会改，而且是在评税之后。</strong></p>
+</div>
+</div>
+<p>魁省另有一套：QPIP／PPIP 取代了 EI 的产假与育儿福利，所以魁省的 EI 费率更低（2026 税年 1.30%，上限 895.7 元），另有 PPIP 保费（T4 的 Box 55／56）。<strong>在魁省工作但年末居住在其他省的人，Line 31200 上要把 Box 18 与 Box 55 相加</strong>——因为他适用的是联邦那一套给付，却按魁省费率缴了两笔。</p>
+<h3 id="s2-5">2.5 Line 22900：谁扣得了，扣什么，扣在 T777 的哪一行</h3>
+<p>先分清两类雇员。<strong>受薪雇员</strong>能扣的项目按 T777 的行序排列：会计与法律费（8862）、车辆支出（9281）、差旅中的餐饮（8523）与住宿（9200）、停车费（8910）、办公用品（8810）、办公室租金与电话等其他支出（9270）、家庭办公室支出（9945）。<strong>佣金雇员</strong>（T4 的 Box 42 有数）在同一份清单之上，多出<strong>娱乐费、广告与推广、报税费、租赁办公设备</strong>，以及家庭办公室里的<strong>房屋保险与地税</strong>（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22900-other-employment-expenses/work-space-home-expenses/expenses-can-claim.html" title="Home office expenses you can claim（受薪 vs 佣金雇员的可扣项清单）">CRA</a>）。</p>
+<p>代价是一条封顶：<strong>佣金口径下的支出总额不得超过 Box 42 的佣金收入，加上车辆的资本成本折让（CCA）与贷款利息。</strong> 受薪口径没有这条封顶（家庭办公室另有限制）。所以佣金雇员每年可以二选一，而且<strong>选受薪口径反而更划算是常态</strong>——只要你的支出总额已经逼近佣金额，多出来的那几项（娱乐、广告）救不了你，反而被封顶砍掉更多。CRA 官方例题演示的正是这个反直觉结果（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22900-other-employment-expenses.html" title="Line 22900 – Other employment expenses（T2200/T777 总入口、按雇员类型的可扣项、2025 车辆上限、技工工具公式）">CRA</a>）。<strong>这个选择逐年独立，今年选了受薪，明年可以换回来。</strong></p>
+<p><strong>家庭办公室（work-space-in-the-home）</strong>是今天最常被问到的一项，也是变化最大的一项。资格要满足四条，其中两条各有两个替代口径（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22900-other-employment-expenses/work-space-home-expenses/who-claim/detailed-method.html" title="Home office expenses – Eligibility criteria, Detailed method（家庭办公室资格四条）">CRA</a>）：</p>
+<p>一是<strong>雇主要求你在家办公</strong>。这一条已经被 CRA 明显放宽：不必写进劳动合同，口头或书面约定即可；<strong>员工与雇主正式签订的自愿远程办公安排，同样视为「被要求」</strong>。二是<strong>你自己承担了相关支出</strong>且未被报销。三是二选一的空间条件：<strong>在家工作时间超过 50% 且连续至少四周</strong>（一年里可以有多段，各段分别算），<strong>或者</strong>该空间<strong>专用</strong>于工作并经常持续地用于<strong>当面</strong>会客——CRA 明确电话与线上会议不算。四是支出直接用于你的工作。</p>
+<p>能扣什么，受薪与佣金两栏差别很大（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22900-other-employment-expenses/work-space-home-expenses/expenses-can-claim.html" title="Home office expenses you can claim（受薪 vs 佣金雇员的可扣项清单）">CRA</a>）：</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>项目</th>
+<th style="text-align: center;">受薪雇员</th>
+<th style="text-align: center;">佣金雇员</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>电费、暖气、水费</td>
+<td style="text-align: center;">可</td>
+<td style="text-align: center;">可</td>
+</tr>
+<tr>
+<td>公寓管理费中的水电暖部分</td>
+<td style="text-align: center;">可</td>
+<td style="text-align: center;">可</td>
+</tr>
+<tr>
+<td>家庭网络<strong>接入</strong>费</td>
+<td style="text-align: center;">可</td>
+<td style="text-align: center;">可</td>
+</tr>
+<tr>
+<td>租金（租住的房或公寓）</td>
+<td style="text-align: center;">可</td>
+<td style="text-align: center;">可</td>
+</tr>
+<tr>
+<td>小额维修与保养</td>
+<td style="text-align: center;">可</td>
+<td style="text-align: center;">可</td>
+</tr>
+<tr>
+<td>房屋保险</td>
+<td style="text-align: center;"><strong>不可</strong></td>
+<td style="text-align: center;">可</td>
+</tr>
+<tr>
+<td>地税</td>
+<td style="text-align: center;"><strong>不可</strong></td>
+<td style="text-align: center;">可</td>
+</tr>
+<tr>
+<td>租赁手机／电脑／平板</td>
+<td style="text-align: center;"><strong>不可</strong></td>
+<td style="text-align: center;">可</td>
+</tr>
+<tr>
+<td>按揭利息、按揭本金</td>
+<td style="text-align: center;">不可</td>
+<td style="text-align: center;">不可</td>
+</tr>
+<tr>
+<td>网络<strong>开通</strong>费、家具、资本性改造、墙面装饰</td>
+<td style="text-align: center;">不可</td>
+<td style="text-align: center;">不可</td>
+</tr>
+</tbody>
+</table></div>
+<div class="vv-callout vv-callout--warn">
+<p><span class="vv-callout__icon">⚠️</span></p>
+<div>
+<p><strong>房主和租客在这一格上不平等，而且不平等的方向和直觉相反</strong></p>
+<p>租客可以按比例扣<strong>租金</strong>；房主<strong>不能</strong>扣按揭利息，也不能虚拟一笔「自有房租金」来扣。一个每月还 $4,000 按揭的温哥华房主，家庭办公室能扣的只有水电暖、网络与小额维修那几项；隔壁租金 $3,000 的租客却能把租金按面积比例扣进去。<strong>这不是漏洞，是税法只认「实际支付给第三方的费用」，不认自有资产的机会成本。</strong></p>
+</div>
+</div>
+<p>分摊算法两步：先按<strong>工作空间面积 ÷ 住宅总面积</strong>，再（如果该空间并非专用）按<strong>工作使用时间比例</strong>打第二折。只与工作空间相关的支出（例如粉刷那一间的费用）不按面积分摊，但仍要按时间分摊。<strong>扣除额受净雇佣收入限制</strong>：家庭办公室支出不能制造或扩大雇佣亏损，而且要在 T777 上先扣完其他所有支出、剩下的空间才轮到它；扣不完的部分可以结转，但<strong>只能对着同一个雇主的收入用</strong>；没有该雇主收入的年度不能使用，不把离职本身写成自动销毁结转。</p>
+<p><strong>技工工具</strong>：现行公式是 min($1,000，工具成本 − 当年加拿大就业额)，再受「技工雇佣收入减就业额」的上限约束。CRA 2025 税年例题用的就业额是 $1,471；<strong>2026 税年要换成 1,501 元</strong>（CRA（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22900-other-employment-expenses.html" title="Line 22900 – Other employment expenses（T2200/T777 总入口、按雇员类型的可扣项、2025 车辆上限、技工工具公式）">1</a>、<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html" title="Indexation adjustment for personal income tax and benefit amounts">2</a>））。也就是说，2026 税年买了 $2,500 工具的电工，可扣额是 min($1,000, $2,500 − 1,501 元) ＝ <strong>$999</strong>。工具当年不扣就作废，不能结转。</p>
+<p><strong>劳动力流动扣除</strong>（建筑业技工与学徒的临时搬迁支出）2026 税年起两个参数同时变：上限 $4,000 → <strong>10,000 元</strong>（此后指数化），临时住宿相对普通住所接近同一临时工地的距离差额 150 公里 → <strong>120 公里</strong>（<a class="src-ref" href="https://budget.canada.ca/update-miseajour/2026/report-rapport/tm-mf-en.html" title="Tax measures: Supplementary information | Spring Economic Update 2026">加拿大财政部</a>）。不变的是「合格支出不得超过该次搬迁相关雇佣收入的 50%」这条封顶。<strong>这一项不需要 T2200。</strong></p>
+<p>车辆支出按工作公里占全年总公里比例分摊；收据、T2200及支出资格另核。三个上限须分开核，不能因为其中一项尚缺执行文本，就把三项都说成“CRA未公布”。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>参数（普通乘用车，税前）</th>
+<th>2024历史口径</th>
+<th>2025口径</th>
+<th>2026使用边界</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Class 10.1资本成本</td>
+<td>37,000元</td>
+<td>38,000元</td>
+<td>不在本页提供可直接填表的精确值，原因见下</td>
+</tr>
+<tr>
+<td>新租约月租金参数</td>
+<td>1,050元</td>
+<td>1,100元</td>
+<td>1,100元；还要按实际用途及法定租赁公式限制</td>
+</tr>
+<tr>
+<td>新购车贷款月利息参数</td>
+<td>350元</td>
+<td>350元</td>
+<td>350元；不得超过实付及可归属的利息</td>
+</tr>
+</tbody>
+</table></div>
+<p>历史与未改变的参数均可回 ITR s.7307(1)–(3) 核对（<a class="src-ref" href="https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._945/section-7307.html" title="ITR s.7307：乘用车法定参数及汇编版本边界">laws-lois.justice.gc.ca</a>）。2026-09-07取到的 Justice 合并本仅更新至2026-06-21，资本成本末项仍写2024年后38,000元；财政部已有2026新参数公告，不能把旧汇编这一行当成2026新车上限，也不能在未取得配套法条或CRA执行页时把公告标成已核法。这一项应在申报前查当年 T777/CRA执行资料；本页不提供2026新购车CCA计算例题。租金与利息已取得条文支持，状态为已生效。</p>
+<h3 id="s2-6">2.6 扣完支出，还能再退一次消费税</h3>
+<p>雇佣支出里通常含 GST／HST，而这笔钱本来该由雇主承担。<strong>Form GST370</strong> 就是把它退给你的通道，退款报在 <strong>Line 45700</strong>（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22900-other-employment-expenses/employee-gst-hst-rebate.html" title="Employee GST/HST rebate（GST370 与 line 45700：资格、非合格支出、四年时效、下一年计入收入）">CRA</a>）。资格看两件事：你确实扣了含税的雇佣支出，<strong>并且你的雇主是 GST／HST 登记人</strong>。银行、券商、信托公司、保险公司、信用合作社等「列名金融机构」的雇员<strong>一律不合格</strong>——BC 有大量读者正在这些行业里，这一条要先看。</p>
+<p>不合格支出包括：本身不含 GST／HST 的项目（保险费、按揭利息、住宅租金、车辆牌照与登记费、工资）、在境外发生的支出、向非登记小供应商购买的、以及已被雇主报销的部分；餐饮与娱乐<strong>只退 50%</strong>。CCA 那部分按购车时适用的税率折算：GST 是 5/105，HST 依税率是 13/113、<strong>14/114</strong> 或 15/115。<strong>14/114 这一档是新的</strong>——新斯科舍 2025 年 4 月 1 日把 HST 从 15% 降到 14%（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate.html" title="GST/HST – Which rate to charge（各省税率与新斯科舍 2025-04-01 降至 14%）">CRA</a>）。</p>
+<p>两条程序性硬规则：<strong>四年时效</strong>（从支出所属年度年末起算），<strong>每个日历年只能提交一张 GST370</strong>。还有一条会咬人的联动：<strong>退回来的钱要计入收到那一年的收入</strong>（Line 10400）。也就是说 2026 税年扣的支出，2027 年退到手，要报进 2027 税年的收入。如果退款对应的是车辆 CCA，则不进收入，而是冲减该车次年年初的未折旧资本成本（UCC）。</p>
+<hr />
+<h2 id="s3">三、实务流程：从拿到 T4 到把该退的退回来</h2>
+<p><strong>第一步，先把凭证凑齐再动手。</strong> CPP／EI 这一侧只要全部 T4；雇佣支出那一侧，先辨费用类别，再索取该类要求的证明。车辆/差旅等通常要T2200；运输或神职等另有TL2、T1223；追索工资法律费和合格技工流动扣除不以T2200为条件。多个雇主各自要一份 T2200，并各填一份 T777。</p>
+<p><strong>第二步，判断供款期是否满一年。</strong> 当年满 18、满 70、交过 CPT30、被认定 CPP 伤残、或年内身故，五种情形任一发生就要按月比例，比例表在 Schedule 8 表内。<strong>没有这五种情形就跳过这一步</strong>——绝大多数人跳过。</p>
+<p><strong>第三步，填 Schedule 8 第三部分</strong>，按 2.2 节五段走完，得出 Line 30800、Line 22215 与（如果为正）Line 44800 三个数。<strong>同时在魁省与其他省有受雇收入的人改用 RC381</strong>：年末不住魁省却在魁省有受雇收入、或年末住魁省却在省外有受雇收入，两种情形都要用它。</p>
+<p><strong>第四步，EI 那一侧另算。</strong> 可保收入 × 1.63%（2026 税年），与 1,123.07 元 取小者填 Line 31200；多雇主导致超缴的，用 T2204 算出差额填 Line 45000。可保收入不超过 $2,000 的，<strong>不填 31200，全额填 45000</strong>。</p>
+<p><strong>第五步，填 T777。</strong> 先算车辆（分摊比例 ＝ 工作公里 ÷ 总公里），再算其余各项，<strong>最后才算家庭办公室</strong>（因为它受净雇佣收入限制，必须知道前面扣掉多少）。佣金雇员在这一步做二选一：分别按佣金口径与受薪口径各算一遍，取扣得多的那个。结果落到 Line 22900。</p>
+<p><strong>第六步，填 GST370</strong>，退款落 Line 45700，并在明年的 Line 10400 上记得把它报回去。</p>
+<p><strong>CRA 会怎么核。</strong> CPP／EI 这两格由 T1 与 T4 的自动比对系统逐项核对，不一致会自动重新评税，通常在评税通知（NOA）里直接体现。Line 22900 走的是另一条路——<strong>人工复核信</strong>，限期提交 T2200、T777 与凭证。车辆支出的复核标准最硬：<strong>行车日志必须完整</strong>（日期、目的地、事由、公里数，加上年初年末里程表读数），记录应足以支持申报的业务使用比例。<strong>保存年限六年</strong>，从相关税年年末起算。</p>
+<hr />
+<h2 id="s4">四、联邦之外：BC 这条怎么走</h2>
+<p><strong>省级抵免是联邦金额乘以省最低税阶率。</strong> BC428 上有两行与本页直接对应：基础 CPP 供款的省级抵免（对应联邦 Line 30800）与 EI 保费的省级抵免（对应联邦 Line 31200）。金额抄联邦那一行，折算率用 BC 当年最低档税率——<strong>2026 税年是 5.60%</strong>，从 5.06% 上调（<a class="src-ref" href="https://www2.gov.bc.ca/gov/content/taxes/tax-updates/budget-changes" title="B.C. Provincial budget tax changes">BC 省政府</a>）。所以同一笔 CPP 基础供款，联邦按 2026 税年最低档 14% 折算成抵免，BC 再按 5.60% 折算一次，合计约 19.6%。<strong>Line 22215 的增强段没有省级对应行</strong>，因为它是扣除不是抵免——它压低的是应税收入本身，联邦与省两侧自动同时受益。<strong>这正是 1.2 节那条不对等的现金体现。</strong></p>
+<p><strong>BC 是非参与省，GST370 只能退 5%。</strong> BC 的销售税是「5% GST ＋ 7% PST」两套并行，PST 不是 GST／HST 的一部分，<strong>一分钱都不在雇员退税范围内</strong>。发票上写着 12%，可退的只有其中的 5%——这是 BC 读者在 GST370 上最常见的高估来源（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate.html" title="GST/HST – Which rate to charge（各省税率与新斯科舍 2025-04-01 降至 14%）">CRA</a>）。</p>
+<p><strong>个人护理员抵免（PSW Tax Credit）：BC 的工时不合格。</strong> 这项 2026 到 2030 税年适用的可退还抵免（额度＝$1,100 与合格工资 5% 中的较小者）在联邦层面已经生效，但<strong>在 BC、纽芬兰与拉布拉多、西北地区赚的工资不合格</strong>——这三地已另行签署了护理员加薪协议，联邦不重复给。BC 的护理从业者要看的结论是「不合格」，不是「怎么申请」。</p>
+<p><strong>BC 没有省级的家庭办公室或雇佣支出附加扣除。</strong> 省税表在这一块完全跟随联邦金额，不设独立项目。<strong>BC 也没有 QPIP／PPIP</strong>：那是魁省独有的产假育儿保险，BC 雇员的产假与育儿福利仍在联邦 EI 体系内，T4 的 Box 55／56 对 BC 雇员应当是空的。</p>
+<hr />
+<h2 id="s5">五、历史变革：这两笔扣缴是怎么变成今天这个样子的</h2>
+<p><strong>1966 年，CPP 与 QPP 同时开办</strong>，基本免税额与最高可供款收入自那时起就是这套制度的两个支点。<strong>1997 年是关键的一年</strong>：为了应对人口老化，基础费率进入分阶段上调，最终停在雇员一侧的 4.95%（雇主对等，合计翻倍），同时<strong>基本免税额被冻结在 3,500 元 并从此不再指数化</strong>（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html" title="CPP contribution rates, maximums and exemptions">CRA</a>）。这个冻结持续到今天，是本页唯一一个「教材写什么、今年就是什么」的数字。</p>
+<p><strong>2019 年起，CPP 增强分两步落地。</strong> 第一步是把基础费率之上再加一层，雇员一侧从 4.95% 逐步升到 5.95%（多出的 1% 就是「第一层增强」）。<strong>第二步是 2024 年新增的 CPP2</strong>：在 YMPE 之上到 YAMPE 之间的那一段收入，按 4% 另缴，T4 上新开 Box 16A。<strong>2024 与 2025 是 YAMPE 的两年爬坡期</strong>（分别是 YMPE 的 107% 与 114%），<strong>2025 年起已采用约114%的第二上限</strong>。教材成书于爬坡第一年，它写的 $73,200 与 $188 都只是这条曲线的起点。</p>
+<p><strong>EI 一侧的两次结构性变化。</strong> 一是 2006 年 1 月 1 日，魁省的产假、陪产假、领养与育儿福利改由省级 QPIP 提供，联邦 EI 在魁省就此「少了一块」，费率相应下调，同时新增 PPIP 保费——<strong>从此魁省与其余省份要用两张不同的表</strong>。二是费率决定机制改为由 EI 融资委员会按七年平衡目标测算，<strong>费率因此可以双向变动</strong>：2024 到 2026 三年连降（1.66% → 1.64% → 1.63%），而教材那一代记录的是上一轮的上升段，<strong>照抄会把趋势说反</strong>。</p>
+<p><strong>雇佣支出那一侧，最大的一次变化是家庭办公室。</strong> 2020 至 2022 三个税年，为应对疫情，CRA 提供了「临时统一费率法」——按在家工作天数定额扣除，不用凭证、不用雇主签字，配套的是简化版 T777S 与 T2200S。<strong>2023 税年起，这套全部作废，只剩详细法</strong>：必须有雇主签的 T2200、必须有逐笔凭证、必须自己做面积与时间分摊（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22900-other-employment-expenses/work-space-home-expenses/what-changes.html" title="Home office expenses – What the changes are（临时统一费率法 2023 起废止）">CRA</a>）。<strong>这是本页对读者行为影响最直接的一条</strong>——很多人 2023 年之后仍按旧习惯申报，被复核时拿不出 T2200，整笔被剔除。</p>
+<p>另外两项小而实的变化：<strong>技工工具扣除上限在 2023 税年那一轮从 $500 提到 $1,000</strong>，此后未再变，现行上限见 <a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22900-other-employment-expenses.html" title="Line 22900 – Other employment expenses（T2200/T777 总入口、按雇员类型的可扣项、2025 车辆上限、技工工具公式）">CRA</a>；<strong>劳动力流动扣除 2026 税年起从 $4,000／150 公里改为 10,000 元／120 公里</strong>（<a class="src-ref" href="https://budget.canada.ca/update-miseajour/2026/report-rapport/tm-mf-en.html" title="Tax measures: Supplementary information | Spring Economic Update 2026">加拿大财政部</a>）。后者是本页涉及金额变动最大的一项，BC 的建筑业与大型能源项目外派工人是明确受益人群。</p>
+<hr />
+<h2 id="s6">六、案例</h2>
+<h3 id="case1">案例一：温哥华的项目经理，年中跳槽（示例）</h3>
+<p><strong>情景。</strong> 陈先生 2026 年 6 月底从 A 公司离职，7 月入职 B 公司。A 公司的 T4：Box 14 与 Box 26 均为 $52,000，Box 16 为 $2,989.88，Box 24 为 $52,000，Box 18 为 $847.60。B 公司的 T4：Box 14 与 Box 26 均为 $46,000，Box 16 为 $2,632.88，Box 24 为 $46,000，Box 18 为 $749.80。两张 T4 的 Box 16A 都是空的。</p>
+<p><strong>适用规则。</strong> 全年可供款收入 $98,000 已超过 2026 税年 YMPE 74,600 元，也超过 YAMPE 85,000 元，所以 CPP1 与 CPP2 两层都该满额。但<strong>单看每一个雇主，$52,000 与 $46,000 都没到 YMPE</strong>，所以两家都没扣 CPP2——这正是超缴与欠缴同时存在的典型形态。</p>
+<p><strong>算出的数。</strong></p>
+<p>应缴 CPP1 ＝ (74,600 元 − 3,500 元) × 5.95% ＝ <strong>4,230.45 元</strong>（其中基础段 71,100 元 × 4.95% ＝ 3,519.45 元，第一层增强 71,100 元 × 1% ＝ 711 元）
+应缴 CPP2 ＝ (85,000 元 − 74,600 元) × 4% ＝ <strong>416 元</strong>
+应缴合计 ＝ <strong>$4,646.45</strong>
+实扣合计 ＝ $2,989.88 ＋ $2,632.88 ＝ <strong>$5,622.76</strong>
+超缴 ＝ $5,622.76 − $4,646.45 ＝ <strong>$976.31</strong> → Line 44800</p>
+<p>于是：<strong>Line 30800 填 3,519.45 元</strong>（应缴基础段，不是实扣的 $5,622.76 里的任何一个数），<strong>Line 22215 填 1,127 元</strong>（711 元 ＋ 416 元），<strong>Line 44800 填 $976.31</strong>。注意他账面上欠着 416 元 的 CPP2 却不用补——那一层已经在净额里被抵掉了。</p>
+<p>EI 一侧：实扣 $847.60 ＋ $749.80 ＝ $1,597.40，应缴上限 1,123.07 元，<strong>超缴 $474.33 填 Line 45000</strong>，<strong>Line 31200 填 1,123.07 元</strong>。</p>
+<p><strong>常见错报。</strong> 把 Line 30800 填成两张 T4 的 Box 16 相加（$5,622.76）；同时在 44800 上又要回 $976.31——<strong>等于同一笔钱既抵了免又退了款</strong>。CRA 的比对系统必定改回，并对由此少缴的税计息。</p>
+<h3 id="case2">案例二：素里的暑期工，六月刚满 18（示例）</h3>
+<p><strong>情景。</strong> 李同学 2026 年 6 月 12 日满 18 岁，7 月至 12 月在一家仓库打工，T4 显示 Box 14 与 Box 26 均为 $9,000，Box 24 为 $9,000。</p>
+<p><strong>适用规则。</strong> 满 18 岁那一年，合格月数是<strong>生日当月之后</strong>的月数：7 月到 12 月，共 <strong>6 个月</strong>（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/starting-stopping-cpp-deductions.html" title="Starting and stopping CPP deductions（按月比例的五种触发情形与月份算法）">CRA</a>）。CPP 的三个数按 6/12 打折：YMPE ＝ $37,300，YAMPE ＝ $42,500，基本免税额 ＝ $1,750。<strong>EI 不打任何折。</strong></p>
+<p><strong>算出的数。</strong> 可供款收入 ＝ $9,000 − $1,750 ＝ $7,250。基础段 ＝ $7,250 × 4.95% ＝ <strong>$358.88</strong> → Line 30800；第一层增强 ＝ $7,250 × 1% ＝ <strong>$72.50</strong> → Line 22215。收入远低于比例后的 YMPE，<strong>无 CPP2</strong>。EI ＝ $9,000 × 1.63% ＝ <strong>$146.70</strong> → Line 31200，可保收入超过 $2,000，正常报抵免、无超缴。</p>
+<p><strong>换一个数字，结论完全不同。</strong> 如果他只赚了 $1,800（可保收入不超过 $2,000），EI 保费 $29.34 <strong>不填 Line 31200，全额填 Line 45000 退回</strong>；而 CPP 那一侧因为 $1,800 低于比例后的免税额 $1,750 之上不多，可供款收入只有 $50，供款几乎可以忽略。<strong>同一个人、同一份暑期工，收入跨过 $2,000 这条线前后，EI 走的是两条完全不同的报表路径。</strong></p>
+<p><strong>常见错报。</strong> 把免税额按全年 3,500 元 减（少算供款、Line 30800 填小了），或者把 EI 也按 6/12 打折（凭空造出一笔并不存在的「EI 超缴」）。</p>
+<h3 id="case3">案例三：列治文的地产经纪，佣金口径还是受薪口径（示例）</h3>
+<p><strong>情景。</strong> 王女士 2026 年的 T4：Box 14 为 $86,000，其中 Box 42 佣金 $18,000。她租住一套 1,000 平方英尺的公寓，其中 120 平方英尺是专用办公与会客间。全年租金 $24,000、水电暖 $2,400、家庭网络接入费 $960、租客保险 $900。车辆全年行驶 20,000 公里，其中工作用途 12,000 公里；油费保险维修牌照合计 $7,200，车辆 CCA 与贷款利息合计 $2,600。另有出差住宿 $1,400、差旅餐饮 $1,600、客户娱乐 $1,200、广告与推广 $500。雇主已签 T2200，第 1、2、4、6 题均为「是」。</p>
+<p><strong>适用规则与算出的数。</strong> 空间比例 ＝ 120 ÷ 1,000 ＝ <strong>12%</strong>；因为专用，不再按时间打第二折。</p>
+<p>按<strong>佣金口径</strong>：家庭办公室 ＝ (租金 $24,000 ＋ 水电暖 $2,400 ＋ 网络 $960 ＋ 保险 $900) × 12% ＝ <strong>$3,391.20</strong>；车辆当期支出 ＝ $7,200 × 60% ＝ $4,320，加 CCA 与利息 $2,600；住宿 $1,400；餐饮 $1,600 × 50% ＝ $800；娱乐 $1,200 × 50% ＝ $600；广告 $500。合计 ＝ <strong>$13,611.20</strong>。封顶 ＝ 佣金 $18,000 ＋ 车辆 CCA 与利息 $2,600 ＝ $20,600，<strong>未咬住</strong>。</p>
+<p>按<strong>受薪口径</strong>：不能扣娱乐 $600 与广告 $500，家庭办公室里也不能扣保险那一份（$900 × 12% ＝ $108）。合计 ＝ <strong>$12,403.20</strong>。</p>
+<p><strong>结论是佣金口径多扣 $1,208。</strong> 但这个结论完全依赖「封顶没咬住」——<strong>如果她今年佣金只有 $6,000，封顶就变成 $8,600，佣金口径反而只能扣 $8,600，此时受薪口径的 $12,403.20 大幅胜出。</strong> 所以这不是一次性的选择，而是每年都要重算的两条路。</p>
+<p><strong>GST370 那一步（示例数）。</strong> 合格支出里已扣除个人使用部分、餐饮已减半、保险与牌照登记费属不含税项目剔除后为 $6,000，BC 只退 5%：$6,000 × 5/105 ＝ <strong>$285.71</strong> → Line 45700。<strong>这 $285.71 要计入 2027 税年的 Line 10400。</strong></p>
+<p><strong>常见错报。</strong> 按发票上的 12% 去算退税（把 BC 的 7% PST 当成可退）；把家具与新买的笔记本电脑当办公用品扣；房主客户照搬这套算法去扣按揭利息。</p>
+<hr />
+<h2 id="s7">七、常见错报与自查清单</h2>
+<ol>
+<li><strong>Line 30800／22215 填了「实扣」而不是「应缴」。</strong> 识别方法：只要 Line 44800 上有数字，这两行就必定小于 T4 上 Box 16 与 Box 16A 的合计；两边相等就一定错了。</li>
+<li><strong>有多张 T4 却没算超缴。</strong> 识别方法：把所有 Box 16 相加，超过 4,230.45 元（2026 税年）就一定有 CPP 超缴；把所有 Box 18 相加，超过 1,123.07 元 就一定有 EI 超缴。<strong>没人会替你退，必须自己填。</strong></li>
+<li><strong>把 CPP 的免税额、年龄门或按月比例套到 EI 上。</strong> 识别方法：只要你在 EI 的算式里出现了 3,500 元、除以 12、或者「满 18 岁」，就一定错了。EI 只有一个乘法和一个封顶。</li>
+<li><strong>可保收入不超过 $2,000 却填了 Line 31200。</strong> 识别方法：Box 24（空白则 Box 14）≤ $2,000 时，31200 应为零，保费整笔进 45000。</li>
+<li><strong>把退还 EI 福利填成 Line 45000。</strong> 识别方法：问自己退的是「保费」还是「福利」——保费走 45000，福利走 23200 或 23500。</li>
+<li><strong>没有按类别核对雇主证明。</strong> 车辆等需T2200的类别应保留相应年度签署文件；追索工资法律费、合格技工流动扣除另按各自条件判断。</li>
+<li><strong>房主扣了按揭利息，或受薪雇员扣了房屋保险与地税。</strong> 识别方法：对照 2.5 节那张表——按揭利息两类雇员都不可扣；保险与地税只有 Box 42 有数的佣金雇员可扣。</li>
+<li><strong>家庭办公室扣成了雇佣亏损。</strong> 识别方法：Line 9945 的数超过「该雇主的 Box 14 减去 RPP 供款与工会会费」就一定被限制；超出部分结转，且只能对同一雇主的收入用。</li>
+<li><strong>车辆支出没有完整行车日志。</strong> 识别方法：拿不出「日期、目的地、事由、公里数」逐次记录加年初年末里程表读数，复核时可能无法支持申报金额。</li>
+<li><strong>技工工具照抄 2024 或 2025 的就业额算。</strong> 识别方法：2026 税年的减项是 1,501 元，不是 $1,433 或 $1,471。</li>
+<li><strong>GST370 的退款忘了在次年计入收入。</strong> 识别方法：今年 Line 45700 上有数，明年 Line 10400 上就该有对应的一笔（车辆 CCA 对应部分除外，那一笔冲减 UCC）。</li>
+</ol>
+<hr />
+<h2 id="术语双语表">术语双语表</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>English</th>
+<th>中文</th>
+<th>一句机制</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>year's maximum pensionable earnings (YMPE)</td>
+<td>年度最高可供款收入</td>
+<td>CPP 第一层的收入天花板，2026 税年 74,600 元，按平均工资指数化</td>
+</tr>
+<tr>
+<td>year's additional maximum pensionable earnings (YAMPE)</td>
+<td>年度第二层最高可供款收入</td>
+<td>CPP2 的上限，2026 税年 85,000 元，约为YMPE的114%（2025及以后，须按法定方式舍入）</td>
+</tr>
+<tr>
+<td>basic exemption (3,500 元)</td>
+<td>基本免税额</td>
+<td>CPP 可供款收入的起扣点，自 1997 年冻结、不指数化</td>
+</tr>
+<tr>
+<td>base CPP contribution (Line 30800)</td>
+<td>基础 CPP 供款</td>
+<td>4.95% 那一段，走非退还抵免，按最低税阶率折算</td>
+</tr>
+<tr>
+<td>enhanced CPP contribution (Line 22215)</td>
+<td>增强 CPP 供款</td>
+<td>第一层 1% 加 CPP2 的 4%，走扣除，按边际税率折算</td>
+</tr>
+<tr>
+<td>second additional CPP contribution (CPP2, Box 16A)</td>
+<td>第二层 CPP 供款</td>
+<td>2024 税年起新增，YMPE 与 YAMPE 之间的收入按 4% 供款</td>
+</tr>
+<tr>
+<td>Schedule 8 (CPP Contributions and Overpayment)</td>
+<td>附表 8</td>
+<td>把 T4 上的供款翻译成 Line 30800／22215／44800 三行的计算表</td>
+</tr>
+<tr>
+<td>Form RC381</td>
+<td>跨省 CPP／QPP 计算表</td>
+<td>同一年在魁省与其他省都有受雇收入时替代 Schedule 8</td>
+</tr>
+<tr>
+<td>CPP overpayment (Line 44800)</td>
+<td>CPP 超缴</td>
+<td>实扣减应缴的正差额，可退还抵免，不申报就不退</td>
+</tr>
+<tr>
+<td>contributory period / proration</td>
+<td>供款期／按月比例</td>
+<td>满 18、满 70、CPT30、伤残、身故五种情形下，YMPE、YAMPE 与免税额按合格月数打折</td>
+</tr>
+<tr>
+<td>Form CPT30</td>
+<td>停缴选择表</td>
+<td>已满 65 未满 70 且在领 CPP 的人可选择停缴，次月 1 日生效</td>
+</tr>
+<tr>
+<td>maximum insurable earnings (MIE)</td>
+<td>最高可保收入</td>
+<td>EI 的收入天花板，2026 税年 68,900 元</td>
+</tr>
+<tr>
+<td>EI premiums (Line 31200)</td>
+<td>EI 保费</td>
+<td>可保收入 × 当年费率，2026 税年 1.63%，上限 1,123.07 元，走非退还抵免</td>
+</tr>
+<tr>
+<td>EI overpayment (Line 45000)</td>
+<td>EI 保费超缴</td>
+<td>多雇主叠加超过上限的部分，用 T2204 算出退回；差额 $1 及以下不退</td>
+</tr>
+<tr>
+<td>Form T2204</td>
+<td>EI 超缴计算表</td>
+<td>计算 EI 保费超缴与低收入全额／部分退还，魁省与非居民改用 Schedule 10</td>
+</tr>
+<tr>
+<td>Quebec Parental Insurance Plan (QPIP／PPIP)</td>
+<td>魁省育儿保险</td>
+<td>2006 年起取代魁省的 EI 产假育儿福利，因此魁省 EI 费率更低、另缴 PPIP</td>
+</tr>
+<tr>
+<td>other employment expenses (Line 22900)</td>
+<td>其他雇佣支出</td>
+<td>雇员支出的总出口，默认不可扣，须满足合同要求自付、无津贴、有 T2200 三条</td>
+</tr>
+<tr>
+<td>Form T2200 (Declaration of Conditions of Employment)</td>
+<td>雇佣条件声明</td>
+<td>雇主对事实的证明，不是 CRA 对扣除的批准；没有它一分不能扣</td>
+</tr>
+<tr>
+<td>Form T777 (Statement of Employment Expenses)</td>
+<td>雇佣支出计算表</td>
+<td>逐项算出可扣支出，结果落到 Line 22900；每个雇主各填一份</td>
+</tr>
+<tr>
+<td>commission employee (Box 42)</td>
+<td>佣金雇员</td>
+<td>多可扣娱乐、广告、报税费、租赁设备与家庭办公室的保险地税，代价是佣金封顶</td>
+</tr>
+<tr>
+<td>work-space-in-the-home expenses (Line 9945)</td>
+<td>家庭办公室支出</td>
+<td>按面积（必要时再按时间）分摊，受净雇佣收入限制，超出部分只能结转对同一雇主用</td>
+</tr>
+<tr>
+<td>detailed method</td>
+<td>详细法</td>
+<td>2023 税年起唯一可用的家庭办公室方法，需 T2200 与逐笔凭证</td>
+</tr>
+<tr>
+<td>tradesperson's tools deduction</td>
+<td>技工工具扣除</td>
+<td>min($1,000, 工具成本 − 当年加拿大就业额)，当年不用即作废</td>
+</tr>
+<tr>
+<td>Labour Mobility Deduction</td>
+<td>劳动力流动扣除</td>
+<td>建筑业技工临时搬迁支出，2026 税年起上限 10,000 元、距离门槛 120 公里，不需 T2200</td>
+</tr>
+<tr>
+<td>Form GST370 / employee GST/HST rebate (Line 45700)</td>
+<td>雇员消费税退还</td>
+<td>退还雇佣支出中已付的 GST／HST，四年时效、每年一张；退款次年计入 Line 10400</td>
+</tr>
+<tr>
+<td>Canada employment amount (Line 31260)</td>
+<td>加拿大就业额</td>
+<td>对零散雇佣支出的一次性打包补偿，2026 税年上限 1,501 元，不需凭证</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="来源">来源</h2>
+<ul>
+<li>CPP 三年 YMPE、免税额、费率与雇员上限、3,500 元 冻结：<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html" title="CPP contribution rates, maximums and exemptions">CRA</a></li>
+<li>2026 税年联邦最低档税率 14%（抵免折算率）：</li>
+<li>CPP2 三年 YAMPE 与雇员上限、爬坡与稳态：<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/calculating-deductions/making-deductions/second-additional-cpp-contribution-rates-maximums.html" title="Second additional CPP contribution (CPP2) rates and maximums">CRA</a></li>
+<li>EI 三年 MIE、费率与雇员上限、魁省另表：<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/employment-insurance-ei/ei-premium-rates-maximums.html" title="EI premium rates and maximums">CRA</a></li>
+<li>加拿大就业额 2024／2025／2026 三年指数化值：<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html" title="Indexation adjustment for personal income tax and benefit amounts">CRA</a></li>
+<li>基础段抵免与增强段扣除的分流机制：CRA（<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30800-cpp-qpp-contributions-through-employment.html" title="Line 30800 – 基础 CPP/QPP 供款（抵免）与 Line 22215 增强供款（扣除）的分流">1</a>、<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22215-deduction-for-cpp-or-qpp-enhanced-contributions-on-employment-income.html" title="Line 22215 – Deduction for CPP or QPP enhanced contributions on employment income（增强供款扣除）">2</a>）</li>
+<li>CPP 超缴走 Line 44800、魁省不适用：<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-44800-cpp-overpayment.html" title="Line 44800 – CPP or QPP overpayment（CPP 超缴的可退还抵免入口）">CRA</a></li>
+<li>EI 超缴走 Line 45000、与「退还福利」的区分：<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45000-employment-insurance-overpayment.html" title="Line 45000 – Employment insurance overpayment（EI 超缴退回）">CRA</a></li>
+<li>EI 的 $2,000 可保收入开关与可保收入取数顺序：<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31200-employment-insurance-premiums-through-employment.html" title="Line 31200 – EI premiums through employment（$2,000 可保收入门槛与全额退回）">CRA</a></li>
+<li>按月比例的五种触发情形与月份口径、CPT30 资格与生效日：<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/starting-stopping-cpp-deductions.html" title="Starting and stopping CPP deductions（按月比例的五种触发情形与月份算法）">CRA</a></li>
+<li>Line 22900 三重门槛、技工工具公式、2025 税年车辆三上限、佣金与受薪二选一：<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22900-other-employment-expenses.html" title="Line 22900 – Other employment expenses（T2200/T777 总入口、按雇员类型的可扣项、2025 车辆上限、技工工具公式）">CRA</a></li>
+<li>家庭办公室详细法资格四条（含「自愿远程视同被要求」）：<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22900-other-employment-expenses/work-space-home-expenses/who-claim/detailed-method.html" title="Home office expenses – Eligibility criteria, Detailed method（家庭办公室资格四条）">CRA</a></li>
+<li>家庭办公室受薪与佣金可扣项对照：<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22900-other-employment-expenses/work-space-home-expenses/expenses-can-claim.html" title="Home office expenses you can claim（受薪 vs 佣金雇员的可扣项清单）">CRA</a></li>
+<li>临时统一费率法 2023 税年起废止：<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22900-other-employment-expenses/work-space-home-expenses/what-changes.html" title="Home office expenses – What the changes are（临时统一费率法 2023 起废止）">CRA</a></li>
+<li>GST370 资格、非合格支出、CCA 折算比例、四年时效与次年计收入：<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-22900-other-employment-expenses/employee-gst-hst-rebate.html" title="Employee GST/HST rebate（GST370 与 line 45700：资格、非合格支出、四年时效、下一年计入收入）">CRA</a></li>
+<li>各省 GST／HST 税率与新斯科舍 2025-04-01 降至 14%：<a class="src-ref" href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate.html" title="GST/HST – Which rate to charge（各省税率与新斯科舍 2025-04-01 降至 14%）">CRA</a></li>
+<li>BC 2026 税年最低档税率 5.60%（省级抵免折算率）：<a class="src-ref" href="https://www2.gov.bc.ca/gov/content/taxes/tax-updates/budget-changes" title="B.C. Provincial budget tax changes">BC 省政府</a></li>
+<li>劳动力流动扣除 2026 税年两个参数同时变：<a class="src-ref" href="https://budget.canada.ca/update-miseajour/2026/report-rapport/tm-mf-en.html" title="Tax measures: Supplementary information | Spring Economic Update 2026">加拿大财政部</a></li>
+<li>个人护理员抵免在 BC 不合格：</li>
+</ul>
+    <div class="doc-nav"><a href="ca-core-03-employment-income-t4.html">← 拆开一张 T4：14 个框怎么变成申报表上的收入、扣</a><a href="ca-employment-01-vehicle-allowances-2026.html" class="r">雇员车辆 2026：合理津贴、私用福利、CCA 与租 →</a></div>
+    <div class="doc-src">本站依据官方原文自撰 · 出处见正文链接</div>
+  </article>
+  <aside class="doc-aside">
+    <details class="doc-toc-details" open>
+      <summary class="doc-toc-summary"><span>本页目录</span><span class="doc-toc-icon">▾</span></summary>
+      <div class="toc"><div class="toc">
+<ul>
+<li><a href="#s1">一、制度设计与底层逻辑：为什么这两笔钱既不是税，也不完全是保险费</a><ul>
+<li><a href="#s1-1">1.1 供款换的是权利，所以它必须有上限、有下限、有年龄门</a></li>
+<li><a href="#s1-2">1.2 一笔 CPP 为什么要劈成两条路走：2019 年那场交易留下的疤</a></li>
+<li><a href="#s1-3">1.3 超缴为什么会发生：多个雇主如何造成超缴</a></li>
+<li><a href="#s1-4">1.4 雇佣支出的默认答案是「不能扣」</a></li>
+<li><a href="#s1-5">1.5 错报的法律后果</a></li>
+</ul>
+</li>
+<li><a href="#s2">二、2026 税年现行规则与数字</a><ul>
+<li><a href="#s2-1">2.1 三列表：教材那一年、去年、和今年</a></li>
+<li><a href="#s2-2">2.2 Schedule 8 第三部分：五段算法</a></li>
+<li><a href="#s2-3">2.3 按月比例：什么时候供款期不满一年</a></li>
+<li><a href="#s2-4">2.4 EI 那一侧：$2,000 是开关，不是免税额</a></li>
+<li><a href="#s2-5">2.5 Line 22900：谁扣得了，扣什么，扣在 T777 的哪一行</a></li>
+<li><a href="#s2-6">2.6 扣完支出，还能再退一次消费税</a></li>
+</ul>
+</li>
+<li><a href="#s3">三、实务流程：从拿到 T4 到把该退的退回来</a></li>
+<li><a href="#s4">四、联邦之外：BC 这条怎么走</a></li>
+<li><a href="#s5">五、历史变革：这两笔扣缴是怎么变成今天这个样子的</a></li>
+<li><a href="#s6">六、案例</a><ul>
+<li><a href="#case1">案例一：温哥华的项目经理，年中跳槽（示例）</a></li>
+<li><a href="#case2">案例二：素里的暑期工，六月刚满 18（示例）</a></li>
+<li><a href="#case3">案例三：列治文的地产经纪，佣金口径还是受薪口径（示例）</a></li>
+</ul>
+</li>
+<li><a href="#s7">七、常见错报与自查清单</a></li>
+<li><a href="#术语双语表">术语双语表</a></li>
+<li><a href="#来源">来源</a></li>
+</ul>
+</div>
+</div>
+    </details>
+    
+    <h3>同板块</h3><ul class="rel"><li><a href="ca-core-03-employment-income-t4.html">拆开一张 T4：14 个框怎么变成申报表上的收入、扣除与抵免（Employmen</a></li><li><a href="ca-employment-01-vehicle-allowances-2026.html">雇员车辆 2026：合理津贴、私用福利、CCA 与租赁利息四套上限为什么不能串用</a></li><li><a href="ca-employment-02-home-office-trades-mobility-and-t2200-2026.html">雇员与自雇家庭办公支出、技工流动扣除与自雇CPP双轨供款（Home Office</a></li></ul>
+    
+    <a class="vv-btn vv-btn--primary" style="width:100%;margin-top:16px"
+       href="../drill.html?bp=ca-employment">练这个板块的题 →</a>
+  </aside>
+</div></main>
+<footer class="foot">
+  <p><b>微出国 · 学</b> — 加拿大 T1 · 美国与跨境 · 14 模块复习自测。内容是学习者视角的整理，不是任何机构的培训教材，也不构成税务意见。<br>
+  现行数字一律以 CRA / IRS / 财政部现行文件为准；个案请咨询持牌专业人士。发现错的地方，回论坛帖里说一声。</p>
+</footer>
+<script>var UP_PATH="../";var BUILD_TIME="1789339438";</script>
+<script>
+if((localStorage.getItem('vv-theme')||'')==='dark')
+  document.documentElement.setAttribute('data-theme','dark');
+
+// 自动版本更新检测：对比 DOM 的 BUILD_TIME 与服务器最新 manifest.json，出现新版本时带时间戳无缝重载绕过 HTTP 磁盘缓存
+(function(){
+  function checkVersion(){
+    var up = typeof UP_PATH !== 'undefined' ? UP_PATH : '';
+    fetch(up + 'assets/manifest.json?t=' + Date.now(), { cache: 'no-store' }).then(function(r){
+      return r.ok ? r.json() : null;
+    }).then(function(m){
+      if(!m || !m.build_time) return;
+      var serverBuild = String(m.build_time);
+      var clientBuild = typeof BUILD_TIME !== 'undefined' ? String(BUILD_TIME) : '';
+      if(clientBuild && serverBuild && clientBuild !== serverBuild){
+        var reloaded = sessionStorage.getItem('vv_reloaded_build');
+        if(reloaded !== serverBuild){
+          sessionStorage.setItem('vv_reloaded_build', serverBuild);
+          var u = new URL(location.href);
+          u.searchParams.set('_v', serverBuild);
+          location.replace(u.href);
+        } else if(!document.getElementById('vv-update-banner')) {
+          var bar = document.createElement('div');
+          bar.id = 'vv-update-banner';
+          bar.className = 'vv-update-banner';
+          bar.innerHTML = '🎉 网站已更新到最新版本，建议按 <b>Ctrl+F5</b> (或 <b>Cmd+Shift+R</b>) 强制刷新页面。<button onclick="location.reload(true)">立即刷新</button>';
+          document.body.prepend(bar);
+        }
+      }
+    }).catch(function(){});
+  }
+
+  checkVersion();
+  document.addEventListener('visibilitychange', function(){
+    if(document.visibilityState === 'visible') checkVersion();
+  });
+  window.addEventListener('focus', checkVersion);
+  setInterval(checkVersion, 5 * 60 * 1000);
+})();
+
+// 页眉登录态。身份服务不在（纯静态托管、或还没起 dev-server）时静默跳过——
+// 内容页是公开的，永远不该因为身份服务缺席而坏掉。
+fetch('/api/me').then(function(r){return r.ok?r.json():null;}).then(function(m){
+  if(!m||document.getElementById('vv-auth'))return;
+  var n=document.querySelector('.vv-header nav');if(!n)return;
+  var e=document.createElement('span');e.id='vv-auth';e.className='auth';
+  e.innerHTML=m.loggedIn
+    ?'<span title="学习记录已跨设备同步">'+m.username+'</span> <a href="/auth/logout">退出</a>'
+    :'<a href="/auth/login?next='+encodeURIComponent(location.pathname)+'">登录</a>';
+  n.after(e);
+}).catch(function(){});
+
+// ── 阅读器增强：专注/最大化模式 & 键盘/手势切页 ──
+(function(){
+  var prevUrl = typeof PREV_URL !== 'undefined' ? PREV_URL : '';
+  var nextUrl = typeof NEXT_URL !== 'undefined' ? NEXT_URL : '';
+
+  function updateMaxBtns(isMax) {
+    var btns = document.querySelectorAll('.vv-reader-btn-max');
+    for(var i=0; i<btns.length; i++) {
+      btns[i].innerHTML = isMax ? '✕ 退出专注' : '⛶ 专注阅读';
+    }
+  }
+
+  window.toggleDocMaximize = function() {
+    var root = document.documentElement;
+    var isMax = root.classList.toggle('is-doc-maximized');
+    try { localStorage.setItem('vv_doc_maximized', isMax ? 'true' : 'false'); } catch(e){}
+    updateMaxBtns(isMax);
+  };
+
+  function updateAsideBtns(isCol) {
+    var btns = document.querySelectorAll('.vv-aside-btn');
+    for(var i=0; i<btns.length; i++) {
+      btns[i].innerHTML = isCol ? '◨ 展开侧栏' : '◧ 折叠侧栏';
+    }
+  }
+
+  window.toggleSidebarCollapse = function() {
+    var root = document.documentElement;
+    var isCol = root.classList.toggle('is-aside-collapsed');
+    try { localStorage.setItem('vv_aside_collapsed', isCol ? 'true' : 'false'); } catch(e){}
+    updateAsideBtns(isCol);
+  };
+
+  try {
+    if(localStorage.getItem('vv_aside_collapsed') === 'true') {
+      document.documentElement.classList.add('is-aside-collapsed');
+      setTimeout(function(){ updateAsideBtns(true); }, 0);
+    }
+  } catch(e){}
+
+  // 本页目录 <details> 状态记忆
+  var tocDet = document.querySelector('.doc-toc-details');
+  if(tocDet) {
+    try {
+      if(localStorage.getItem('vv_toc_open') === 'false') {
+        tocDet.removeAttribute('open');
+      }
+    } catch(e){}
+    tocDet.addEventListener('toggle', function() {
+      try { localStorage.setItem('vv_toc_open', tocDet.open ? 'true' : 'false'); } catch(e){}
+    });
+  }
+
+  document.addEventListener('keydown', function(e) {
+    var tag = (e.target && e.target.tagName) || '';
+    if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || e.target.isContentEditable) return;
+    if (e.key === 'ArrowLeft' && prevUrl) {
+      location.href = prevUrl;
+    } else if (e.key === 'ArrowRight' && nextUrl) {
+      location.href = nextUrl;
+    } else if (e.key === 'f' || e.key === 'F' || e.key === 'm' || e.key === 'M') {
+      toggleDocMaximize();
+    } else if (e.key === 'Escape' && document.documentElement.classList.contains('is-doc-maximized')) {
+      toggleDocMaximize();
+    }
+  });
+
+  var touchStartX = 0, touchStartY = 0;
+  document.addEventListener('touchstart', function(e) {
+    if (e.touches && e.touches.length === 1) {
+      touchStartX = e.touches[0].clientX;
+      touchStartY = e.touches[0].clientY;
+    }
+  }, { passive: true });
+
+  document.addEventListener('touchend', function(e) {
+    if (!e.changedTouches || e.changedTouches.length !== 1) return;
+    var dx = e.changedTouches[0].clientX - touchStartX;
+    var dy = e.changedTouches[0].clientY - touchStartY;
+    if (Math.abs(dx) > 90 && Math.abs(dy) < 60) {
+      if (dx > 0 && prevUrl) {
+        location.href = prevUrl;
+      } else if (dx < 0 && nextUrl) {
+        location.href = nextUrl;
+      }
+    }
+  }, { passive: true });
+})();
+</script>
+<script>if('serviceWorker' in navigator){addEventListener('load',()=>navigator.serviceWorker.register('../sw.js').catch(()=>{}))}</script>
+</body></html>
