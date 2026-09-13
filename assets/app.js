@@ -362,6 +362,8 @@ function renderPlan() {
   const root = document.getElementById("plan");
   const prefs = store.prefs();
   const daysLeft = Math.ceil((new Date(prefs.examDate) - new Date()) / 86400000);
+  // 自撰练习课（税务两课）没有考试：首页不许出现「N 天到考试」「考纲 N%」（2026-09-13 线上实见，默认考期 +93 天）
+  const selfPractice = MANIFEST.blueprint_policy?.kind === "self_authored_practice";
   const reviews = store.reviews();
   const attempts = store.attempts();
   const now = Date.now();
@@ -421,8 +423,8 @@ function renderPlan() {
       note: `已答 ${weakRate.n} 题，低于 ${passMark}% 及格线。这是目前最该补的板块。`,
       href: `drill.html?bp=${weakRate.bp}`, cta: "去练" });
   } else if (weakest && weakest.cover < 0.9) {
-    items.push({ icon: "＋", tone: "accent", title: `练 ${BP_LABEL(weakest.bp)}（考纲 ${weakest.w}%）`,
-      note: `这个板块你只碰过 ${weakest.seen}/${weakest.total} 题，是按考纲权重算缺口最大的一块。`,
+    items.push({ icon: "＋", tone: "accent", title: `练 ${BP_LABEL(weakest.bp)}（${selfPractice ? "练习配比" : "考纲"} ${weakest.w}%）`,
+      note: `这个板块你只碰过 ${weakest.seen}/${weakest.total} 题，是按${selfPractice ? "练习配比" : "考纲权重"}算缺口最大的一块。`,
       href: `drill.html?bp=${weakest.bp}`, cta: "去练" });
   }
   if (!items.length) {
@@ -435,7 +437,7 @@ function renderPlan() {
     <div class="plan-head">
       <div><h2>今天学什么</h2>
         <p class="sub">不用自己想 —— 按「先还债、再打地基、最后开新坑」排好了。</p></div>
-      <div class="plan-days"><b>${daysLeft > 0 ? daysLeft : 0}</b><span>天到考试</span></div>
+      ${selfPractice ? "" : `<div class="plan-days"><b>${daysLeft > 0 ? daysLeft : 0}</b><span>天到考试</span></div>`}
     </div>
     <div class="plan-list">
       ${items.slice(0, 3).map((it, i) => `
@@ -1137,7 +1139,7 @@ function renderProgress() {
 
     <section class="sec"><h2>${examMode() === "module" ? "模块" : "板块"}正确率 vs ${MANIFEST.blueprint_policy?.kind === "self_authored_practice" ? "练习配比" : "考纲权重"}</h2>
       <p class="sub">总分平均没有意义。term 90% + scenario 50% 与「平均 70%」在数学上一样，在考场上完全不同。</p>
-      <table class="cx"><tr><th>${examMode() === "module" ? "模块" : "板块"}</th><th class="n">考纲</th><th class="n">作答</th><th class="n">正确率</th><th>判断</th></tr>
+      <table class="cx"><tr><th>${examMode() === "module" ? "模块" : "板块"}</th><th class="n">${MANIFEST.blueprint_policy?.kind === "self_authored_practice" ? "配比" : "考纲"}</th><th class="n">作答</th><th class="n">正确率</th><th>判断</th></tr>
       ${Object.entries(WEIGHTS).map(([bp, w]) => {
         const s = bySec[bp];
         if (!s) return `<tr><td>${esc(BP_LABEL(bp))}</td><td class="n">${w}%</td><td class="n">0</td><td class="n">—</td><td>还没练过</td></tr>`;
