@@ -36,7 +36,7 @@
 
   /* ── 辅助色：填手册 p.06「辅助色待补充」的两格 [提案·待批] ──
      选择理由写在 previews/01-foundation-color.html
-     琥珀 = 与标准蓝互补，承担「注意/待复核/教材与现行冲突」——
+     琥珀 = 与标准蓝互补，承担「注意/待复核/考试口径与现行冲突」——
      这正是本学习站三层事实制度需要的那个颜色。 */
   --vv-amber-100: #FDF0DA;
   --vv-amber-400: #E39A20;  /* 白底 2.36:1 → 填充/徽标底 */
@@ -91,10 +91,10 @@
   --vv-info-text:     #003859;
 
   /* ── 三层事实制度专用色 [提案] ──────────────────────────────
-     academy 的 CLAUDE.md §3：原理层/教材数字层/现行数字层。
+     academy 的 CLAUDE.md §3：原理层/考试口径数字层/现行数字层。
      颜色是这套制度在界面上的执法点——不上色，制度只活在文档里。 */
   --vv-layer-principle: var(--vv-blue-700);   /* 原理层：永不过期 */
-  --vv-layer-textbook:  var(--vv-amber-800);  /* 教材数字层：考试口径，可能已非现实 */
+  --vv-layer-textbook:  var(--vv-amber-800);  /* 考试口径数字层：可能已非现实 */
   --vv-layer-current:   var(--vv-green-800);  /* 现行数字层：跟官网刷新，带 review_by */
 
   /* ── 字体 [手册 p.11 = 思源黑体] ────────────────────────────
@@ -890,7 +890,7 @@ ul.wrong .meta { display: block; font-size: var(--vv-fs-xs); color: var(--vv-tex
 .auth-local { font-size: var(--vv-fs-xs); color: var(--vv-text-faint);
   border: 1px dashed var(--vv-border-strong); border-radius: var(--vv-r-full); padding: 3px 10px; }
 
-/* 配对表：另一本教材讲这块的是哪几篇。空缺时说清楚，别装作没这回事 */
+/* 配对表：另一套考试口径讲这块的是哪几篇。空缺时说清楚，别装作没这回事 */
 .doc-aside .pair-gap { color: var(--vv-text-muted); line-height: 1.6; margin: 0 0 var(--vv-sp-6); }
 
 /* 自动版本更新与缓存失效提醒条 */

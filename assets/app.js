@@ -333,7 +333,7 @@ function sourceLink(q) {
     if (has("guide-autoplan-basics")) return "docs/guide-autoplan-basics.html";
   }
   // 按模块 + 章号前缀反查（LLQP：`life-ch11-recommending` ← blueprint life / chapter ch11）。
-  // 不建 E311→life 这类映射表：那张表会与 course.json 分叉，而清册里已经有 module 字段了。
+  // 不建「模块代号→life」这类映射表：那张表会与 course.json 分叉，而清册里已经有 module 字段了。
   if (q.blueprint && /^ch[\d]+/.test(src.chapter || "")) {
     const pre = `${q.blueprint}-${src.chapter}`;
     const hit = MANIFEST.docs.find((d) => d.slug === pre || d.slug.startsWith(pre + "-"));
@@ -556,7 +556,7 @@ function renderDrill() {
         <span class="vv-badge vv-badge--accent">${esc(BP_LABEL(q.blueprint))}</span>
         <span class="vv-badge">${q.card_type === "except" ? "找例外" : q.card_type === "scenario" ? "情景" : q.card_type === "discriminate" ? "辨析" : "单选"}</span>
         <span class="vv-fact vv-fact--${q.fact_layer === "principle" ? "principle" : q.fact_layer === "current_number" ? "current" : "textbook"}">${
-          q.fact_layer === "principle" ? "原理层" : q.fact_layer === "current_number" ? "现行数字" : "教材数字"}</span>
+          q.fact_layer === "principle" ? "原理层" : q.fact_layer === "current_number" ? "现行数字" : "考试口径数字"}</span>
         <span class="q-pos">${idx + 1} / ${queue.length}</span>
       </div>
       <p class="q-stem">${rich(q.stem)}</p>
