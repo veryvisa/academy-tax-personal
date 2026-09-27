@@ -919,6 +919,21 @@ ul.wrong .meta { display: block; font-size: var(--vv-fs-xs); color: var(--vv-tex
 }
 
 
+/* 三入口与滚动学习路径；完整工具入口仍在页脚和正文。 */
+body[data-reader-site="true"] .vv-header nav{display:flex;gap:4px;overflow:visible;flex:1;justify-content:center}
+body[data-reader-site="true"] .vv-header nav a{min-height:44px;min-width:52px;display:flex;align-items:center;justify-content:center;padding:7px 10px}
+body[data-reader-site="true"] .theme{width:44px;height:44px}
+body[data-vf-native-home="true"] .cover{min-height:230px}
+body[data-vf-native-home="true"] .cover-in{padding-top:20px;padding-bottom:20px}
+.reader-stage{scroll-margin-top:100px;line-height:1.8}.reader-stage>p{max-width:70ch}
+.reader-overview{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:20px}
+.reader-overview article{padding:16px;border-left:3px solid var(--vv-accent);background:var(--vv-bg-subtle)}
+.reader-overview h3{font-size:var(--vv-fs-base);margin:0 0 8px}.reader-overview p{margin:0 0 8px}
+.reader-tools{display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:center}.reader-tools a{display:inline-flex;min-height:44px;align-items:center}
+@media(max-width:700px){.reader-overview{grid-template-columns:1fr}body[data-reader-site="true"] .vv-header{gap:4px}.reader-stage{scroll-margin-top:100px}}
+
+@media(max-width:700px){.reader-table,.reader-table tbody,.reader-table tr,.reader-table td,.reader-table th{display:block;width:100%;min-width:0}.reader-table .reader-table-head{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.reader-table tr:not(.reader-table-head){margin:12px 0;border:1px solid var(--vv-border);border-radius:8px;overflow:hidden}.reader-table td,.reader-table th{white-space:normal;text-align:left!important;overflow-wrap:anywhere}.reader-table td::before{content:attr(data-label);display:block;font-weight:600;color:var(--vv-text-muted);font-size:12px}}
+
 /* ── 知识卡与封面（用户令 2026-09-20：每页配知识卡；点图开弹窗或详情页，绝不裸开原图；图做封面）──
    展示层正本＝site/cards.py。样式只用 tokens.css 的 --vv-* 变量，所以浅色/深色两套主题自动都对。
    照 youth-care-guide/src/components/GuideLayout.astro 的结构移植，变量换成本站的设计系统。 */
