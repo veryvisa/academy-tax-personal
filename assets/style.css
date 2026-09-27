@@ -66,7 +66,7 @@
   --vv-border-strong: var(--vv-gray-300);
   --vv-text:          var(--vv-gray-900);
   --vv-text-muted:    var(--vv-gray-600);
-  --vv-text-faint:    var(--vv-gray-500);
+  --vv-text-faint:    var(--vv-text-muted); /* 小字号仍须满足正文对比度 */
   --vv-link:          var(--vv-blue-700);
   --vv-accent:        var(--vv-blue-500);   /* 图形/描边/进度条：非文本用途，3:1 足够 */
   --vv-accent-ink:    #FFFFFF;
@@ -147,7 +147,7 @@
     --vv-border-strong: #2C5A73;
     --vv-text:          #D6E2EA;   /* 12.81:1 */
     --vv-text-muted:    #9FB3C0;   /*  7.79:1 */
-    --vv-text-faint:    #7B909F;
+    --vv-text-faint:    var(--vv-text-muted);
     --vv-link:          var(--vv-blue-300);  /* 8.03:1 */
     --vv-accent:        var(--vv-green-300); /* 9.59:1 — 深色底才轮到绿当主角 */
     --vv-accent-ink:    #06222C;
@@ -174,7 +174,7 @@
   color-scheme: dark;
   --vv-bg:#0B1F2A; --vv-bg-subtle:#12303F; --vv-bg-raised:#12303F;
   --vv-border:#1E4256; --vv-border-strong:#2C5A73;
-  --vv-text:#D6E2EA; --vv-text-muted:#9FB3C0; --vv-text-faint:#7B909F;
+  --vv-text:#D6E2EA; --vv-text-muted:#9FB3C0; --vv-text-faint:var(--vv-text-muted);
   --vv-link:var(--vv-blue-300); --vv-accent:var(--vv-green-300); --vv-accent-ink:#06222C;
   --vv-accent-solid:var(--vv-green-300);
   --vv-focus:var(--vv-green-300);
@@ -221,7 +221,7 @@
 /* 实心按钮用 --vv-accent-solid 而非 --vv-accent：
    后者是图形色（白底 4.16:1，本系统自己判为「仅大字」），按钮文字 15px/500 够不着那一档。
    学习站侧栏 CTA 实测掉到 1.39:1 才发现这条，见 tokens.css 同名注释。 */
-.vv-btn--primary   { background:var(--vv-accent-solid); color:var(--vv-accent-ink); }
+.vv .vv-btn--primary   { background:var(--vv-accent-solid); color:var(--vv-accent-ink); }
 .vv-btn--primary:hover { filter:brightness(.92); }
 .vv-btn--secondary { background:transparent; color:var(--vv-link); border-color:var(--vv-border-strong); }
 .vv-btn--secondary:hover { border-color:var(--vv-link); background:var(--vv-bg-subtle); }
@@ -336,6 +336,8 @@
 body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; }
 main { flex: 1; }
 img { max-width: 100%; }
+/* Mounted illustrations retain legacy inline colors; use the active theme in both modes. */
+.vv-figure > figcaption { color: var(--vv-text-muted) !important; }
 
 .vv-header { position: sticky; top: 0; z-index: 50; backdrop-filter: blur(8px);
   background: color-mix(in srgb, var(--vv-bg) 88%, transparent); }
@@ -408,7 +410,7 @@ table.cx td.n, table.cx th.n { text-align: right; font-family: var(--vv-font-mon
   .doc-aside { position: static; order: 1; padding-top: var(--vv-sp-5); border-top: 1px solid var(--vv-border); }
   .doc-aside .toc { max-height: none; }
 }
-.doc { max-width: 40em; min-width: 0; }
+.doc { max-width: 40em; min-width: 0; overflow-wrap: anywhere; }
 .crumb { font-size: var(--vv-fs-xs); color: var(--vv-text-muted); margin: 0 0 var(--vv-sp-3); }
 .doc h1 { font-size: var(--vv-fs-2xl); line-height: 1.3; margin: 0 0 var(--vv-sp-3); }
 .doc-meta { display: flex; gap: var(--vv-sp-2); flex-wrap: wrap; margin-bottom: var(--vv-sp-5);
@@ -569,8 +571,8 @@ table.cx td.n, table.cx th.n { text-align: right; font-family: var(--vv-font-mon
   border: 1px solid var(--vv-border); background: var(--vv-bg-raised); color: var(--vv-text-muted);
   cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
 .chip:hover { border-color: var(--vv-border-strong); }
-.chip.on { background: var(--vv-accent); color: var(--vv-accent-ink); border-color: transparent; font-weight: var(--vv-w-medium); }
-.chip i { font-style: normal; opacity: .65; font-family: var(--vv-font-mono); font-size: 10px; }
+.chip.on { background: var(--vv-accent-solid); color: var(--vv-accent-ink); border-color: transparent; font-weight: var(--vv-w-medium); }
+.chip i { font-style: normal; font-family: var(--vv-font-mono); font-size: 10px; }
 
 .q-head { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: var(--vv-sp-4); }
 .q-pos { margin-left: auto; font-family: var(--vv-font-mono); font-size: var(--vv-fs-xs); color: var(--vv-text-faint); }
@@ -598,7 +600,7 @@ table.cx td.n, table.cx th.n { text-align: right; font-family: var(--vv-font-mon
 .exam-bar { display: flex; align-items: center; gap: var(--vv-sp-4); flex-wrap: wrap;
   padding: var(--vv-sp-4); border: 1px solid var(--vv-border); border-radius: var(--vv-r-md);
   margin-bottom: var(--vv-sp-4); background: var(--vv-bg-raised); font-size: var(--vv-fs-sm); }
-.exam-bar .hint { color: var(--vv-text-faint); font-size: var(--vv-fs-xs); display: block; }
+.exam-bar .hint { color: var(--vv-text-muted); font-size: var(--vv-fs-xs); display: block; }
 .clock { margin-left: auto; font-family: var(--vv-font-mono); font-size: var(--vv-fs-xl);
   font-weight: var(--vv-w-medium); }
 .clock.low { color: var(--vv-danger); }
@@ -930,9 +932,14 @@ body[data-vf-native-home="true"] .cover-in{padding-top:20px;padding-bottom:20px}
 .reader-overview article{padding:16px;border-left:3px solid var(--vv-accent);background:var(--vv-bg-subtle)}
 .reader-overview h3{font-size:var(--vv-fs-base);margin:0 0 8px}.reader-overview p{margin:0 0 8px}
 .reader-tools{display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:center}.reader-tools a{display:inline-flex;min-height:44px;align-items:center}
+.vv .reader-tools a{color:inherit}
 @media(max-width:700px){.reader-overview{grid-template-columns:1fr}body[data-reader-site="true"] .vv-header{gap:4px}.reader-stage{scroll-margin-top:100px}}
 
 @media(max-width:700px){.reader-table,.reader-table tbody,.reader-table tr,.reader-table td,.reader-table th{display:block;width:100%;min-width:0}.reader-table .reader-table-head{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.reader-table tr:not(.reader-table-head){margin:12px 0;border:1px solid var(--vv-border);border-radius:8px;overflow:hidden}.reader-table td,.reader-table th{white-space:normal;text-align:left!important;overflow-wrap:anywhere}.reader-table td::before{content:attr(data-label);display:block;font-weight:600;color:var(--vv-text-muted);font-size:12px}}
+
+/* Long source domains must not widen the mobile viewport. */
+.doc :not(pre)>code{overflow-wrap:anywhere}
+.doc pre:focus-visible{outline:2px solid var(--vv-link);outline-offset:2px}
 
 /* ── 知识卡与封面（用户令 2026-09-20：每页配知识卡；点图开弹窗或详情页，绝不裸开原图；图做封面）──
    展示层正本＝site/cards.py。样式只用 tokens.css 的 --vv-* 变量，所以浅色/深色两套主题自动都对。
