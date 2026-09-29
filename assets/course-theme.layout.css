@@ -1,0 +1,71 @@
+/* Batch-two presentation only; existing words, cards and URLs stay intact. */
+
+html[data-course="tax-personal"] { color-scheme: light; }
+html[data-course="tax-personal"][data-theme="dark"] { color-scheme: dark; }
+@media(prefers-color-scheme:dark) { html[data-course="tax-personal"]:not([data-theme="light"]) { color-scheme: dark; } }
+html[data-course="tax-personal"] body { background: var(--vv-bg); }
+html[data-course="tax-personal"] :is(h1,h2,h3,.vv-card__title) { font-family: var(--vv-font-heading); }
+html[data-course="tax-personal"] :is(.vv-header,.foot) { background: var(--vv-bg-raised); border-color: var(--vv-border); color: var(--vv-text-muted); }
+html[data-course="tax-personal"] :is(.vv-brand,.vv-header nav a) { color: var(--vv-text); }
+html[data-course="tax-personal"] .vv-header nav a[aria-current] { color: var(--vv-link); }
+html[data-course="tax-personal"] :is(.cover,.hero) { background: var(--vv-bg-subtle); color: var(--vv-text); min-height: 0; }
+html[data-course="tax-personal"] .cover-bg { display: none; }
+html[data-course="tax-personal"] .cover::before { display: none; }
+html[data-course="tax-personal"] .cover-in { padding: 44px 24px 32px; }
+html[data-course="tax-personal"] .cover h1 { color: var(--vv-text); text-shadow: none; line-height: 1.35; font-size: clamp(28px,3.8vw,46px); }
+html[data-course="tax-personal"] .cover :is(.cover-lead,.cover-eyebrow,.crumb,.crumb a) { color: var(--vv-text-muted); }
+html[data-course="tax-personal"] .cover .doc-meta .vv-badge { color: var(--vv-text-muted); background: var(--vv-bg-raised); border-color: var(--vv-border); }
+html[data-course="tax-personal"] :is(.vv-btn--primary,.cover .vv-btn--primary) { background: var(--vv-accent-solid); color: var(--vv-accent-ink); border-color: var(--vv-accent-solid); }
+html[data-course="tax-personal"] :is(.vv-btn--secondary,.cover .vv-btn--secondary) { color: var(--vv-link); background: var(--vv-bg-raised); border-color: var(--vv-border-strong); }
+html[data-course="tax-personal"] .sec { margin-bottom: 48px; }
+html[data-course="tax-personal"] .sec>h2 { line-height: 1.5; }
+html[data-course="tax-personal"] :is(.b2-entry,.b2-map) { max-width: 1080px; }
+html[data-course="tax-personal"] .b2-entry { display: grid; grid-template-columns: minmax(0,1.3fr) minmax(0,1fr); align-items: start; gap: 28px; }
+html[data-course="tax-personal"] .b2-routes { display: grid; gap: 16px; min-width: 0; }
+html[data-course="tax-personal"] .b2-route { padding: 20px 24px; border: 1px solid var(--vv-border); border-left: 4px solid var(--vv-link); background: var(--vv-bg-raised); border-radius: var(--vv-r-md); }
+html[data-course="tax-personal"] .b2-route h2 { margin: 0 0 12px; font-size: 24px; }
+html[data-course="tax-personal"] .b2-route p { color: var(--vv-text-muted); font-size: 16px; margin: 0 0 12px; }
+html[data-course="tax-personal"] .b2-route ul { margin: 0; padding-left: 1.2em; }
+html[data-course="tax-personal"] .b2-route li+li { margin-top: 12px; }
+html[data-course="tax-personal"] .b2-route a { display: inline-block; padding: 5px 0; line-height: 1.65; text-underline-offset: .2em; }
+html[data-course="tax-personal"] .b2-scene { margin: 0; min-width: 0; background: var(--vv-bg-raised); border: 1px solid var(--vv-border); border-radius: var(--vv-r-lg); overflow: hidden; }
+html[data-course="tax-personal"] .b2-scene-image { aspect-ratio: 3/2; background: linear-gradient(145deg,var(--vv-bg-subtle),var(--vv-bg-raised) 65%,var(--vv-info-bg)); display: grid; place-items: center; }
+html[data-course="tax-personal"] .b2-scene-image :is(svg,img) { display: block; width: 100%; height: 100%; object-fit: contain; }
+html[data-course="tax-personal"] .b2-scene svg { fill: none; stroke: var(--vv-link); stroke-width: 2; }
+html[data-course="tax-personal"] .motif-accent { stroke: var(--vv-motif); stroke-width: 4; }
+html[data-course="tax-personal"] .b2-scene figcaption { padding: 14px 18px; color: var(--vv-text-muted); border-top: 1px solid var(--vv-border); }
+html[data-course="tax-personal"] .b2-nodes { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 20px; padding: 0; list-style: none; }
+html[data-course="tax-personal"] .b2-node { min-width: 0; position: relative; padding: 20px 24px; border: 1px solid var(--vv-border); border-top: 4px solid var(--vv-link); background: var(--vv-bg-raised); }
+html[data-course="tax-personal"] .b2-node h3 { font-size: 20px; line-height: 1.55; margin: 0 0 16px; }
+html[data-course="tax-personal"] .b2-node ul { list-style: none; margin: 0; padding: 0 0 0 16px; border-left: 1px solid var(--vv-border-strong); }
+html[data-course="tax-personal"] .b2-node li { position: relative; font-size: 16px; line-height: 1.7; }
+html[data-course="tax-personal"] .b2-node li::before { content: ""; position: absolute; left: -16px; top: .85em; width: 10px; border-top: 1px solid var(--vv-border-strong); }
+html[data-course="tax-personal"] .b2-node a { display: inline-block; padding: 4px 0; }
+html[data-course="tax-personal"] :is(.b2-entry,.b2-map,.doc,.lib-list) { overflow-wrap: anywhere; }
+html[data-course="tax-personal"] :is(.vv-card,.deck-card,.reader-overview article) { background: var(--vv-bg-raised); border-color: var(--vv-border); box-shadow: none; }
+html[data-course="tax-personal"] .doc { max-width: 42em; }
+html[data-course="tax-personal"] .doc h2 { padding-top: 24px; }
+html[data-course="tax-personal"] .doc-aside { background: var(--vv-bg-raised); }
+html[data-course="tax-personal"] .grid { grid-template-columns: repeat(auto-fill,minmax(min(260px,100%),1fr)); }
+html[data-course="tax-personal"] .vf-network { --vf-paper:var(--vv-bg-raised); --vf-ink:var(--vv-text); --vf-muted:var(--vv-text-muted); --vf-line:var(--vv-border); background:var(--vv-bg-raised); color:var(--vv-text-muted); border-color:var(--vv-border); }
+html[data-course="tax-personal"] .vf-network a { color:var(--vv-link); }
+html[data-course="tax-personal"] .vf-network select { color:var(--vv-text); background:var(--vv-bg-raised); }
+html[data-course="tax-personal"] body[data-vf-site] { --vf-ink:var(--vv-text); --vf-muted:var(--vv-text-muted); --vf-paper:var(--vv-bg-subtle); --vf-accent:var(--vv-link); --vf-line:var(--vv-border); --vf-heading:var(--vv-font-heading); }
+html[data-course="tax-personal"] body[data-vf-site] :is(.vf-network,.vf-workspace) { background:var(--vv-bg-raised); color:var(--vv-text); }
+html[data-course="tax-personal"] body[data-vf-site] :is(.vf-tools button,.vf-workspace button:not(.vf-primary),.vf-tools [role="status"]) { background:var(--vv-bg-raised); color:var(--vv-text); }
+html[data-course="tax-personal"] .rw-btn { color:var(--vv-accent-ink); }
+html[data-course="tax-personal"] .vf-actions .vf-primary { color:var(--vv-accent-ink)!important; }
+@media(max-width:700px) {
+ html[data-course="tax-personal"] .b2-entry { grid-template-columns: minmax(0,1fr); gap: 20px; }
+ html[data-course="tax-personal"] .b2-nodes { grid-template-columns: minmax(0,1fr); }
+ html[data-course="tax-personal"] .cover-in { padding: 30px 18px 24px; }
+ html[data-course="tax-personal"] :is(.b2-route,.b2-node) { padding: 18px; }
+ html[data-course="tax-personal"] .b2-scene { max-width: 440px; width: 100%; justify-self: center; }
+ html[data-course="tax-personal"] .doc-wrap { gap: 24px; }
+}
+@media(prefers-reduced-motion:reduce) { html[data-course="tax-personal"] { scroll-behavior:auto; } html[data-course="tax-personal"] * { transition:none; } }
+html[data-course="tax-personal"] .b2-map { border-left:2px solid var(--vv-danger); padding-left:24px; background-image:repeating-linear-gradient(transparent 0,transparent 31px,var(--vv-border) 31px,var(--vv-border) 32px); }
+html[data-course="tax-personal"] .b2-node { border-top:1px solid var(--vv-border); border-radius:0; }
+html[data-course="tax-personal"] .b2-node h3 { font-size:18px; }
+html[data-course="tax-personal"] :is(td.n,th.n) { text-align:right; font-variant-numeric:tabular-nums; }
+html[data-course="tax-personal"] .doc h2 { border-bottom:1px solid var(--vv-border-strong); padding-bottom:12px; }
