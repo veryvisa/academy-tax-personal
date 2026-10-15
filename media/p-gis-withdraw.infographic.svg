@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1351" width="900" height="1351" role="img" aria-labelledby="t d" font-family="'PingFang SC','Hiragino Sans GB','Noto Sans SC','Microsoft YaHei',sans-serif">
+<title id="t">退休提款、税款与 GIS 重算的时间轴</title>
+<desc id="d">RRSP 提款计入当年收入；GIS 按上一年的收入核定。今年提出来的钱，除了交税，还可能让明年起的 GIS 变少。</desc>
+<rect width="900" height="1351" fill="#FAFBFC"/>
+<rect x="0" y="0" width="900" height="142" fill="#12355B"/>
+<text x="40" y="46" font-size="18" fill="#BFD3E6" font-weight="500" text-anchor="start">保障收入补助（GIS）· 信息图</text>
+<text x="40" y="92" font-size="30" fill="#FFFFFF" font-weight="700" text-anchor="start">退休后提 RRSP，为什么可能同时少拿低收入补助？</text>
+<rect x="40" y="166" width="820" height="143" rx="16" fill="#FFFFFF" stroke="#12355B" stroke-width="2"/>
+<text x="64" y="198" font-size="17" fill="#0E7C7B" font-weight="700" text-anchor="start">一句话答案</text>
+<text x="64" y="234" font-size="21" fill="#1F2A37" font-weight="600" text-anchor="start">RRSP 提款计入当年收入；GIS 按上一年的收入核定。今年提出来的钱，除了交税，</text>
+<text x="64" y="266" font-size="21" fill="#1F2A37" font-weight="600" text-anchor="start">还可能让明年起的 GIS 变少。</text>
+<text x="40" y="360" font-size="22" fill="#12355B" font-weight="700" text-anchor="start">一笔提款走过的路</text>
+<rect x="40" y="378" width="820" height="121" rx="14" fill="#EAF1F8" stroke="#2F5D8A" stroke-width="1.5"/>
+<text x="58" y="412" font-size="20" fill="#2F5D8A" font-weight="700" text-anchor="start">今年：从 RRSP 取钱</text>
+<circle cx="64" cy="442" r="3.2" fill="#2F5D8A"/>
+<text x="76" y="447" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">机构按每笔金额预扣 10% / 20% / 30%（魁北克另有税率）</text>
+<circle cx="64" cy="468" r="3.2" fill="#2F5D8A"/>
+<text x="76" y="472" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">预扣只是预交，不等于最终要交的税</text>
+<line x1="450" y1="501" x2="450" y2="528" stroke="#5B6B7F" stroke-width="2.5"/>
+<path d="M442,525 L458,525 L450,537 Z" fill="#5B6B7F"/>
+<text x="466" y="520" font-size="15" fill="#5B6B7F" font-weight="500" text-anchor="start">次年春天报税</text>
+<rect x="40" y="539" width="820" height="121" rx="14" fill="#EAF1F8" stroke="#2F5D8A" stroke-width="1.5"/>
+<text x="58" y="573" font-size="20" fill="#2F5D8A" font-weight="700" text-anchor="start">报税：提款并入收入</text>
+<circle cx="64" cy="603" r="3.2" fill="#2F5D8A"/>
+<text x="76" y="608" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">T4RSP 上的金额进 line 12900</text>
+<circle cx="64" cy="629" r="3.2" fill="#2F5D8A"/>
+<text x="76" y="633" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">按全年收入算出最终税款，多退少补</text>
+<line x1="450" y1="662" x2="450" y2="689" stroke="#5B6B7F" stroke-width="2.5"/>
+<path d="M442,686 L458,686 L450,698 Z" fill="#5B6B7F"/>
+<text x="466" y="681" font-size="15" fill="#5B6B7F" font-weight="500" text-anchor="start">收入核定</text>
+<rect x="40" y="700" width="820" height="146" rx="14" fill="#FDECEA" stroke="#B42318" stroke-width="1.5"/>
+<text x="58" y="734" font-size="20" fill="#B42318" font-weight="700" text-anchor="start">之后：GIS 按上一年收入重算</text>
+<circle cx="64" cy="764" r="3.2" fill="#B42318"/>
+<text x="76" y="769" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">收入升高，GIS 可能减少甚至停发</text>
+<circle cx="64" cy="790" r="3.2" fill="#B42318"/>
+<text x="76" y="794" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">有配偶或同居伴侣时看两人合计收入</text>
+<circle cx="64" cy="815" r="3.2" fill="#B42318"/>
+<text x="76" y="820" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">不按时报税，GIS 也可能暂停</text>
+<text x="40" y="894" font-size="22" fill="#12355B" font-weight="700" text-anchor="start">提款前一起比较</text>
+<rect x="40.0" y="912" width="261" height="117" rx="14" fill="#F4F6F9" stroke="#5B6B7F" stroke-width="1.5"/>
+<text x="58" y="945" font-size="19" fill="#5B6B7F" font-weight="700" text-anchor="start">当年要交的税</text>
+<circle cx="64.0" cy="975" r="3.2" fill="#5B6B7F"/>
+<text x="76" y="979" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">看全年收入，不看预扣</text>
+<rect x="319.3333333333333" y="912" width="261" height="117" rx="14" fill="#F4F6F9" stroke="#5B6B7F" stroke-width="1.5"/>
+<text x="337" y="945" font-size="19" fill="#5B6B7F" font-weight="700" text-anchor="start">之后少拿的 GIS</text>
+<circle cx="343.3333333333333" cy="975" r="3.2" fill="#5B6B7F"/>
+<text x="355" y="979" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">看收入落在哪一年、家庭情</text>
+<text x="355" y="1003" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">况</text>
+<rect x="598.6666666666666" y="912" width="261" height="117" rx="14" fill="#E8F5EC" stroke="#1E7B34" stroke-width="1.5"/>
+<text x="617" y="945" font-size="19" fill="#1E7B34" font-weight="700" text-anchor="start">对照：TFSA 取款</text>
+<circle cx="622.6666666666666" cy="975" r="3.2" fill="#1E7B34"/>
+<text x="635" y="979" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">不计入收入，不压低 GIS</text>
+<rect x="40" y="1055" width="820" height="121" rx="14" fill="#FFF4E5" stroke="#B45309" stroke-width="1.5"/>
+<text x="58" y="1089" font-size="20" fill="#B45309" font-weight="700" text-anchor="start">最容易弄错</text>
+<circle cx="64" cy="1119" r="3.2" fill="#B45309"/>
+<text x="76" y="1124" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">「退休没工资了，RRSP 随便取不影响福利」：提款就是收入。</text>
+<circle cx="64" cy="1145" r="3.2" fill="#B45309"/>
+<text x="76" y="1149" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">只看预扣算账：预扣和最终税不同，GIS 的变化还在后面一年。</text>
+<line x1="40" y1="1202" x2="860" y2="1202" stroke="#D5DEE8" stroke-width="1.5"/>
+<text x="40" y="1227" font-size="15" fill="#5B6B7F" font-weight="700" text-anchor="start">官方来源</text>
+<text x="40" y="1248" font-size="14" fill="#5B6B7F" font-weight="400" text-anchor="start">CRA · Line 12900 – RRSP income（canada.ca）</text>
+<text x="40" y="1268" font-size="14" fill="#5B6B7F" font-weight="400" text-anchor="start">Service Canada · Guaranteed Income Supplement（canada.ca）</text>
+<text x="40" y="1295" font-size="14" fill="#5B6B7F" font-weight="400" text-anchor="start">核对日 2026-10-14。GIS 月金额按季调整、收入门槛每年调整，以 Service Canada 现行页面为准；本图讲通用规则，不判断个</text>
+<text x="40" y="1315" font-size="14" fill="#5B6B7F" font-weight="400" text-anchor="start">案。</text>
+</svg>

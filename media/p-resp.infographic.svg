@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1165" width="900" height="1165" role="img" aria-labelledby="t d" font-family="'PingFang SC','Hiragino Sans GB','Noto Sans SC','Microsoft YaHei',sans-serif">
+<title id="t">供款型与无需供款型教育补助分流图</title>
+<desc id="d">联邦教育补助不止一种：基本 CESG 要你先存钱才按比例配；附加 CESG 看家庭净收入；CLB 根本不需要你存钱。只算基本配比，低中收入家庭最容易漏钱。</desc>
+<rect width="900" height="1165" fill="#FAFBFC"/>
+<rect x="0" y="0" width="900" height="142" fill="#12355B"/>
+<text x="40" y="46" font-size="18" fill="#BFD3E6" font-weight="500" text-anchor="start">RESP 教育储蓄补助 · 信息图</text>
+<text x="40" y="92" font-size="30" fill="#FFFFFF" font-weight="700" text-anchor="start">给孩子 RESP 供款时，为什么只看基础补助会漏掉钱？</text>
+<rect x="40" y="166" width="820" height="143" rx="16" fill="#FFFFFF" stroke="#12355B" stroke-width="2"/>
+<text x="64" y="198" font-size="17" fill="#0E7C7B" font-weight="700" text-anchor="start">一句话答案</text>
+<text x="64" y="234" font-size="21" fill="#1F2A37" font-weight="600" text-anchor="start">联邦教育补助不止一种：基本 CESG 要你先存钱才按比例配；附加 CESG 看家庭净</text>
+<text x="64" y="266" font-size="21" fill="#1F2A37" font-weight="600" text-anchor="start">收入；CLB 根本不需要你存钱。只算基本配比，低中收入家庭最容易漏钱。</text>
+<text x="40" y="360" font-size="22" fill="#12355B" font-weight="700" text-anchor="start">两条路，资格分开查</text>
+<rect x="40.0" y="378" width="401" height="189" rx="14" fill="#EAF1F8" stroke="#2F5D8A" stroke-width="1.5"/>
+<text x="58" y="411" font-size="19" fill="#2F5D8A" font-weight="700" text-anchor="start">要先供款：CESG</text>
+<circle cx="64.0" cy="440" r="3.2" fill="#2F5D8A"/>
+<text x="76" y="444" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">基本：每年供款的前 $2,500 配 20%，即最多</text>
+<text x="76" y="468" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">$500</text>
+<circle cx="64.0" cy="488" r="3.2" fill="#2F5D8A"/>
+<text x="76" y="492" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">附加：前 $500 再配 20%（$100）或 10%（</text>
+<text x="76" y="516" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">$50），看家庭净收入</text>
+<circle cx="64.0" cy="536" r="3.2" fill="#2F5D8A"/>
+<text x="76" y="540" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">每个孩子到 17 岁终身最多 $7,200</text>
+<rect x="459.0" y="378" width="401" height="189" rx="14" fill="#E8F5EC" stroke="#1E7B34" stroke-width="1.5"/>
+<text x="477" y="411" font-size="19" fill="#1E7B34" font-weight="700" text-anchor="start">不需要供款：CLB 等</text>
+<circle cx="483.0" cy="440" r="3.2" fill="#1E7B34"/>
+<text x="495" y="444" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">CLB：第一年 $500，之后每个合格年 $100，到</text>
+<text x="495" y="468" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">15 岁，终身最多 $2,000</text>
+<circle cx="483.0" cy="488" r="3.2" fill="#1E7B34"/>
+<text x="495" y="492" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">资格看家庭收入与子女人数，要先开 RESP 并申</text>
+<text x="495" y="516" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">请</text>
+<circle cx="483.0" cy="536" r="3.2" fill="#1E7B34"/>
+<text x="495" y="540" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">BC 居民另有 BCTESG，同样不需要供款</text>
+<text x="40" y="614" font-size="22" fill="#12355B" font-weight="700" text-anchor="start">先查补助，再定供款</text>
+<rect x="40" y="632" width="820" height="96" rx="14" fill="#F4F6F9" stroke="#5B6B7F" stroke-width="1.5"/>
+<text x="58" y="666" font-size="20" fill="#5B6B7F" font-weight="700" text-anchor="start">第一步：查家庭净收入落在哪一档</text>
+<circle cx="64" cy="697" r="3.2" fill="#5B6B7F"/>
+<text x="76" y="701" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">决定附加 CESG 是 20% 还是 10%，以及有没有 CLB</text>
+<line x1="450" y1="730" x2="450" y2="757" stroke="#5B6B7F" stroke-width="2.5"/>
+<path d="M442,754 L458,754 L450,766 Z" fill="#5B6B7F"/>
+<text x="466" y="749" font-size="15" fill="#5B6B7F" font-weight="500" text-anchor="start">再看</text>
+<rect x="40" y="768" width="820" height="96" rx="14" fill="#F4F6F9" stroke="#5B6B7F" stroke-width="1.5"/>
+<text x="58" y="802" font-size="20" fill="#5B6B7F" font-weight="700" text-anchor="start">第二步：每种补助各自核资格与额度</text>
+<circle cx="64" cy="832" r="3.2" fill="#5B6B7F"/>
+<text x="76" y="837" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">CESG 按日历年，CLB 按 7 月至次年 6 月的福利期，口径不同</text>
+<rect x="40" y="889" width="820" height="121" rx="14" fill="#FFF4E5" stroke="#B45309" stroke-width="1.5"/>
+<text x="58" y="923" font-size="20" fill="#B45309" font-weight="700" text-anchor="start">最容易弄错</text>
+<circle cx="64" cy="954" r="3.2" fill="#B45309"/>
+<text x="76" y="958" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">「所有补助都要家长先存同样多的钱」：CLB 不要求供款。</text>
+<circle cx="64" cy="979" r="3.2" fill="#B45309"/>
+<text x="76" y="984" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">「存满 $2,500 就拿满了」：附加 CESG 和 CLB 是另算的。</text>
+<line x1="40" y1="1036" x2="860" y2="1036" stroke="#D5DEE8" stroke-width="1.5"/>
+<text x="40" y="1061" font-size="15" fill="#5B6B7F" font-weight="700" text-anchor="start">官方来源</text>
+<text x="40" y="1083" font-size="14" fill="#5B6B7F" font-weight="400" text-anchor="start">ESDC · How much money benefits could add to the RESP（canada.ca，页面日期 2026-08-10）</text>
+<text x="40" y="1103" font-size="14" fill="#5B6B7F" font-weight="400" text-anchor="start">CRA · RESP contributions（canada.ca）</text>
+<text x="40" y="1129" font-size="14" fill="#5B6B7F" font-weight="400" text-anchor="start">核对日 2026-10-14。收入分档每年调整，以 ESDC 现行页面为准；本图不建议「一律存满」，供款多少要看家庭安排。</text>
+</svg>

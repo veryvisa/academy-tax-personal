@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1309" width="900" height="1309" role="img" aria-labelledby="t d" font-family="'PingFang SC','Hiragino Sans GB','Noto Sans SC','Microsoft YaHei',sans-serif">
+<title id="t">税务居民的分层判定：居住联系、183 天与协定</title>
+<desc id="d">不一定。税务居民看的是你事实上在哪里安家，移民身份只是其中一项次要联系；起算日要按事实判断，不跟着证件走。</desc>
+<rect width="900" height="1309" fill="#FAFBFC"/>
+<rect x="0" y="0" width="900" height="142" fill="#12355B"/>
+<text x="40" y="46" font-size="18" fill="#BFD3E6" font-weight="500" text-anchor="start">税务居民身份 · 信息图</text>
+<text x="40" y="92" font-size="30" fill="#FFFFFF" font-weight="700" text-anchor="start">拿到移民身份，就一定从同一天开始按加拿大居民报税吗？</text>
+<rect x="40" y="166" width="820" height="143" rx="16" fill="#FFFFFF" stroke="#12355B" stroke-width="2"/>
+<text x="64" y="198" font-size="17" fill="#0E7C7B" font-weight="700" text-anchor="start">一句话答案</text>
+<text x="64" y="234" font-size="21" fill="#1F2A37" font-weight="600" text-anchor="start">不一定。税务居民看的是你事实上在哪里安家，移民身份只是其中一项次要联系；</text>
+<text x="64" y="266" font-size="21" fill="#1F2A37" font-weight="600" text-anchor="start">起算日要按事实判断，不跟着证件走。</text>
+<text x="40" y="360" font-size="22" fill="#12355B" font-weight="700" text-anchor="start">先判是不是居民，再看协定</text>
+<rect x="40" y="378" width="820" height="172" rx="14" fill="#E6F4F3" stroke="#0E7C7B" stroke-width="1.5"/>
+<text x="58" y="412" font-size="20" fill="#0E7C7B" font-weight="700" text-anchor="start">第一层：重大居住联系</text>
+<circle cx="64" cy="442" r="3.2" fill="#0E7C7B"/>
+<text x="76" y="447" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">住所（自有或租住，可供本人居住）</text>
+<circle cx="64" cy="468" r="3.2" fill="#0E7C7B"/>
+<text x="76" y="472" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">配偶或同居伴侣</text>
+<circle cx="64" cy="493" r="3.2" fill="#0E7C7B"/>
+<text x="76" y="498" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">受养人</text>
+<circle cx="64" cy="519" r="3.2" fill="#0E7C7B"/>
+<text x="76" y="523" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">有其一，通常就是事实居民</text>
+<line x1="450" y1="552" x2="450" y2="579" stroke="#5B6B7F" stroke-width="2.5"/>
+<path d="M442,576 L458,576 L450,588 Z" fill="#5B6B7F"/>
+<text x="466" y="571" font-size="15" fill="#5B6B7F" font-weight="500" text-anchor="start">不够明确时</text>
+<rect x="40" y="590" width="820" height="121" rx="14" fill="#EAF1F8" stroke="#2F5D8A" stroke-width="1.5"/>
+<text x="58" y="624" font-size="20" fill="#2F5D8A" font-weight="700" text-anchor="start">第二层：次要居住联系，合起来看</text>
+<circle cx="64" cy="654" r="3.2" fill="#2F5D8A"/>
+<text x="76" y="659" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">永久居民身份或工作许可、省医保、驾照、银行账户、车辆家具等</text>
+<circle cx="64" cy="680" r="3.2" fill="#2F5D8A"/>
+<text x="76" y="684" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">没有「凑满几项」的门槛，要综合评估</text>
+<line x1="450" y1="713" x2="450" y2="740" stroke="#5B6B7F" stroke-width="2.5"/>
+<path d="M442,737 L458,737 L450,749 Z" fill="#5B6B7F"/>
+<text x="466" y="732" font-size="15" fill="#5B6B7F" font-weight="500" text-anchor="start">仍不是事实居民</text>
+<rect x="40" y="751" width="820" height="96" rx="14" fill="#F4F6F9" stroke="#5B6B7F" stroke-width="1.5"/>
+<text x="58" y="785" font-size="20" fill="#5B6B7F" font-weight="700" text-anchor="start">第三层：一年在加拿大逗留满 183 天</text>
+<circle cx="64" cy="815" r="3.2" fill="#5B6B7F"/>
+<text x="76" y="820" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">视同全年为加拿大居民（只在不是事实居民时才适用）</text>
+<line x1="450" y1="848" x2="450" y2="875" stroke="#5B6B7F" stroke-width="2.5"/>
+<path d="M442,872 L458,872 L450,884 Z" fill="#5B6B7F"/>
+<text x="466" y="867" font-size="15" fill="#5B6B7F" font-weight="500" text-anchor="start">任一层判成居民，而对方国家也判你是居民</text>
+<rect x="40" y="886" width="820" height="121" rx="14" fill="#F4F6F9" stroke="#5B6B7F" stroke-width="1.5"/>
+<text x="58" y="920" font-size="20" fill="#5B6B7F" font-weight="700" text-anchor="start">第四层：税收协定仲裁</text>
+<circle cx="64" cy="951" r="3.2" fill="#5B6B7F"/>
+<text x="76" y="955" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">协定判给对方国家，就视同非居民</text>
+<circle cx="64" cy="976" r="3.2" fill="#5B6B7F"/>
+<text x="76" y="981" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">入境时拿不准，可用 NR74 请 CRA 给意见</text>
+<rect x="40" y="1033" width="820" height="121" rx="14" fill="#FFF4E5" stroke="#B45309" stroke-width="1.5"/>
+<text x="58" y="1067" font-size="20" fill="#B45309" font-weight="700" text-anchor="start">最容易弄错</text>
+<circle cx="64" cy="1098" r="3.2" fill="#B45309"/>
+<text x="76" y="1102" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">「有了 PR 就一直是税务居民」：离开加拿大、联系断了，PR 还在也可能不再是税务居民。</text>
+<circle cx="64" cy="1123" r="3.2" fill="#B45309"/>
+<text x="76" y="1128" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">「没拿 PR 就不是税务居民」：持工签或学签在加拿大安家的人，同样可能是事实居民。</text>
+<line x1="40" y1="1180" x2="860" y2="1180" stroke="#D5DEE8" stroke-width="1.5"/>
+<text x="40" y="1205" font-size="15" fill="#5B6B7F" font-weight="700" text-anchor="start">官方来源</text>
+<text x="40" y="1227" font-size="14" fill="#5B6B7F" font-weight="400" text-anchor="start">CRA · Income Tax Folio S5-F1-C1, Determining an Individual&#x27;s Residence Status（canada.ca）</text>
+<text x="40" y="1247" font-size="14" fill="#5B6B7F" font-weight="400" text-anchor="start">CRA · Determining your residency status（canada.ca）</text>
+<text x="40" y="1273" font-size="14" fill="#5B6B7F" font-weight="400" text-anchor="start">核对日 2026-10-14。协定与对方国家的税制本图不作推断；居民身份是事实判断，个案要整理全部联系后判断。</text>
+</svg>

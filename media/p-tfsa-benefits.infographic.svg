@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 870" width="900" height="870" role="img" aria-labelledby="t d" font-family="'PingFang SC','Hiragino Sans GB','Noto Sans SC','Microsoft YaHei',sans-serif">
+<title id="t">TFSA、RRSP 与援助资产测试对照图</title>
+<desc id="d">联邦这一层不会：TFSA 里的收益和取款都不算收入，不会压低 OAS、GIS、EI 等收入审查型福利，也不影响牛奶金等联邦福利的资格。RRSP 提款则全额算收入。</desc>
+<rect width="900" height="870" fill="#FAFBFC"/>
+<rect x="0" y="0" width="900" height="142" fill="#12355B"/>
+<text x="40" y="46" font-size="18" fill="#BFD3E6" font-weight="500" text-anchor="start">TFSA 与福利 · 信息图</text>
+<text x="40" y="92" font-size="30" fill="#FFFFFF" font-weight="700" text-anchor="start">TFSA 取钱会像 RRSP 提款一样影响收入挂钩的福利吗？</text>
+<rect x="40" y="166" width="820" height="143" rx="16" fill="#FFFFFF" stroke="#12355B" stroke-width="2"/>
+<text x="64" y="198" font-size="17" fill="#0E7C7B" font-weight="700" text-anchor="start">一句话答案</text>
+<text x="64" y="234" font-size="21" fill="#1F2A37" font-weight="600" text-anchor="start">联邦这一层不会：TFSA 里的收益和取款都不算收入，不会压低 OAS、GIS、EI 等</text>
+<text x="64" y="266" font-size="21" fill="#1F2A37" font-weight="600" text-anchor="start">收入审查型福利，也不影响牛奶金等联邦福利的资格。RRSP 提款则全额算收入。</text>
+<text x="40" y="360" font-size="22" fill="#12355B" font-weight="700" text-anchor="start">同样取一笔钱，三种口径</text>
+<rect x="40.0" y="378" width="261" height="165" rx="14" fill="#E8F5EC" stroke="#1E7B34" stroke-width="1.5"/>
+<text x="58" y="411" font-size="19" fill="#1E7B34" font-weight="700" text-anchor="start">TFSA 取款</text>
+<circle cx="64.0" cy="440" r="3.2" fill="#1E7B34"/>
+<text x="76" y="444" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">不计入收入</text>
+<circle cx="64.0" cy="464" r="3.2" fill="#1E7B34"/>
+<text x="76" y="468" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">不进 line 23600</text>
+<circle cx="64.0" cy="488" r="3.2" fill="#1E7B34"/>
+<text x="76" y="492" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">联邦收入审查型福利不受影</text>
+<text x="76" y="516" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">响</text>
+<rect x="319.3333333333333" y="378" width="261" height="165" rx="14" fill="#FDECEA" stroke="#B42318" stroke-width="1.5"/>
+<text x="337" y="411" font-size="19" fill="#B42318" font-weight="700" text-anchor="start">RRSP 取款</text>
+<circle cx="343.3333333333333" cy="440" r="3.2" fill="#B42318"/>
+<text x="355" y="444" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">全额计入收入</text>
+<circle cx="343.3333333333333" cy="464" r="3.2" fill="#B42318"/>
+<text x="355" y="468" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">抬高净收入</text>
+<circle cx="343.3333333333333" cy="488" r="3.2" fill="#B42318"/>
+<text x="355" y="492" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">可能减少收入挂钩的福利</text>
+<rect x="598.6666666666666" y="378" width="261" height="165" rx="14" fill="#FFF4E5" stroke="#B45309" stroke-width="1.5"/>
+<text x="617" y="411" font-size="19" fill="#B45309" font-weight="700" text-anchor="start">省级或其他援助</text>
+<circle cx="622.6666666666666" cy="440" r="3.2" fill="#B45309"/>
+<text x="635" y="444" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">有的看资产，不只看收入</text>
+<circle cx="622.6666666666666" cy="464" r="3.2" fill="#B45309"/>
+<text x="635" y="468" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">账户余额可能要申报</text>
+<circle cx="622.6666666666666" cy="488" r="3.2" fill="#B45309"/>
+<text x="635" y="492" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">要逐个计划核对</text>
+<rect x="40" y="568" width="820" height="146" rx="14" fill="#FFF4E5" stroke="#B45309" stroke-width="1.5"/>
+<text x="58" y="602" font-size="20" fill="#B45309" font-weight="700" text-anchor="start">最容易弄错</text>
+<circle cx="64" cy="633" r="3.2" fill="#B45309"/>
+<text x="76" y="637" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">「任何储蓄账户取款都会降低牛奶金」：TFSA 取款不会。</text>
+<circle cx="64" cy="658" r="3.2" fill="#B45309"/>
+<text x="76" y="663" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">「TFSA 对所有援助都免计」：联邦收入测试不算它，不代表省级资产测试也不算。</text>
+<circle cx="64" cy="684" r="3.2" fill="#B45309"/>
+<text x="76" y="688" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">「取款不算收入，就随时能存回去」：取出的金额要到次年 1 月 1 日才恢复额度。</text>
+<line x1="40" y1="741" x2="860" y2="741" stroke="#D5DEE8" stroke-width="1.5"/>
+<text x="40" y="766" font-size="15" fill="#5B6B7F" font-weight="700" text-anchor="start">官方来源</text>
+<text x="40" y="787" font-size="14" fill="#5B6B7F" font-weight="400" text-anchor="start">CRA · RC4466 TFSA guide for individuals（canada.ca，指南已标停更，福利段落仍在）</text>
+<text x="40" y="808" font-size="14" fill="#5B6B7F" font-weight="400" text-anchor="start">CRA · Tax-Free Savings Account（canada.ca）</text>
+<text x="40" y="834" font-size="14" fill="#5B6B7F" font-weight="400" text-anchor="start">核对日 2026-10-14。省级援助的资产规则本图不作推断，须查各计划现行规定；本图讲通用规则，不判断个案。</text>
+</svg>

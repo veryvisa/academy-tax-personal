@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1148" width="900" height="1148" role="img" aria-labelledby="t d" font-family="'PingFang SC','Hiragino Sans GB','Noto Sans SC','Microsoft YaHei',sans-serif">
+<title id="t">是否欠税、是否须报、是否影响福利：三个问题分开问</title>
+<desc id="d">要。没有税要交，不等于不用报；就算法律上不必报，牛奶金、GIS 等福利也靠你的报税资料来核定，不报就可能停。</desc>
+<rect width="900" height="1148" fill="#FAFBFC"/>
+<rect x="0" y="0" width="900" height="142" fill="#12355B"/>
+<text x="40" y="46" font-size="18" fill="#BFD3E6" font-weight="500" text-anchor="start">零收入报税 · 信息图</text>
+<text x="40" y="92" font-size="30" fill="#FFFFFF" font-weight="700" text-anchor="start">今年没有收入，还需要报税才能继续拿福利吗？</text>
+<rect x="40" y="166" width="820" height="143" rx="16" fill="#FFFFFF" stroke="#12355B" stroke-width="2"/>
+<text x="64" y="198" font-size="17" fill="#0E7C7B" font-weight="700" text-anchor="start">一句话答案</text>
+<text x="64" y="234" font-size="21" fill="#1F2A37" font-weight="600" text-anchor="start">要。没有税要交，不等于不用报；就算法律上不必报，牛奶金、GIS 等福利也靠你</text>
+<text x="64" y="266" font-size="21" fill="#1F2A37" font-weight="600" text-anchor="start">的报税资料来核定，不报就可能停。</text>
+<text x="40" y="360" font-size="22" fill="#12355B" font-weight="700" text-anchor="start">三个问题，各问各的</text>
+<rect x="40" y="378" width="820" height="121" rx="14" fill="#F4F6F9" stroke="#5B6B7F" stroke-width="1.5"/>
+<text x="58" y="412" font-size="20" fill="#5B6B7F" font-weight="700" text-anchor="start">问一：我欠税吗？</text>
+<circle cx="64" cy="442" r="3.2" fill="#5B6B7F"/>
+<text x="76" y="447" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">没收入通常不欠税</text>
+<circle cx="64" cy="468" r="3.2" fill="#5B6B7F"/>
+<text x="76" y="472" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">迟报罚款按截止日未缴的税算：不欠税，罚款为零，但这只回答了第一问</text>
+<line x1="450" y1="501" x2="450" y2="528" stroke="#5B6B7F" stroke-width="2.5"/>
+<path d="M442,525 L458,525 L450,537 Z" fill="#5B6B7F"/>
+<text x="466" y="520" font-size="15" fill="#5B6B7F" font-weight="500" text-anchor="start">不欠税，接着问</text>
+<rect x="40" y="539" width="820" height="121" rx="14" fill="#EAF1F8" stroke="#2F5D8A" stroke-width="1.5"/>
+<text x="58" y="573" font-size="20" fill="#2F5D8A" font-weight="700" text-anchor="start">问二：法律上必须报吗？</text>
+<circle cx="64" cy="603" r="3.2" fill="#2F5D8A"/>
+<text x="76" y="608" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">有欠税、处置了资本财产、要偿还 OAS 或 EI 福利、HBP/LLP 未还清、自雇收入要交 CPP、CRA 要</text>
+<text x="76" y="633" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">求你报：任一条成立就必须报</text>
+<line x1="450" y1="662" x2="450" y2="689" stroke="#5B6B7F" stroke-width="2.5"/>
+<path d="M442,686 L458,686 L450,698 Z" fill="#5B6B7F"/>
+<text x="466" y="681" font-size="15" fill="#5B6B7F" font-weight="500" text-anchor="start">都不成立，还要问</text>
+<rect x="40" y="700" width="820" height="146" rx="14" fill="#E6F4F3" stroke="#0E7C7B" stroke-width="1.5"/>
+<text x="58" y="734" font-size="20" fill="#0E7C7B" font-weight="700" text-anchor="start">问三：我想拿或继续拿福利吗？</text>
+<circle cx="64" cy="764" r="3.2" fill="#0E7C7B"/>
+<text x="76" y="769" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">牛奶金、杂货与必需品福利：本人和配偶都要报</text>
+<circle cx="64" cy="790" r="3.2" fill="#0E7C7B"/>
+<text x="76" y="794" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">GIS：没报上一年的税，可能停发或减少</text>
+<circle cx="64" cy="815" r="3.2" fill="#0E7C7B"/>
+<text x="76" y="820" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">工作福利等退还性抵免：先有报税记录才核发</text>
+<rect x="40" y="872" width="820" height="121" rx="14" fill="#FFF4E5" stroke="#B45309" stroke-width="1.5"/>
+<text x="58" y="906" font-size="20" fill="#B45309" font-weight="700" text-anchor="start">最容易弄错</text>
+<circle cx="64" cy="937" r="3.2" fill="#B45309"/>
+<text x="76" y="941" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">「没收入就不用理税表」：配偶一方不报，全家的牛奶金都可能停。</text>
+<circle cx="64" cy="962" r="3.2" fill="#B45309"/>
+<text x="76" y="967" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">停发常常从下一个 7 月的福利年才悄悄开始，等发现已经晚了。</text>
+<line x1="40" y1="1019" x2="860" y2="1019" stroke="#D5DEE8" stroke-width="1.5"/>
+<text x="40" y="1044" font-size="15" fill="#5B6B7F" font-weight="700" text-anchor="start">官方来源</text>
+<text x="40" y="1066" font-size="14" fill="#5B6B7F" font-weight="400" text-anchor="start">Income Tax Act s.150（laws-lois.justice.gc.ca）</text>
+<text x="40" y="1086" font-size="14" fill="#5B6B7F" font-weight="400" text-anchor="start">CRA · How we calculate your CCB（canada.ca）</text>
+<text x="40" y="1112" font-size="14" fill="#5B6B7F" font-weight="400" text-anchor="start">核对日 2026-10-14。必须申报的情形以法规与 CRA 现行说明为准；本图讲通用规则，不判断个案。</text>
+</svg>
