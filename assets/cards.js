@@ -4,7 +4,11 @@
    移植自 youth-care-guide/src/components/Cards.astro（2026-09-20 全站共用做法），
    只把按钮类名换成本站设计系统的 .vv-btn。 */
 (function () {
-  var figs = Array.prototype.slice.call(document.querySelectorAll('figure.kcard[data-key]'));
+  // 同页一组：知识卡 figure.kcard 与媒体区块的信息图／漫画 figure.mfig（course_extras._render_item，2026-11-01 G11）。
+  // 两处都可能各挂一次本脚本，只装一个弹窗。
+  if (window.__vvLb) return;
+  window.__vvLb = 1;
+  var figs = Array.prototype.slice.call(document.querySelectorAll('figure.kcard[data-key], figure.mfig[data-key]'));
   if (!figs.length) return;
   var lb = document.createElement('dialog');
   lb.className = 'lb';
@@ -32,16 +36,19 @@
     var f = figs[cur], d = f.dataset;
     img.src = d.full;
     img.alt = f.querySelector('img').alt;
-    q('.lb-count').textContent = d.pageTitle + ' · 第 ' + (cur + 1) + ' / ' + figs.length + ' 张';
+    q('.lb-count').textContent = (d.pageTitle || document.title.split(' · ')[0]) + ' · 第 ' + (cur + 1) + ' / ' + figs.length + ' 张';
     q('.lb-title').textContent = d.title;
     q('.lb-sub').textContent = d.sub || '';
     q('.lb-sub').style.display = d.sub ? '' : 'none';
-    q('.lb-take').textContent = f.querySelector('.takeaway').textContent;
-    q('.lb-guide').innerHTML = f.querySelector('.guide').innerHTML;
-    q('.lb-detail').href = d.detail;
+    var tk = f.querySelector('.takeaway'), gd = f.querySelector('.guide');
+    q('.lb-take').textContent = tk ? tk.textContent : '';
+    q('.lb-take').style.display = tk ? '' : 'none';
+    q('.lb-guide').innerHTML = gd ? gd.innerHTML : '';
+    var det = q('.lb-detail');
+    if (d.detail) { det.href = d.detail; det.style.display = ''; } else det.style.display = 'none';
     var pg = q('.lb-page');
-    pg.href = d.page;
-    pg.style.display = onLibrary ? '' : 'none';
+    pg.href = d.page || '#';
+    pg.style.display = onLibrary && d.page ? '' : 'none';
     q('.lb-dl').href = d.full;
     q('.lb-prev').style.visibility = q('.lb-next').style.visibility = figs.length > 1 ? 'visible' : 'hidden';
     [cur - 1, cur + 1].forEach(function (j) {
@@ -97,7 +104,8 @@
   }, { passive: true });
 
   figs.forEach(function (f, i) {
-    var pic = f.querySelector('.kcard-pic');
+    var pic = f.querySelector('.kcard-pic, .mfig-pic');
+    if (!pic) return;
     pic.addEventListener('click', function (e) { e.preventDefault(); open(i, pic); });
   });
   var m = location.hash.match(/^#look-([\w-]+)$/);
