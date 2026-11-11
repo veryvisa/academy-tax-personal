@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1379" width="900" height="1379" role="img" aria-labelledby="t d" font-family="'PingFang SC','Hiragino Sans GB','Noto Sans SC','Microsoft YaHei',sans-serif">
+<title id="t">FHSA 的合格提取：几道条件全过才免税</title>
+<desc id="d">不是。只有同时满足全部条件的「合格提取」才不计入收入；差一条，这笔钱就按应税提取处理，全额计入收入并预扣税。</desc>
+<rect width="900" height="1379" fill="#FAFBFC"/>
+<rect x="0" y="0" width="900" height="142" fill="#12355B"/>
+<text x="40" y="46" font-size="18" fill="#BFD3E6" font-weight="500" text-anchor="start">首次购房储蓄账户（FHSA）· 信息图</text>
+<text x="40" y="92" font-size="30" fill="#FFFFFF" font-weight="700" text-anchor="start">开了 FHSA，买房时取出的每一笔钱都免税吗？</text>
+<rect x="40" y="166" width="820" height="143" rx="16" fill="#FFFFFF" stroke="#12355B" stroke-width="2"/>
+<text x="64" y="198" font-size="17" fill="#0E7C7B" font-weight="700" text-anchor="start">一句话答案</text>
+<text x="64" y="234" font-size="21" fill="#1F2A37" font-weight="600" text-anchor="start">不是。只有同时满足全部条件的「合格提取」才不计入收入；差一条，这笔钱就按</text>
+<text x="64" y="266" font-size="21" fill="#1F2A37" font-weight="600" text-anchor="start">应税提取处理，全额计入收入并预扣税。</text>
+<text x="40" y="360" font-size="22" fill="#12355B" font-weight="700" text-anchor="start">每一次提取都要过的条件</text>
+<rect x="40" y="378" width="820" height="121" rx="14" fill="#EAF1F8" stroke="#2F5D8A" stroke-width="1.5"/>
+<text x="58" y="412" font-size="20" fill="#2F5D8A" font-weight="700" text-anchor="start">① 提取时你算首次购房者</text>
+<circle cx="64" cy="442" r="3.2" fill="#2F5D8A"/>
+<text x="76" y="447" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">当年提取前（提取前 30 天除外）及前 4 个日历年，没有住在自己拥有或共同拥有的合格住房里</text>
+<circle cx="64" cy="468" r="3.2" fill="#2F5D8A"/>
+<text x="76" y="472" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">这个口径和开户时的首次购房者口径不同，要分开核</text>
+<line x1="450" y1="501" x2="450" y2="528" stroke="#5B6B7F" stroke-width="2.5"/>
+<path d="M442,525 L458,525 L450,537 Z" fill="#5B6B7F"/>
+<rect x="40" y="539" width="820" height="96" rx="14" fill="#EAF1F8" stroke="#2F5D8A" stroke-width="1.5"/>
+<text x="58" y="573" font-size="20" fill="#2F5D8A" font-weight="700" text-anchor="start">② 有书面购房或建房合同</text>
+<circle cx="64" cy="603" r="3.2" fill="#2F5D8A"/>
+<text x="76" y="608" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">取得或完工日在提取次年的 10 月 1 日之前</text>
+<line x1="450" y1="636" x2="450" y2="663" stroke="#5B6B7F" stroke-width="2.5"/>
+<path d="M442,660 L458,660 L450,672 Z" fill="#5B6B7F"/>
+<rect x="40" y="674" width="820" height="146" rx="14" fill="#EAF1F8" stroke="#2F5D8A" stroke-width="1.5"/>
+<text x="58" y="708" font-size="20" fill="#2F5D8A" font-weight="700" text-anchor="start">③ 其余条件</text>
+<circle cx="64" cy="739" r="3.2" fill="#2F5D8A"/>
+<text x="76" y="743" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">从首次合格提取起到买房完成，一直是加拿大居民</text>
+<circle cx="64" cy="764" r="3.2" fill="#2F5D8A"/>
+<text x="76" y="769" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">买房或建成后一年内自住或打算自住</text>
+<circle cx="64" cy="790" r="3.2" fill="#2F5D8A"/>
+<text x="76" y="794" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">填 RC725 交给账户机构</text>
+<text x="40" y="869" font-size="22" fill="#12355B" font-weight="700" text-anchor="start">两种结果</text>
+<rect x="40.0" y="887" width="401" height="165" rx="14" fill="#E8F5EC" stroke="#1E7B34" stroke-width="1.5"/>
+<text x="58" y="920" font-size="19" fill="#1E7B34" font-weight="700" text-anchor="start">全部满足：合格提取</text>
+<circle cx="64.0" cy="949" r="3.2" fill="#1E7B34"/>
+<text x="76" y="953" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">不计入收入、不预扣</text>
+<circle cx="64.0" cy="973" r="3.2" fill="#1E7B34"/>
+<text x="76" y="977" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">不用还</text>
+<circle cx="64.0" cy="997" r="3.2" fill="#1E7B34"/>
+<text x="76" y="1001" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">没有最短存放期</text>
+<circle cx="64.0" cy="1021" r="3.2" fill="#1E7B34"/>
+<text x="76" y="1025" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">参与期最迟到首次合格提取的次年年底</text>
+<rect x="459.0" y="887" width="401" height="165" rx="14" fill="#FDECEA" stroke="#B42318" stroke-width="1.5"/>
+<text x="477" y="920" font-size="19" fill="#B42318" font-weight="700" text-anchor="start">任一不满足：应税提取</text>
+<circle cx="483.0" cy="949" r="3.2" fill="#B42318"/>
+<text x="495" y="953" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">全额计入收入</text>
+<circle cx="483.0" cy="973" r="3.2" fill="#B42318"/>
+<text x="495" y="977" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">机构会预扣税</text>
+<circle cx="483.0" cy="997" r="3.2" fill="#B42318"/>
+<text x="495" y="1001" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">报在 line 12905 / 12906</text>
+<rect x="40" y="1077" width="820" height="146" rx="14" fill="#FFF4E5" stroke="#B45309" stroke-width="1.5"/>
+<text x="58" y="1111" font-size="20" fill="#B45309" font-weight="700" text-anchor="start">最容易弄错</text>
+<circle cx="64" cy="1142" r="3.2" fill="#B45309"/>
+<text x="76" y="1146" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">买了房，账户还剩几千块没处理：参与期结束时余额一次性计入收入。到期前整笔转进 RRSP 或</text>
+<text x="76" y="1172" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">RRIF 可以避开。</text>
+<circle cx="64" cy="1193" r="3.2" fill="#B45309"/>
+<text x="76" y="1197" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">已经超额供款，靠合格提取「抵掉」：合格提取不会减少或消除超额。</text>
+<line x1="40" y1="1250" x2="860" y2="1250" stroke="#D5DEE8" stroke-width="1.5"/>
+<text x="40" y="1275" font-size="15" fill="#5B6B7F" font-weight="700" text-anchor="start">官方来源</text>
+<text x="40" y="1296" font-size="14" fill="#5B6B7F" font-weight="400" text-anchor="start">CRA · First Home Savings Account (FHSA)（canada.ca）</text>
+<text x="40" y="1316" font-size="14" fill="#5B6B7F" font-weight="400" text-anchor="start">CRA · Withdrawals and transfers out of your FHSAs（canada.ca）</text>
+<text x="40" y="1343" font-size="14" fill="#5B6B7F" font-weight="400" text-anchor="start">核对日 2026-10-14。条件以 CRA 现行页面为准；本图讲通用规则，个案是否合格要逐条核对。</text>
+</svg>

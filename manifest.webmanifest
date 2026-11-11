@@ -1,0 +1,11 @@
+{
+ "name": "微出国·学 · 加拿大个人税",
+ "short_name": "加拿大个人税",
+ "start_url": "./index.html",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#ffffff",
+ "theme_color": "#0f172a",
+ "lang": "zh-CN",
+ "icons": []
+}

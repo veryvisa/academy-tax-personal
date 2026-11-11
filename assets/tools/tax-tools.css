@@ -1,0 +1,28 @@
+/* 个税计算器（颜色全部走站点 token，明暗主题自动跟随；手机端单列） */
+.tc{border:1px solid var(--vv-border);border-radius:var(--vv-r-lg,12px);background:var(--vv-bg-raised);padding:16px;margin:20px 0;max-width:100%;overflow:hidden}
+.tc-form{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px 14px;margin-bottom:14px}
+.tc-f{display:flex;flex-direction:column;gap:4px;font-size:var(--vv-fs-sm);color:var(--vv-ink);margin:0}
+.tc-f em{font-style:normal;font-size:var(--vv-fs-xs);color:var(--vv-gray-600)}
+.tc-f input,.tc-f select,.tc-f textarea{font:inherit;padding:8px 10px;border:1px solid var(--vv-border-strong);border-radius:8px;background:var(--vv-bg);color:var(--vv-ink);min-width:0;width:100%;box-sizing:border-box}
+.tc-wide{grid-column:1/-1}
+.tc-check{flex-direction:row;align-items:center;gap:8px}
+.tc-check input{width:auto}
+.tc-kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;margin:8px 0 12px}
+.tc-kpis>div{background:var(--vv-bg-subtle);border-radius:10px;padding:10px 12px;display:flex;flex-direction:column;gap:2px}
+.tc-kpis small{color:var(--vv-gray-600);font-size:var(--vv-fs-xs)}
+.tc-kpis b{font-size:var(--vv-fs-xl);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.tc-kpis span{font-size:var(--vv-fs-xs);color:var(--vv-gray-600)}
+.tc-warn,.tc-err{color:var(--vv-danger);margin:8px 0}
+.tc-note{font-size:var(--vv-fs-xs);color:var(--vv-gray-600);margin:10px 0 0;line-height:1.7}
+.tc-list{margin:8px 0;padding-left:1.2em}
+.tc-list li{margin:4px 0}
+.tc-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.tc-table{border-collapse:collapse;width:100%;font-size:var(--vv-fs-sm);font-variant-numeric:tabular-nums}
+.tc-table th,.tc-table td{border-bottom:1px solid var(--vv-border);padding:6px 8px;text-align:left;white-space:nowrap}
+.tc-n{text-align:right}
+.tc-foot{margin-top:14px;padding-top:10px;border-top:1px dashed var(--vv-border);font-size:var(--vv-fs-xs);color:var(--vv-gray-600);line-height:1.7}
+.tc-foot a{overflow-wrap:anywhere}
+.tc-calc-block{border:1px solid var(--vv-border);border-radius:12px;padding:12px 16px;margin:20px 0;background:var(--vv-bg-subtle)}
+.tc-calc-block h2{font-size:var(--vv-fs-lg);margin:0 0 6px}
+.tc-calc-block p{margin:4px 0}
+@media (max-width:560px){.tc-kpis b{font-size:var(--vv-fs-lg)}.tc{padding:12px}.tc-form{grid-template-columns:1fr}.tc-kpis{grid-template-columns:1fr 1fr}}

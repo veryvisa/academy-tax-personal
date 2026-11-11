@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1207" width="900" height="1207" role="img" aria-labelledby="t d" font-family="'PingFang SC','Hiragino Sans GB','Noto Sans SC','Microsoft YaHei',sans-serif">
+<title id="t">牛奶金的家庭收入口径：两个人的净收入合流进同一张算式</title>
+<desc id="d">牛奶金不看领款人一个人的工资，而是看全家上一税年的「调整后家庭净收入」，再叠加孩子人数、年龄段和婚姻监护状况。任何一项变了，金额都会变。</desc>
+<rect width="900" height="1207" fill="#FAFBFC"/>
+<rect x="0" y="0" width="900" height="142" fill="#12355B"/>
+<text x="40" y="46" font-size="18" fill="#BFD3E6" font-weight="500" text-anchor="start">加拿大儿童福利金（CCB）· 信息图</text>
+<text x="40" y="92" font-size="30" fill="#FFFFFF" font-weight="700" text-anchor="start">为什么我收入没变，牛奶金却会变化？</text>
+<rect x="40" y="166" width="820" height="143" rx="16" fill="#FFFFFF" stroke="#12355B" stroke-width="2"/>
+<text x="64" y="198" font-size="17" fill="#0E7C7B" font-weight="700" text-anchor="start">一句话答案</text>
+<text x="64" y="234" font-size="21" fill="#1F2A37" font-weight="600" text-anchor="start">牛奶金不看领款人一个人的工资，而是看全家上一税年的「调整后家庭净收入」，</text>
+<text x="64" y="266" font-size="21" fill="#1F2A37" font-weight="600" text-anchor="start">再叠加孩子人数、年龄段和婚姻监护状况。任何一项变了，金额都会变。</text>
+<text x="40" y="360" font-size="22" fill="#12355B" font-weight="700" text-anchor="start">钱是怎么算出来的</text>
+<rect x="40.0" y="378" width="401" height="117" rx="14" fill="#EAF1F8" stroke="#2F5D8A" stroke-width="1.5"/>
+<text x="58" y="411" font-size="19" fill="#2F5D8A" font-weight="700" text-anchor="start">你的净收入</text>
+<circle cx="64.0" cy="440" r="3.2" fill="#2F5D8A"/>
+<text x="76" y="444" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">税表 line 23600</text>
+<circle cx="64.0" cy="464" r="3.2" fill="#2F5D8A"/>
+<text x="76" y="468" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">不是工资单上的数</text>
+<rect x="459.0" y="378" width="401" height="117" rx="14" fill="#EAF1F8" stroke="#2F5D8A" stroke-width="1.5"/>
+<text x="477" y="411" font-size="19" fill="#2F5D8A" font-weight="700" text-anchor="start">配偶或同居伴侣的净收入</text>
+<circle cx="483.0" cy="440" r="3.2" fill="#2F5D8A"/>
+<text x="495" y="444" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">同样取 line 23600</text>
+<circle cx="483.0" cy="464" r="3.2" fill="#2F5D8A"/>
+<text x="495" y="468" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">对方没报税，福利会停</text>
+<path d="M240,496 C240,528 450,516 450,540" fill="none" stroke="#5B6B7F" stroke-width="2.5"/>
+<path d="M660,496 C660,528 450,516 450,540" fill="none" stroke="#5B6B7F" stroke-width="2.5"/>
+<path d="M442,538 L458,538 L450,550 Z" fill="#5B6B7F"/>
+<rect x="40" y="550" width="820" height="146" rx="14" fill="#E6F4F3" stroke="#0E7C7B" stroke-width="1.5"/>
+<text x="58" y="584" font-size="20" fill="#0E7C7B" font-weight="700" text-anchor="start">调整后家庭净收入（AFNI）</text>
+<circle cx="64" cy="615" r="3.2" fill="#0E7C7B"/>
+<text x="76" y="619" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">两人 line 23600 相加，剔除 UCCB 与 RDSP 收入，再加回这两项的退还额</text>
+<circle cx="64" cy="640" r="3.2" fill="#0E7C7B"/>
+<text x="76" y="645" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">再叠加：孩子人数 · 每个孩子的年龄段（6 岁以下与 6–17 岁最高额不同）· 婚姻与监护状况</text>
+<circle cx="64" cy="666" r="3.2" fill="#0E7C7B"/>
+<text x="76" y="670" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">按福利年发放：7 月 1 日至次年 6 月 30 日，依据上一税年的报表</text>
+<text x="40" y="745" font-size="22" fill="#12355B" font-weight="700" text-anchor="start">收入没变，钱却变了：常见四个原因</text>
+<rect x="40.0" y="763" width="191" height="117" rx="14" fill="#F4F6F9" stroke="#5B6B7F" stroke-width="1.5"/>
+<text x="58" y="796" font-size="19" fill="#5B6B7F" font-weight="700" text-anchor="start">配偶收入变了</text>
+<circle cx="64.0" cy="825" r="3.2" fill="#5B6B7F"/>
+<text x="76" y="829" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">算式用的是两人合</text>
+<text x="76" y="853" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">计</text>
+<rect x="249.5" y="763" width="191" height="117" rx="14" fill="#F4F6F9" stroke="#5B6B7F" stroke-width="1.5"/>
+<text x="268" y="796" font-size="19" fill="#5B6B7F" font-weight="700" text-anchor="start">孩子满 6 岁</text>
+<circle cx="273.5" cy="825" r="3.2" fill="#5B6B7F"/>
+<text x="286" y="829" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">换到 6–17 岁那一</text>
+<text x="286" y="853" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">档</text>
+<rect x="459.0" y="763" width="191" height="117" rx="14" fill="#F4F6F9" stroke="#5B6B7F" stroke-width="1.5"/>
+<text x="477" y="796" font-size="19" fill="#5B6B7F" font-weight="700" text-anchor="start">婚姻状况变了</text>
+<circle cx="483.0" cy="825" r="3.2" fill="#5B6B7F"/>
+<text x="495" y="829" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">结婚、同居或分居</text>
+<text x="495" y="853" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">都要报（RC65）</text>
+<rect x="668.5" y="763" width="191" height="117" rx="14" fill="#F4F6F9" stroke="#5B6B7F" stroke-width="1.5"/>
+<text x="686" y="796" font-size="19" fill="#5B6B7F" font-weight="700" text-anchor="start">进入新福利年</text>
+<circle cx="692.5" cy="825" r="3.2" fill="#5B6B7F"/>
+<text x="704" y="829" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">每年 7 月按新基</text>
+<text x="704" y="853" font-size="16" fill="#1F2A37" font-weight="400" text-anchor="start">年与新额度重算</text>
+<rect x="40" y="905" width="820" height="146" rx="14" fill="#FFF4E5" stroke="#B45309" stroke-width="1.5"/>
+<text x="58" y="939" font-size="20" fill="#B45309" font-weight="700" text-anchor="start">最容易弄错</text>
+<circle cx="64" cy="970" r="3.2" fill="#B45309"/>
+<text x="76" y="974" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">只盯着自己的工资：配偶的净收入同样进算式。</text>
+<circle cx="64" cy="995" r="3.2" fill="#B45309"/>
+<text x="76" y="1000" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">以为今年失业，福利马上涨：要等明年春天报完今年的税，从明年 7 月起才按新收入重算。</text>
+<circle cx="64" cy="1021" r="3.2" fill="#B45309"/>
+<text x="76" y="1025" font-size="17" fill="#1F2A37" font-weight="400" text-anchor="start">分居后立刻报变更：要分居满 90 天再报，日期回溯到实际分居那天。</text>
+<line x1="40" y1="1078" x2="860" y2="1078" stroke="#D5DEE8" stroke-width="1.5"/>
+<text x="40" y="1103" font-size="15" fill="#5B6B7F" font-weight="700" text-anchor="start">官方来源</text>
+<text x="40" y="1124" font-size="14" fill="#5B6B7F" font-weight="400" text-anchor="start">CRA · How we calculate your CCB（canada.ca）</text>
+<text x="40" y="1145" font-size="14" fill="#5B6B7F" font-weight="400" text-anchor="start">CRA · Marital status（canada.ca）</text>
+<text x="40" y="1171" font-size="14" fill="#5B6B7F" font-weight="400" text-anchor="start">核对日 2026-10-14。具体金额与递减门槛每年 7 月更新，以 CRA 现行页面为准；本图讲通用规则，不判断个案。</text>
+</svg>
